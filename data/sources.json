@@ -1,0 +1,301 @@
+{
+ "collectedAt": "2026-11-20",
+ "sources": [
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/2954/kuritsukodomoen2023csv.csv",
+   "fields": 6
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/4032/2025_syo.csv",
+   "fields": 67
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/68456/20260513gakudouhoikushitsuichiran.csv",
+   "fields": 522
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/69384/202612kodomoen.pdf",
+   "fields": 29
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/69384/202612mama.pdf",
+   "fields": 462
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/documents/69384/202612ninka_shokibo.pdf",
+   "fields": 353
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/juku/gakudou_houkago.html",
+   "fields": 536
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/k-gakudou/01gakudou_annnai.html",
+   "fields": 983
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/k-gakudou/05_gakudo_akiyoho.html",
+   "fields": 123
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/k-gakudou/k-kyoiku/kosodate/g-encho.html",
+   "fields": 62
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/k-gakudou/r9nyuusitusinnsei.html",
+   "fields": 123
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-h2404-02aki.html",
+   "fields": 33
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
+   "fields": 259
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-mama-shigoto.html",
+   "fields": 308
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
+   "fields": 182
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+   "fields": 263
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/denshishinsei.html",
+   "fields": 266
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-hoikuryo.html",
+   "fields": 651
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
+   "fields": 1056
+  },
+  {
+   "url": "https://www.city.adachi.tokyo.jp/seshonen/k-kyoiku/kyoiku/k-kyoshitsu.html",
+   "fields": 67
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/houkago/kodomokyoushitu.html",
+   "fields": 239
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/about.html",
+   "fields": 58
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
+   "fields": 121
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/riyoshinsei.files/R9riyouannai.pdf",
+   "fields": 290
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/riyoshinsei.html",
+   "fields": 58
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "fields": 138
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+   "fields": 138
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuryo.html",
+   "fields": 69
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/index.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kurituhoikuen.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.html",
+   "fields": 627
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/hoikuryoujyosei.html",
+   "fields": 7
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/ichiranpyo.html",
+   "fields": 54
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/ninshohoikusho.html",
+   "fields": 7
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.files/sisetu_06.csv",
+   "fields": 16
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/asakusabashi.html",
+   "fields": 7
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/higashiueno.html",
+   "fields": 8
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/matsuchi.html",
+   "fields": 8
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/matsugaya.html",
+   "fields": 8
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/misuji.html",
+   "fields": 8
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/sakamoto.html",
+   "fields": 10
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/senzoku.html",
+   "fields": 10
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/taito.html",
+   "fields": 8
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/tamahime.html",
+   "fields": 10
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/hoikusho/kuritsu/yanaka.html",
+   "fields": 7
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/asakusa_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/asakusabs_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/asuku_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/fuji_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/ikenohata_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/imado_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/iriya_club.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/ishihama_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kidsclub_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kidscluby_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kinryu_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kitaueno_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kotobuki2_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kotobuki_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/kuramae_club.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/lickids_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/mastugaya_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/matsuba_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/motoasa_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/negishi_club.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/ryusen_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/senzoku_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/senzokush_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/sitaya_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/takecho_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/tawara_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/tousen_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.city.taito.lg.jp/kusei/shisetsu/kodomo/kodomoclub/yanaka_kodomoclub.html",
+   "fields": 1
+  },
+  {
+   "url": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
+   "fields": 259
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+---
+import Base from "../layouts/Base.astro";
+import { href } from "../lib/format";
+---
+<Base title="施設を比べる｜足立区・台東区の保育園・学童" current="compare">
+  <h1>施設を比べる</h1>
+  <p class="lead small muted">一覧で「比べる」にチェックした施設（4つまで）を横に並べます。スマホでは表を横にスクロールできます。</p>
+  <div id="cmp" data-base={href("")}>
+    <p class="empty muted" id="cmp-empty" hidden>まだ施設が選ばれていません。<a href={href("/hoiku/")}>保育園</a>か<a href={href("/gakudo/")}>学童・放課後</a>の一覧で「比べる」にチェックしてください。</p>
+  </div>
+  <script>
+    type Row = { group: string; label: string; text: string | null; source: string | null; checked: string | null; note?: string; stale: boolean; link?: string };
+    type D = { id: string; name: string; ward: string; type: string; management: string; map: string; rows: Row[] };
+    const KEY = "hgh-compare";
+    const root = document.getElementById("cmp")!;
+    const base = root.dataset.base!.replace(/\/$/, "");
+    const qs = new URLSearchParams(location.search).get("ids");
+    let ids: string[] = qs ? qs.split(",").filter(Boolean).slice(0, 4) : [];
+    if (!ids.length) { try { ids = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { ids = []; } }
+    if (qs) localStorage.setItem(KEY, JSON.stringify(ids));
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+    const jp = (iso: string | null) => { if (!iso) return ""; const [y, m, d] = iso.split("-").map(Number); return `${y}年${m}月${d}日`; };
+
+    async function draw() {
+      const old = root.querySelector(".cmp-scroll"); old?.remove();
+      document.getElementById("cmp-empty")!.hidden = ids.length > 0;
+      if (!ids.length) return;
+      const list = (await Promise.all(ids.map((id) => fetch(`${base}/data/${id}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null)))).filter(Boolean) as D[];
+      const labels: { group: string; label: string }[] = [];
+      for (const d of list) for (const r of d.rows) if (!labels.some((l) => l.group === r.group && l.label === r.label)) labels.push({ group: r.group, label: r.label });
+      let html = `<div class="cmp-scroll"><table class="cmp"><thead><tr><th scope="col">項目</th>`;
+      for (const d of list) html += `<th scope="col"><a href="${base}/f/${d.id}/">${esc(d.name)}</a><div class="small muted">${esc(d.ward)}・${esc(d.type)}・${esc(d.management)}</div><button type="button" class="rm" data-id="${d.id}">外す</button></th>`;
+      html += `</tr></thead><tbody>`;
+      let g = "";
+      for (const l of labels) {
+        if (l.group !== g) { g = l.group; html += `<tr class="grp"><th scope="rowgroup" colspan="${list.length + 1}">${esc(g)}</th></tr>`; }
+        html += `<tr><th scope="row">${esc(l.label)}</th>`;
+        for (const d of list) {
+          const r = d.rows.find((x) => x.group === l.group && x.label === l.label);
+          if (!r || r.text === null) { html += `<td><span class="unknown">未確認</span></td>`; continue; }
+          const v = r.link ? `<a href="${esc(r.link)}" rel="noopener">${esc(r.text)}</a>` : esc(r.text);
+          const src = r.source ? `<span class="src"><a href="${esc(r.source)}" rel="noopener">出どころ</a>・${jp(r.checked)}確認${r.stale ? '<span class="stale">　古い可能性あり</span>' : ""}</span>` : "";
+          html += `<td>${v}${src}</td>`;
+        }
+        html += `</tr>`;
+      }
+      html += `</tbody></table></div>`;
+      root.insertAdjacentHTML("beforeend", html);
+      root.querySelectorAll<HTMLButtonElement>("button.rm").forEach((b) => b.addEventListener("click", () => {
+        ids = ids.filter((x) => x !== b.dataset.id);
+        localStorage.setItem(KEY, JSON.stringify(ids));
+        history.replaceState(null, "", location.pathname + (ids.length ? "?ids=" + ids.join(",") : ""));
+        draw();
+      }));
+    }
+    draw();
+  </script>
+</Base>

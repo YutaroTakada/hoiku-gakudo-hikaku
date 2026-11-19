@@ -1,0 +1,18 @@
+name: リンク切れチェック
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["収集・ビルド・公開"]
+    types: [completed]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    steps:
+      - uses: actions/checkout@v4
+      - name: 公開サイト内のリンク
+        run: python3 scripts/check_links.py internal https://yutarotakada.github.io/hoiku-gakudo-hikaku/
+      - name: データ内の出どころ・公式リンク
+        run: python3 scripts/check_links.py external

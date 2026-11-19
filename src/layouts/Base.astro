@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+import { href } from "../lib/format";
+import sources from "../../data/sources.json";
+
+interface Props { title: string; description?: string; current?: string; mainClass?: string }
+const { title, description = "足立区と台東区の保育園・学童を、区の公式情報で比べられるサイト。", current, mainClass } = Astro.props;
+const nav = [
+  { key: "hoiku", label: "保育園", path: "/hoiku/" },
+  { key: "gakudo", label: "学童・放課後", path: "/gakudo/" },
+  { key: "compare", label: "比較", path: "/compare/" },
+  { key: "about", label: "このサイトについて", path: "/about/" },
+];
+const [y, m, d] = sources.collectedAt.split("-").map(Number);
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">本文へ</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={href("/")}>保育園・学童 比較<span>足立区・台東区</span></a>
+        <nav class="nav" aria-label="サイト内">
+          {nav.map((n) => <a href={href(n.path)} aria-current={current === n.key ? "page" : undefined}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main" class={mainClass}>
+      <div class="wrap"><slot /></div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>情報は区の公式ページなどから集めています（最終取得 {y}年{m}月{d}日）。申込の前に、必ず区と施設に確認してください。</p>
+        <p><a href={href("/about/")}>情報の集め方と方針</a> ・ <a href="https://github.com/YutaroTakada/hoiku-gakudo-hikaku">ソースコードとデータ</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

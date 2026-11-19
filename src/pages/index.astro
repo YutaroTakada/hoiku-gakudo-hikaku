@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import { facilities } from "../lib/data";
+import { href, WARDS } from "../lib/format";
+import { TYPES } from "../lib/schema";
+
+const count = (ward: string, cat: string) => facilities.filter((f) => f.ward === ward && f.category === cat).length;
+const breakdown = (ward: string, cat: string) => {
+  const m = new Map<string, number>();
+  for (const f of facilities) if (f.ward === ward && f.category === cat) m.set(f.type, (m.get(f.type) ?? 0) + 1);
+  return [...m].map(([t, n]) => `${TYPES[t as keyof typeof TYPES]} ${n}`).join("、");
+};
+const wards = Object.entries(WARDS) as ["adachi" | "taito", string][];
+---
+<Base title="保育園・学童 比較（足立区・台東区）">
+  <h1>保育園と学童を区の公式情報で比べる</h1>
+  <p class="lead">足立区と台東区の保育施設・学童保育・放課後子ども教室を、区が公表している一覧・空き状況から集めて並べています。区と種類を選んでください。</p>
+  <div class="picker">
+    <section aria-labelledby="h-hoiku">
+      <h2 id="h-hoiku">保育園</h2>
+      <ul>
+        {wards.map(([w, label]) => (
+          <li>
+            <a class="choice" href={href(`/hoiku/?ward=${w}`)}>
+              <b>{label}</b><span class="muted small num">{count(w, "hoiku")}施設</span>
+            </a>
+            <p class="small muted" style="margin-top:4px">{breakdown(w, "hoiku")}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <section aria-labelledby="h-gakudo">
+      <h2 id="h-gakudo">学童・放課後</h2>
+      <ul>
+        {wards.map(([w, label]) => (
+          <li>
+            <a class="choice" href={href(`/gakudo/?ward=${w}`)}>
+              <b>{label}</b><span class="muted small num">{count(w, "gakudo")}施設</span>
+            </a>
+            <p class="small muted" style="margin-top:4px">{breakdown(w, "gakudo")}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+  <div class="facts small muted">
+    <p>載せているのは区の公式ページで確認できた値だけです。確認できない項目は「未確認」と書いています。確認日から90日を過ぎた値には「古い可能性あり」と出します。</p>
+    <p>口コミ・評価・ランキングは載せていません。代わりに各施設のページに「見学で聞くこと」を置いています。</p>
+  </div>
+</Base>
