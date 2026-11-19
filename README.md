@@ -1,32 +1,42 @@
 # 保育園・学童 比較（足立区・台東区）
 
-足立区と台東区の保育施設・学童保育・放課後子ども教室を、区の公式情報で比べるサイトです。
+区の公式情報から、保育園・学童の時間・料金・空きを並べて比べる静的サイト。
 
 公開先: https://yutarotakada.github.io/hoiku-gakudo-hikaku/
 
-## しくみ
+## 構成
 
-- `scripts/collect.py` … 区の公式ページ・PDF・CSV・オープンデータから施設データを集め、`data/facilities/*.json` に書き出します。
-  - 公式ページで確かめられない値は `null`（サイトでは「未確認」）。推測で埋めません。
-  - すべての値に出どころ URL（`source`）と確認日（`checked`）を付けます。
-  - 前回より件数が3割以上減ったら、取得失敗とみなして書き出さずに止まります。
-- `src/lib/schema.ts` … 施設データのスキーマ。ビルド時に全件を検証し、不正なデータが1件でもあればビルドが失敗します。
-- Astro で静的サイトを生成し、GitHub Actions で GitHub Pages に公開します。
-- 週次チェック：毎週月曜 6:00（日本時間）に GitHub Actions（`weekly-check.yml`）が `collect.py` を実行します。確認日以外の値が変わったときだけ `data-update/…` ブランチにコミットし、施設ごとの変更点と出どころURLを本文に書いたPRを出します。main には直接 push しません。公開サイトへの反映は、人がPRを確認してマージしたときだけです。確認日だけの変化ではコミットもPRも作りません。
+| 場所 | 中身 |
+|---|---|
+| `src/config/` | エリア（区）・カテゴリ・種別・表示項目・絞り込みの設定。画面とスキーマはここから作る |
+| `data/facilities/*.json` | 施設データ（`scripts/collect.py` が書き出す） |
+| `src/lib/schema.ts` | スキーマ。ビルド時に全件を検証し、1件でも不正ならビルドが止まる |
+| `src/pages/` | `/`・`/hoiku/`・`/gakudo/`・`/f/<id>/`・`/compare/`・`/about/` |
+| `scripts/` | 収集（`collect.py` と区ごとの `<区>.py`）・差分（`diff_data.py`）・リンク確認（`check_links.py`） |
+| `docs/DESIGN.md` | デザインの決まり（Astryx から写したトークン） |
+
+一覧の検索・絞り込み・並べ替えは URL のクエリに残る（例 `/hoiku/?area=adachi&age=1&vac=1&sort=end`）。比較に入れた施設（4件まで）は端末の localStorage に残る。
+
+## 区を足す
+
+1. `src/config/areas.json` に1件足す
+2. `scripts/<id>.py` に `collect_hoiku()` と `collect_gakudo()` を書く
+3. `python3 scripts/collect.py` で `data/facilities/<id>-*.json` を作る
 
 ## 手元で動かす
 
 ```sh
 npm ci
-npm run dev          # http://localhost:4321/hoiku-gakudo-hikaku/
+npm run dev    # http://localhost:4321/hoiku-gakudo-hikaku/
+npm run build
 
-# データを集め直す（poppler-utils の pdftotext が必要）
-python3 -m pip install -r scripts/requirements.txt
+python3 -m pip install -r scripts/requirements.txt   # poppler-utils の pdftotext も必要
 python3 scripts/collect.py
 ```
 
 ## 方針
 
-- 口コミ・評価・ランキングは載せません。施設ごとに「見学で聞くこと」を置きます。
-- 確認日から90日を過ぎた値には「古い可能性あり」と出します。
-- 施設や区役所へのメール・電話での問い合わせはしません。
+- すべての値に出どころと確認日。確認できない値は「未確認」。推測で埋めない
+- 確認日から90日を過ぎた値は「古い可能性あり」
+- 口コミ・評価・ランキングなし。施設や区役所への問い合わせはしない
+- 週次チェック（`weekly-check.yml`）は値が変わったときだけPRを出す。main への反映は人がマージしたときだけ
