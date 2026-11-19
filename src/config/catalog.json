@@ -1,0 +1,19 @@
+{
+  "$comment": "カテゴリ（一覧ページ）と施設の種別。カテゴリの id は URL（/hoiku/ など）とデータの category。種別の並びが一覧・収集の並び順になる。ageUnit は年齢の数字に付ける単位、ages は絞り込みに出す年齢。",
+  "categories": [
+    { "id": "hoiku", "label": "保育園", "ageLabel": "年齢", "ageUnit": "歳児", "ageShort": "歳", "ages": [0, 1, 2, 3, 4, 5] },
+    { "id": "gakudo", "label": "学童・放課後", "ageLabel": "学年", "ageUnit": "年生", "ageShort": "年", "ages": [1, 2, 3, 4, 5, 6] }
+  ],
+  "types": [
+    { "id": "ninka", "label": "認可保育所", "category": "hoiku" },
+    { "id": "kodomoen", "label": "認定こども園", "category": "hoiku" },
+    { "id": "shokibo", "label": "小規模保育", "category": "hoiku" },
+    { "id": "jigyosho", "label": "事業所内保育", "category": "hoiku" },
+    { "id": "katei", "label": "家庭的保育（保育ママ）", "category": "hoiku" },
+    { "id": "ninsho", "label": "東京都認証保育所", "category": "hoiku" },
+    { "id": "gakudo_ku", "label": "区の学童（公設）", "category": "gakudo" },
+    { "id": "gakudo_min", "label": "民設の学童", "category": "gakudo" },
+    { "id": "houkago", "label": "放課後子ども教室", "category": "gakudo" }
+  ],
+  "managements": ["公立", "公設民営", "民間"]
+}

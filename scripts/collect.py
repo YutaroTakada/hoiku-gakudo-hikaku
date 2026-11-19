@@ -1,21 +1,24 @@
-"""足立区・台東区の公式情報から施設データを集め、data/facilities/*.json に書き出す。
+"""src/config/areas.json の各エリア（区）の公式情報から施設データを集め、data/facilities/*.json に書き出す。
 
 使い方: python3 scripts/collect.py
 - 推測で値を埋めない。公式ページで確認できない項目は value=null（サイトでは「未確認」）。
 - 前回より件数が大きく減ったら、取得の失敗とみなして書き出さずに止まる。
 """
-import json, os, sys
+import importlib, json, os, sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
-import adachi, taito  # noqa: E402
 from lib import TODAY, U  # noqa: E402
 from check_links import status  # noqa: E402
 from concurrent.futures import ThreadPoolExecutor  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "facilities")
-TYPE_ORDER = ["ninka", "kodomoen", "shokibo", "jigyosho", "katei", "ninsho", "gakudo_ku", "gakudo_min", "houkago"]
+CONFIG = os.path.join(ROOT, "src", "config")
+AREAS = [a["id"] for a in json.load(open(os.path.join(CONFIG, "areas.json")))["areas"]]
+_CATALOG = json.load(open(os.path.join(CONFIG, "catalog.json")))
+CATEGORIES = [c["id"] for c in _CATALOG["categories"]]
+TYPE_ORDER = [t["id"] for t in _CATALOG["types"]]
 
 
 def sources(obj, acc):
@@ -51,12 +54,12 @@ def drop_dead_links(results):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    sets = {
-        "adachi-hoiku": adachi.collect_hoiku,
-        "adachi-gakudo": adachi.collect_gakudo,
-        "taito-hoiku": taito.collect_hoiku,
-        "taito-gakudo": taito.collect_gakudo,
-    }
+    # エリアごとの収集スクリプト scripts/<エリアid>.py の collect_<カテゴリ>() を呼ぶ
+    sets = {}
+    for area in AREAS:
+        mod = importlib.import_module(area)
+        for cat in CATEGORIES:
+            sets[f"{area}-{cat}"] = getattr(mod, f"collect_{cat}")
     results = {}
     for key, fn in sets.items():
         recs, seen = [], {}
