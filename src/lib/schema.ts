@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { AREA_IDS, CATEGORY_IDS, MANAGEMENTS, TYPE_IDS, typeCategory } from "../config/site";
 
 /** 出どころと確認日つきの値。value が null のものはサイト上で「未確認」と出す。 */
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "確認日は YYYY-MM-DD");
@@ -29,26 +30,19 @@ const vacancy = z
   })
   .strict();
 
-export const TYPES = {
-  ninka: "認可保育所",
-  kodomoen: "認定こども園",
-  shokibo: "小規模保育",
-  jigyosho: "事業所内保育",
-  katei: "家庭的保育（保育ママ）",
-  ninsho: "東京都認証保育所",
-  gakudo_ku: "区の学童（公設）",
-  gakudo_min: "民設の学童",
-  houkago: "放課後子ども教室",
-} as const;
-export type FacilityType = keyof typeof TYPES;
+export type FacilityType = string;
+
+/** 施設 id：<エリア>-<種別>-<8桁の16進>。エリアと種別は設定から作る。 */
+const esc = (x: string) => x.replace(/[^a-z0-9_]/g, "");
+const idPattern = new RegExp(`^(${AREA_IDS.map(esc).join("|")})-(${TYPE_IDS.map(esc).join("|")})-[0-9a-f]{8}$`);
 
 export const facilitySchema = z
   .object({
-    id: z.string().regex(/^(adachi|taito)-[a-z_]+-[0-9a-f]{8}$/),
-    ward: z.enum(["adachi", "taito"]),
-    category: z.enum(["hoiku", "gakudo"]),
-    type: z.enum(Object.keys(TYPES) as [FacilityType, ...FacilityType[]]),
-    management: z.enum(["公立", "公設民営", "民間"]),
+    id: z.string().regex(idPattern),
+    ward: z.enum(AREA_IDS),
+    category: z.enum(CATEGORY_IDS),
+    type: z.enum(TYPE_IDS),
+    management: z.enum(MANAGEMENTS),
     name: z.string().min(1),
     listedName: z.string().min(1),
     address: field(z.string()),
@@ -88,8 +82,7 @@ export const facilitySchema = z
   .strict()
   .superRefine((f, ctx) => {
     if (!f.id.startsWith(`${f.ward}-${f.type}-`)) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "id と区・種別が合わない" });
-    const isGakudo = ["gakudo_ku", "gakudo_min", "houkago"].includes(f.type);
-    if (isGakudo !== (f.category === "gakudo")) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "種別と category が合わない" });
+    if (typeCategory(f.type) !== f.category) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "種別と category が合わない" });
   });
 
 export type Facility = z.infer<typeof facilitySchema>;

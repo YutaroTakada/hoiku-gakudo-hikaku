@@ -1,215 +1,178 @@
 ---
 import { facilities } from "../lib/data";
-import { TYPES, type FacilityType } from "../lib/schema";
-import { href, WARDS, typeLabel, rangeText, latestEnd, toMin, hasExtension, monthlyFee, yen, vacancyText, isStale } from "../lib/format";
+import { category, typeLabel, areaName } from "../config/site";
+import { FILTERS, summaryFor, labelFor } from "../config/fields";
+import { href, isStale, shortAddress, vacancyAgesAttr } from "../lib/format";
+import Icon from "./Icon.astro";
+import AddButton from "./AddButton.astro";
 
-interface Props { category: "hoiku" | "gakudo" }
-const { category } = Astro.props;
-const list = facilities.filter((f) => f.category === category).sort((a, b) => a.name.localeCompare(b.name, "ja"));
-const types = [...new Set(list.map((f) => f.type))] as FacilityType[];
-const isH = category === "hoiku";
-const ages = isH ? [0, 1, 2, 3, 4, 5] : [1, 2, 3, 4, 5, 6];
-const pickupYes = (t: string | null) => !!t && /(送りあり|送迎あり|送迎サービスあり)/.test(t);
-const pickupCount = list.filter((f) => pickupYes(f.pickup.value)).length;
-const vacAges = (f: (typeof list)[number]) => {
-  const v = f.vacancy.value;
-  if (!v?.byAge) return "";
-  return Object.entries(v.byAge).filter(([, n]) => (n ?? 0) > 0).map(([a]) => a).join(",");
+interface Props { category: string }
+const { category: cat } = Astro.props;
+const c = category(cat);
+const list = facilities.filter((f) => f.category === cat).sort((a, b) => a.name.localeCompare(b.name, "ja"));
+const summary = summaryFor(cat);
+const multiArea = new Set(list.map((f) => f.ward)).size > 1;
+
+// 絞り込み：この一覧に該当がある選択肢だけ出す
+const filters = FILTERS.flatMap((d) => {
+  if (d.kind === "one" || d.kind === "many") {
+    const have = new Set(list.map(d.attr));
+    const options = d.options(cat).filter((o) => have.has(o.value));
+    if (options.length < 2) return [];
+    return [{ ...d, label: labelFor(d.label, cat), options }];
+  }
+  if (d.kind === "flag") return list.some(d.test) ? [{ ...d }] : [];
+  return [{ ...d, label: labelFor(d.label, cat) }];
+});
+const flags = filters.filter((d) => d.kind === "flag") as Extract<(typeof FILTERS)[number], { kind: "flag" }>[];
+const sorts = summary.filter((s) => s.sort);
+// 並べ替えの幅：いちばん長い選択肢の文字数（全角1字≒1em）＋左の余白・右の矢印の場所・枠
+const sortChars = Math.max("名前順".length, ...sorts.map((s) => labelFor(s.sort!.label, cat).length));
+
+// 画面の JS に渡す設定（並べ替えの向き・絞り込みの種類・表示名）
+const cfg = {
+  unit: c.ageUnit,
+  short: c.ageShort,
+  sorts: Object.fromEntries(sorts.map((s) => [s.key, s.sort!.dir])),
+  filters: filters.map((d) => ({
+    key: d.key,
+    kind: d.kind,
+    label: "label" in d ? String(d.label) : "",
+    byAge: d.kind === "flag" ? !!d.byAge : undefined,
+    options: "options" in d ? Object.fromEntries(d.options.map((o) => [o.value, o.label])) : undefined,
+  })),
+  areaAlias: "ward",
 };
+const na = '<span class="na">—<span class="vh">未確認</span></span>';
 ---
-<div class="list-head">
-  <h1>{isH ? "保育園をさがす" : "学童・放課後の居場所をさがす"}</h1>
-  <p class="small muted">{list.length}施設（足立区 {list.filter((f) => f.ward === "adachi").length}・台東区 {list.filter((f) => f.ward === "taito").length}）</p>
-</div>
+<h1>{c.label}</h1>
 
-<div class="layout">
-  <details class="filters" id="filters" open>
-    <summary>絞り込み</summary>
-    <form id="f" onsubmit="return false">
-      <fieldset>
-        <legend>区</legend>
-        <label><input type="radio" name="ward" value="" checked /> すべて</label>
-        {Object.entries(WARDS).map(([k, v]) => <label><input type="radio" name="ward" value={k} /> {v}</label>)}
-      </fieldset>
-      <fieldset>
-        <legend>種別</legend>
-        {types.map((t) => <label><input type="checkbox" name="type" value={t} checked /> {TYPES[t]}</label>)}
-      </fieldset>
-      <fieldset>
-        <legend>公立・民間</legend>
-        <label><input type="checkbox" name="mg" value="公立" checked /> 公立（区立）</label>
-        <label><input type="checkbox" name="mg" value="公設民営" checked /> 公設民営</label>
-        <label><input type="checkbox" name="mg" value="民間" checked /> 民間</label>
-      </fieldset>
-      <fieldset>
-        <legend>{isH ? "年齢クラス" : "学年"}</legend>
-        <select name="age" aria-label={isH ? "年齢クラス" : "学年"}>
-          <option value="">指定しない</option>
-          {ages.map((a) => <option value={a}>{isH ? `${a}歳児` : `${a}年生`}</option>)}
-        </select>
-      </fieldset>
-      <fieldset>
-        <legend>条件</legend>
-        <label><input type="checkbox" name="ext" value="1" /> 延長あり</label>
-        <label><input type="checkbox" name="pickup" value="1" disabled={pickupCount === 0} /> 送迎あり{pickupCount === 0 ? "（確認できた施設なし）" : ""}</label>
-        <label><input type="checkbox" name="vac" value="1" /> 空きあり（区の公表値）</label>
-      </fieldset>
-      <button type="reset" class="btn sub reset">条件を戻す</button>
+<form class="search" role="search" onsubmit="return false" autocomplete="off">
+  <Icon name="search" />
+  <label class="vh" for="q">施設名・住所で探す</label>
+  <input class="input" type="search" id="q" name="q" placeholder="施設名・町名" enterkeyhint="search" />
+</form>
+
+<div class="list-layout">
+  <dialog class="sheet" id="filters" aria-labelledby="filters-h">
+    <div class="sheet-hd">
+      <h2 id="filters-h" class="sub" style="font-weight:600;color:var(--color-text-primary)">絞り込み</h2>
+      <button type="button" class="btn ghost close" data-close aria-label="閉じる"><Icon name="close" /></button>
+    </div>
+    <form id="f" class="sheet-body" onsubmit="return false" autocomplete="off">
+      {filters.filter((d) => d.kind === "one" || d.kind === "age").map((d) => (
+        <fieldset>
+          <legend>{"label" in d && d.label}</legend>
+          {d.kind === "one" && (
+            <div class="chips">
+              <label class="chip"><input type="radio" name={d.key} value="" checked /><span>すべて</span></label>
+              {d.options.map((o) => <label class="chip"><input type="radio" name={d.key} value={o.value} /><span>{o.label}</span></label>)}
+            </div>
+          )}
+          {d.kind === "age" && (
+            <div class="chips">
+              <label class="chip"><input type="radio" name="age" value="" checked /><span>指定なし</span></label>
+              {c.ages.map((a) => <label class="chip"><input type="radio" name="age" value={a} /><span>{a}{c.ageUnit}</span></label>)}
+            </div>
+          )}
+          {d.kind === "many" && (
+            <div class="checks">
+              {d.options.map((o) => <label><input type="checkbox" name={d.key} value={o.value} checked />{o.label}</label>)}
+            </div>
+          )}
+        </fieldset>
+      ))}
+      {flags.length > 0 && (
+        <fieldset>
+          <legend>条件</legend>
+          <div class="chips">
+            {flags.map((d) => <label class="chip"><input type="checkbox" name={d.key} value="1" /><span>{d.label}</span></label>)}
+          </div>
+        </fieldset>
+      )}
+      {filters.filter((d) => d.kind === "many").map((d) => (
+        <fieldset>
+          <legend>{"label" in d && d.label}</legend>
+          {d.kind === "one" && (
+            <div class="chips">
+              <label class="chip"><input type="radio" name={d.key} value="" checked /><span>すべて</span></label>
+              {d.options.map((o) => <label class="chip"><input type="radio" name={d.key} value={o.value} /><span>{o.label}</span></label>)}
+            </div>
+          )}
+          {d.kind === "age" && (
+            <div class="chips">
+              <label class="chip"><input type="radio" name="age" value="" checked /><span>指定なし</span></label>
+              {c.ages.map((a) => <label class="chip"><input type="radio" name="age" value={a} /><span>{a}{c.ageUnit}</span></label>)}
+            </div>
+          )}
+          {d.kind === "many" && (
+            <div class="checks">
+              {d.options.map((o) => <label><input type="checkbox" name={d.key} value={o.value} checked />{o.label}</label>)}
+            </div>
+          )}
+        </fieldset>
+      ))}
     </form>
-  </details>
+    <div class="sheet-ft">
+      <button type="button" class="btn ghost" data-reset>条件を外す</button>
+      <button type="button" class="btn primary" data-close><span class="num" data-n>{list.length}</span>件を表示</button>
+    </div>
+  </dialog>
 
   <div>
     <div class="toolbar">
-      <p><span class="count num" id="count">{list.length}</span>件</p>
-      <label>並べ替え
-        <select id="sort">
-          <option value="name">名前順</option>
-          <option value="end">終わりが遅い順</option>
-          <option value="fee">{isH ? "保育料が安い順" : "月額が安い順"}</option>
-          <option value="vac">空きが多い順</option>
-          <option value="cap">定員が多い順</option>
-        </select>
-      </label>
+      <p class="total" aria-live="polite"><b class="num" id="count">{list.length}</b>件</p>
+      <button type="button" class="btn open-filters" id="open-filters" aria-haspopup="dialog">
+        <Icon name="filter" />絞り込み<span class="count-badge num" id="active-n" hidden>0</span>
+      </button>
+      <label class="vh" for="sort">並べ替え</label>
+      <select class="select" id="sort" style={`width: calc(${sortChars}em + 56px)`}>
+        <option value="">名前順</option>
+        {sorts.map((s) => <option value={s.key}>{labelFor(s.sort!.label, cat)}</option>)}
+      </select>
     </div>
-    <ul class="cards" id="cards">
+    <p class="cap legend">— は未確認。値の出どころは各施設のページに。</p>
+
+    <ul class="items panel" id="items">
       {list.map((f) => {
-        const end = latestEnd(f);
-        const fee = monthlyFee(f);
-        const vt = vacancyText(f);
-        const stale = isStale(f.vacancy.checked);
+        const r = f.ageRange.value;
+        const fl = flags.filter((d) => d.test(f)).map((d) => d.key).join(" ");
+        const attrs: Record<string, string> = {
+          "data-age": r ? `${r.min}-${r.max}` : "",
+          ...(fl ? { "data-flags": fl } : {}),
+          ...(vacancyAgesAttr(f) ? { "data-va": vacancyAgesAttr(f) } : {}),
+          ...(f.listedName !== f.name ? { "data-alt": f.listedName } : {}),
+        };
+        for (const d of filters) if (d.kind === "one" || d.kind === "many") attrs[`data-f-${d.key}`] = d.attr(f);
+        for (const s of sorts) { const n = s.num!(f); if (n !== null) attrs[`data-s-${s.key}`] = String(n); }
         return (
-          <li class="card" data-id={f.id} data-ward={f.ward} data-type={f.type} data-mg={f.management}
-            data-min={f.ageRange.value?.min ?? ""} data-max={f.ageRange.value?.max ?? ""}
-            data-ext={hasExtension(f) ? "1" : ""} data-pickup={pickupYes(f.pickup.value) ? "1" : ""}
-            data-vac={f.vacancy.value?.total ?? ""} data-vacages={vacAges(f)}
-            data-fee={fee ?? ""} data-end={end ? toMin(end) : ""} data-cap={f.capacity.value ?? ""} data-name={f.name}>
-            <div>
-              <h3><a href={href(`/f/${f.id}/`)}>{f.name}</a></h3>
-              <p class="meta"><span>{WARDS[f.ward]}</span><span>{typeLabel(f)}</span><span>{f.management === "公立" ? "公立" : f.management}</span>{f.address.value && <span>{f.address.value.split("（")[0]}</span>}</p>
-              <dl class="kv">
-                <div><dt>{isH ? "対象" : "学年"}</dt><dd>{rangeText(f) ?? <span class="unknown">未確認</span>}</dd></div>
-                <div><dt>終わり（延長含む）</dt><dd class="num">{end ?? <span class="unknown">未確認</span>}</dd></div>
-                {isH
-                  ? <div><dt>定員</dt><dd class="num">{f.capacity.value ? `${f.capacity.value}人` : <span class="unknown">未確認</span>}</dd></div>
-                  : <div><dt>月額</dt><dd class="num">{fee !== null ? yen(fee) : <span class="unknown">未確認</span>}</dd></div>}
-                <div><dt>空き</dt><dd class="num">{vt ?? <span class="unknown">未確認</span>}{stale && <span class="stale"> 古い可能性あり</span>}</dd></div>
-              </dl>
-            </div>
-            <div class="pick">
-              <label><input type="checkbox" class="cmp" value={f.id} aria-label={`${f.name}を比べる`} /><span>比べる</span></label>
-            </div>
+          <li {...attrs}>
+            <h3><a href={href(`/f/${f.id}/`)}>{f.name}</a></h3>
+            <p class="meta sub">{multiArea && <>{areaName(f.ward)}・</>}{typeLabel(f.type)}・{f.management}{shortAddress(f) && <>・<span class="addr">{shortAddress(f)}</span></>}</p>
+            <AddButton id={f.id} name={f.name} />
+            <dl class="stats">
+              {summary.map((s) => {
+                const t = s.text(f);
+                return (
+                  <div>
+                    <dt data-k={s.key === "vac" ? "vac" : undefined}>{labelFor(s.label, cat)}</dt>
+                    <dd data-k={s.key === "vac" ? "vac" : undefined}>{t === null ? <Fragment set:html={na} /> : t}{t !== null && isStale(s.field(f).checked) && <span class="old"> 古い可能性あり</span>}</dd>
+                  </div>
+                );
+              })}
+            </dl>
           </li>
         );
       })}
     </ul>
-    <p class="empty muted" id="empty" hidden>条件に合う施設がありません。条件を減らしてください。</p>
-  </div>
-</div>
-
-<div class="tray" id="tray" hidden>
-  <div class="wrap">
-    <p class="small"><span id="tray-n" class="num">0</span>/4 施設を選択中</p>
-    <div style="display:flex;gap:8px">
-      <button type="button" class="btn sub" id="tray-clear">選択を外す</button>
-      <a class="btn" id="tray-go" href={href("/compare/")}>比べる</a>
+    <div class="empty panel" id="empty" hidden>
+      <h2 class="sub" style="font-size:16px;color:var(--color-text-primary)">条件に合う施設はありません</h2>
+      <div class="acts" id="empty-acts"></div>
     </div>
   </div>
 </div>
 
+<script type="application/json" id="list-cfg" set:html={JSON.stringify(cfg)} />
 <script>
-  const KEY = "hgh-compare";
-  const MAX = 4;
-  const form = document.getElementById("f") as HTMLFormElement;
-  const cards = [...document.querySelectorAll<HTMLLIElement>("#cards .card")];
-  const ul = document.getElementById("cards")!;
-  const sortSel = document.getElementById("sort") as HTMLSelectElement;
-  const countEl = document.getElementById("count")!;
-  const empty = document.getElementById("empty")!;
-  const details = document.getElementById("filters") as HTMLDetailsElement;
-  if (window.matchMedia("(max-width: 860px)").matches) details.open = false;
-
-  // URL の ?ward= などを初期値に
-  const params = new URLSearchParams(location.search);
-  const w = params.get("ward");
-  if (w) (form.querySelector(`input[name=ward][value="${w}"]`) as HTMLInputElement | null)?.click();
-  for (const k of ["age"]) { const v = params.get(k); if (v) (form.elements.namedItem(k) as HTMLSelectElement).value = v; }
-  for (const k of ["ext", "vac"]) if (params.get(k) === "1") (form.elements.namedItem(k) as HTMLInputElement).checked = true;
-  const s = params.get("sort"); if (s) sortSel.value = s;
-
-  function apply() {
-    const fd = new FormData(form);
-    const ward = fd.get("ward") as string;
-    const types = new Set(fd.getAll("type") as string[]);
-    const mgs = new Set(fd.getAll("mg") as string[]);
-    const age = fd.get("age") as string;
-    const ext = fd.get("ext") === "1";
-    const pickup = fd.get("pickup") === "1";
-    const vac = fd.get("vac") === "1";
-    let n = 0;
-    for (const c of cards) {
-      const d = c.dataset;
-      let ok = (!ward || d.ward === ward) && types.has(d.type!) && mgs.has(d.mg!);
-      if (ok && age) ok = d.min !== "" && d.max !== "" && +d.min! <= +age && +age <= +d.max!;
-      if (ok && ext) ok = d.ext === "1";
-      if (ok && pickup) ok = d.pickup === "1";
-      if (ok && vac) ok = age && d.vacages ? d.vacages.split(",").includes(age) : d.vac !== "" && +d.vac! > 0;
-      c.hidden = !ok;
-      if (ok) n++;
-    }
-    countEl.textContent = String(n);
-    empty.hidden = n > 0;
-    sort();
-    const p = new URLSearchParams();
-    if (ward) p.set("ward", ward);
-    if (age) p.set("age", age);
-    if (ext) p.set("ext", "1");
-    if (vac) p.set("vac", "1");
-    if (sortSel.value !== "name") p.set("sort", sortSel.value);
-    history.replaceState(null, "", location.pathname + (p.toString() ? "?" + p : ""));
-  }
-
-  function sort() {
-    const k = sortSel.value;
-    const num = (c: HTMLElement, key: string) => (c.dataset[key] === "" ? null : +c.dataset[key]!);
-    const sorted = [...cards].sort((a, b) => {
-      if (k !== "name") {
-        const x = num(a, k), y = num(b, k);
-        if (x === null && y !== null) return 1;
-        if (y === null && x !== null) return -1;
-        if (x !== null && y !== null && x !== y) return k === "fee" ? x - y : y - x;
-      }
-      return a.dataset.name!.localeCompare(b.dataset.name!, "ja");
-    });
-    for (const c of sorted) ul.appendChild(c);
-  }
-
-  // 比較の選択
-  const tray = document.getElementById("tray")!;
-  const trayN = document.getElementById("tray-n")!;
-  const go = document.getElementById("tray-go") as HTMLAnchorElement;
-  const base = go.getAttribute("href")!;
-  const boxes = [...document.querySelectorAll<HTMLInputElement>("input.cmp")];
-  const load = (): string[] => { try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { return []; } };
-  function render() {
-    const sel = load();
-    for (const b of boxes) { b.checked = sel.includes(b.value); b.disabled = !b.checked && sel.length >= MAX; }
-    trayN.textContent = String(sel.length);
-    tray.hidden = sel.length === 0;
-    document.querySelector("main")!.classList.toggle("has-tray", sel.length > 0);
-    go.href = base + "?ids=" + sel.join(",");
-    go.setAttribute("aria-disabled", sel.length < 2 ? "true" : "false");
-  }
-  for (const b of boxes) b.addEventListener("change", () => {
-    let sel = load().filter((x) => x !== b.value);
-    if (b.checked) sel = [...sel, b.value].slice(0, MAX);
-    localStorage.setItem(KEY, JSON.stringify(sel));
-    render();
-  });
-  document.getElementById("tray-clear")!.addEventListener("click", () => { localStorage.setItem(KEY, "[]"); render(); });
-
-  form.addEventListener("change", apply);
-  form.addEventListener("reset", () => setTimeout(apply));
-  sortSel.addEventListener("change", apply);
-  apply();
-  render();
+  import "../scripts/list";
 </script>

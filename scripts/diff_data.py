@@ -6,12 +6,10 @@
 """
 import glob, json, os, sys
 
-WARD = {"adachi": "足立区", "taito": "台東区"}
-TYPE = {
-    "ninka": "認可保育所", "kodomoen": "認定こども園", "shokibo": "小規模保育", "jigyosho": "事業所内保育",
-    "katei": "家庭的保育（保育ママ）", "ninsho": "東京都認証保育所", "gakudo_ku": "区の学童（公設）",
-    "gakudo_min": "民設の学童", "houkago": "放課後子ども教室",
-}
+# 区名・種別名はサイトと同じ設定（src/config/*.json）から読む
+_CFG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "config")
+WARD = {a["id"]: a["name"] for a in json.load(open(os.path.join(_CFG, "areas.json")))["areas"]}
+TYPE = {t["id"]: t["label"] for t in json.load(open(os.path.join(_CFG, "catalog.json")))["types"]}
 LABEL = {
     "name": "施設名", "listedName": "区の一覧での表記", "management": "運営", "type": "種別", "category": "区分",
     "address": "住所", "station": "最寄り駅", "phone": "電話", "ages": "対象", "ageRange": "対象（年齢・学年の範囲）",

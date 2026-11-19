@@ -3,53 +3,51 @@ import Base from "../layouts/Base.astro";
 import sources from "../../data/sources.json";
 import { facilities } from "../lib/data";
 import { jpDate, STALE_DAYS } from "../lib/format";
+import { CATEGORIES, TYPES, SITE, sourceLabel } from "../config/site";
 
-const label = (u: string) => {
-  const h = new URL(u).hostname;
-  if (h.includes("adachi")) return "足立区";
-  if (h.includes("taito")) return "台東区";
-  if (h.includes("kousya")) return "足立区生涯学習振興公社";
-  return h;
-};
-const list = sources.sources.map((s) => ({ ...s, who: label(s.url) })).sort((a, b) => a.who.localeCompare(b.who, "ja") || a.url.localeCompare(b.url));
+const list = sources.sources
+  .map((s) => ({ ...s, who: sourceLabel(s.url) }))
+  .sort((a, b) => a.who.localeCompare(b.who, "ja") || a.url.localeCompare(b.url));
 ---
-<Base title="このサイトについて｜保育園・学童 比較" current="about">
+<Base title="このサイトについて" current="about">
   <div class="prose">
     <h1>このサイトについて</h1>
-    <p>足立区と台東区に住む保護者が、保育園と学童を同じ物差しで見比べるためのサイトです。区の公式ページに分かれて載っている情報を1か所に集めています。</p>
+    <p>区の公式ページに分かれている保育園・学童の情報を、1か所で比べるためのサイトです。</p>
 
-    <h2>情報の集め方</h2>
+    <h2>集め方</h2>
     <ul>
-      <li>区が公表している施設一覧・空き状況（入園可能人数・募集人数）・学童保育室一覧・オープンデータ（CSV・Excel）・案内PDFから、プログラムで読み取っています。読み取りに使ったプログラムは<a href="https://github.com/YutaroTakada/hoiku-gakudo-hikaku/tree/main/scripts">公開しています</a>。</li>
-      <li>週に1回、同じプログラムで公式ページを読み直します。値が変わっていたら、運営者が変更点と出どころを確かめてからサイトに反映します。</li>
-      <li>施設や区役所へのメール・電話での問い合わせはしていません。</li>
-      <li>最終取得：{jpDate(sources.collectedAt)}。掲載施設 {facilities.length}件。</li>
+      <li>区の施設一覧・空き状況・オープンデータ・案内PDFをプログラムで読み取り</li>
+      <li>週1回読み直し、変化は確かめてから反映</li>
+      <li>最終取得 {jpDate(sources.collectedAt)}・{facilities.length}施設</li>
     </ul>
 
-    <h2>載せ方の決まり</h2>
+    <h2>表示の決まり</h2>
     <ul>
-      <li>すべての値に、出どころのページと確認日を付けています。</li>
-      <li>公式ページで確認できない値は推測で埋めず「未確認」と書きます。</li>
-      <li>確認日から{STALE_DAYS}日を過ぎた値には「古い可能性あり」と出します。</li>
-      <li>空き状況は区の発表時点の目安です。発表の月日を値の横に書いています。</li>
-      <li>口コミ・評価・ランキングは載せません。代わりに施設ごとに「見学で聞くこと」を置いています。</li>
-      <li>家庭的保育（保育ママ）は個人宅のため、住所は町名までにしています。</li>
-      <li>広告や有料の掲載枠はありません。</li>
+      <li>値ごとに出どころと確認日（施設のページ）</li>
+      <li>「—」は未確認。推測で埋めません</li>
+      <li>確認日から{STALE_DAYS}日を過ぎた値は「古い可能性あり」</li>
+      <li>空きは区の発表時点の目安</li>
+      <li>「預かり」は延長を含めた終わりの時刻</li>
+      <li>口コミ・評価・ランキング・広告なし</li>
     </ul>
 
-    <h2>載せている施設の範囲</h2>
+    <h2>載せている施設</h2>
     <ul>
-      <li>保育：認可保育所、認定こども園、小規模保育、事業所内保育、家庭的保育（保育ママ）、東京都認証保育所のうち、区の公式一覧に載っているもの。</li>
-      <li>学童：区の学童保育室（台東区は「こどもクラブ」）、区の一覧に載っている民設民営の学童、放課後子ども教室。</li>
-      <li>区の一覧に載っていない民間の学童・企業主導型保育・認可外保育施設は、初版では載せていません。</li>
+      {CATEGORIES.map((c) => <li>{c.label}：{TYPES.filter((t) => t.category === c.id).map((t) => t.label).join("、")}</li>)}
+      <li>区の一覧にない認可外・企業主導型などは未掲載</li>
     </ul>
 
-    <h2>間違いを見つけたら</h2>
-    <p><a href="https://github.com/YutaroTakada/hoiku-gakudo-hikaku/issues">GitHubのIssue</a>で知らせてください。区の公式ページで確かめてから直します。</p>
+    <h2>間違いの連絡</h2>
+    <p><a href={`${SITE.repo}/issues`}>GitHub の Issue</a> へ。区の公式ページで確かめてから直します。</p>
 
-    <h2>使った出どころ（{list.length}件）</h2>
-    <ul class="small">
-      {list.map((s) => <li>{s.who}：<a href={s.url} rel="noopener">{s.url.replace(/^https?:\/\//, "")}</a></li>)}
-    </ul>
+    <h2>出どころ</h2>
+    <details>
+      <summary>一覧を開く（{list.length}件）</summary>
+      <ul class="srcs sub">
+        {list.map((s) => <li>{s.who}：<a href={s.url} rel="noopener">{s.url.replace(/^https?:\/\//, "")}</a></li>)}
+      </ul>
+    </details>
+
+    <p class="cap" style="margin-top:48px">画面の余白・色・部品の形は <a href="https://github.com/meta/astryx">Astryx</a>（MIT License, © Meta Platforms, Inc.）を参考にしています。<a href={`${SITE.repo}/blob/main/THIRD_PARTY_NOTICES.md`}>ライセンス表記</a></p>
   </div>
 </Base>

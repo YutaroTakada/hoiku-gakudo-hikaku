@@ -1,45 +1,68 @@
 ---
 import Base from "../../layouts/Base.astro";
+import Icon from "../../components/Icon.astro";
+import AddButton from "../../components/AddButton.astro";
 import { facilities } from "../../lib/data";
-import { href, WARDS, CATEGORIES, typeLabel, rows, checklist, mapUrl, jpDate, isStale, STALE_DAYS } from "../../lib/format";
+import { category, typeLabel, areaName, sourceLabel } from "../../config/site";
+import { summaryFor, labelFor } from "../../config/fields";
+import { rows, checklist } from "../../lib/view";
+import { href, mapUrl, shortDate, isStale } from "../../lib/format";
 import type { Facility } from "../../lib/schema";
 
 export function getStaticPaths() {
   return facilities.map((f) => ({ params: { id: f.id }, props: { f } }));
 }
 const { f } = Astro.props as { f: Facility };
+const c = category(f.category);
 const all = rows(f);
 const groups = [...new Set(all.map((r) => r.group))];
-const listPath = `/${f.category}/?ward=${f.ward}`;
-const unknown = all.filter((r) => r.text === null).length;
+const listPath = href(`/${f.category}/`);
+const na = '<span class="na">—</span> <span class="cap">未確認</span>';
 ---
-<Base title={`${f.name}｜${WARDS[f.ward]}の${CATEGORIES[f.category]}`} current={f.category}>
-  <p class="crumbs"><a href={href(listPath)}>{WARDS[f.ward]}の{CATEGORIES[f.category]}一覧</a></p>
+<Base title={f.name} description={`${f.name}（${areaName(f.ward)}・${typeLabel(f.type)}）の時間・料金・空き。区の公式情報から。`} current={f.category}>
+  <a class="back" id="back" href={listPath} data-key={`hgh-list:${listPath}`}><Icon name="back" />{c.label}の一覧</a>
   <h1>{f.name}</h1>
-  <p class="meta">
-    <span>{WARDS[f.ward]}</span><span>{typeLabel(f)}</span><span>{f.management === "公立" ? "公立（区立）" : f.management}</span>
-  </p>
-  {f.listedName !== f.name && <p class="small muted">区の一覧での表記：{f.listedName}</p>}
-  {f.notice?.value && <p class="notice">{f.notice.value}<span class="src">出どころ：<a href={f.notice.source!}>区のページ</a>（{jpDate(f.notice.checked)}確認）</span></p>}
-  <div class="detail-actions">
-    <a class="btn sub" href={mapUrl(f)} rel="noopener">地図で見る（Googleマップ）</a>
-    <button type="button" class="btn sub" id="add" data-id={f.id}>比べるに追加</button>
+  <p class="title-meta sub">{areaName(f.ward)}・{typeLabel(f.type)}・{f.management}</p>
+  {f.listedName !== f.name && <p class="cap">区の一覧での表記：{f.listedName}</p>}
+
+  <div class="acts">
+    <AddButton id={f.id} name={f.name} class="primary" />
+    <a class="btn" href={mapUrl(f)} rel="noopener" target="_blank"><Icon name="map" />地図</a>
   </div>
+
+  {f.notice?.value && (
+    <div class="notice">
+      <Icon name="info" />
+      <p>{f.notice.value}<span class="src"><a href={f.notice.source!} rel="noopener">{sourceLabel(f.notice.source!)}</a>・{shortDate(f.notice.checked)}確認</span></p>
+    </div>
+  )}
+
+  <dl class="stats summary panel">
+    {summaryFor(f.category).map((s) => {
+      const t = s.text(f);
+      return (
+        <div>
+          <dt>{labelFor(s.label, f.category)}</dt>
+          <dd>{t === null ? <span class="na">—<span class="vh">未確認</span></span> : t}{t !== null && isStale(s.field(f).checked) && <span class="old"> 古い可能性あり</span>}</dd>
+        </div>
+      );
+    })}
+  </dl>
 
   {groups.map((g) => (
     <section class="sec">
       <h2>{g}</h2>
-      <dl class="dl">
+      <dl class="mdl panel">
         {all.filter((r) => r.group === g).map((r) => (
           <div>
             <dt>{r.label}</dt>
             <dd>
               {r.text === null
-                ? <span class="unknown">未確認{r.note ? `（${r.note}）` : ""}</span>
+                ? <Fragment set:html={na} />
                 : r.link ? <a href={r.link} rel="noopener">{r.text}</a> : r.text}
-              {r.text !== null && r.note && <span class="src">{r.note}</span>}
+              {r.note && <span class="src">{r.note}</span>}
               {r.text !== null && r.source && (
-                <span class="src">出どころ：<a href={r.source} rel="noopener">{new URL(r.source).hostname.replace("www.", "")}</a>・{jpDate(r.checked)}確認{r.stale && <span class="stale">　古い可能性あり</span>}</span>
+                <span class="src"><a href={r.source} rel="noopener">{sourceLabel(r.source)}</a>・{shortDate(r.checked)}確認{r.stale && <span class="old">・古い可能性あり</span>}</span>
               )}
             </dd>
           </div>
@@ -50,33 +73,28 @@ const unknown = all.filter((r) => r.text === null).length;
 
   <section class="sec">
     <h2>見学で聞くこと</h2>
-    <p class="small muted" style="margin-top:8px">チェックはこの端末にだけ保存されます。</p>
-    <ul class="check" id="check" data-key={`hgh-check-${f.id}`}>
-      {checklist(f).map((q, i) => <li><input type="checkbox" id={`q${i}`} /><label for={`q${i}`}>{q}</label></li>)}
+    <ul class="check panel" id="check" data-key={`hgh-check-${f.id}`}>
+      {checklist(f).map((q, i) => <li><label><input type="checkbox" data-i={i} /><span>{q}</span></label></li>)}
     </ul>
+    <p class="cap" style="margin-top:8px">チェックはこの端末にだけ残ります。</p>
   </section>
 
-  <section class="sec">
-    <h2>この情報について</h2>
-    <p class="small" style="margin-top:12px">{all.length}項目のうち{unknown}項目が未確認です。値は区などの公式ページで確認できたものだけを載せ、確認日から{STALE_DAYS}日を過ぎたものに「古い可能性あり」と出します。空き状況は区の発表時点の目安です。申込の前に区と施設に確認してください。</p>
-  </section>
+  <p class="cap" style="margin-top:32px">空きは区の発表時点の目安です。申込の前に区と施設に確認してください。<a href={href("/about/")}>表示の決まり</a></p>
 
   <script>
-    const KEY = "hgh-compare";
-    const btn = document.getElementById("add") as HTMLButtonElement;
-    const id = btn.dataset.id!;
-    const load = (): string[] => { try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { return []; } };
-    const paint = () => { const s = load(); btn.textContent = s.includes(id) ? "比べるから外す" : s.length >= 4 ? "比べるは4施設まで" : "比べるに追加"; btn.disabled = !s.includes(id) && s.length >= 4; };
-    btn.addEventListener("click", () => { let s = load(); s = s.includes(id) ? s.filter((x) => x !== id) : [...s, id].slice(0, 4); localStorage.setItem(KEY, JSON.stringify(s)); paint(); });
-    paint();
+    // 一覧へ戻るリンク：最後に見た一覧の条件つき URL にする
+    const back = document.getElementById("back") as HTMLAnchorElement;
+    try { const u = sessionStorage.getItem(back.dataset.key!); if (u) back.href = u; } catch { /* 無視 */ }
+    // 見学で聞くことのチェック
     const ul = document.getElementById("check")!;
-    const ck = ul.dataset.key!;
-    const saved: number[] = JSON.parse(localStorage.getItem(ck) || "[]");
-    ul.querySelectorAll<HTMLInputElement>("input").forEach((b, i) => {
+    const key = ul.dataset.key!;
+    const boxes = [...ul.querySelectorAll<HTMLInputElement>("input")];
+    let saved: number[] = [];
+    try { saved = JSON.parse(localStorage.getItem(key) || "[]"); } catch { /* 無視 */ }
+    boxes.forEach((b, i) => {
       b.checked = saved.includes(i);
       b.addEventListener("change", () => {
-        const now = [...ul.querySelectorAll<HTMLInputElement>("input")].flatMap((x, j) => (x.checked ? [j] : []));
-        localStorage.setItem(ck, JSON.stringify(now));
+        try { localStorage.setItem(key, JSON.stringify(boxes.flatMap((x, j) => (x.checked ? [j] : [])))); } catch { /* 無視 */ }
       });
     });
   </script>

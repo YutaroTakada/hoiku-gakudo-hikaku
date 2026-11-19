@@ -1,0 +1,17 @@
+{
+  "$comment": "掲載するエリア（区）。区を足すときは、ここに1件足し、scripts/<id>.py（collect_hoiku / collect_gakudo）と data/facilities/<id>-<カテゴリ>.json を用意する。id は施設 id の先頭と URL のクエリ（?area=）に使う。sourceHosts は出どころ一覧での表示名。",
+  "areas": [
+    {
+      "id": "adachi",
+      "name": "足立区",
+      "prefecture": "東京都",
+      "sourceHosts": { "www.city.adachi.tokyo.jp": "足立区", "www.kousya.jp": "足立区生涯学習振興公社" }
+    },
+    {
+      "id": "taito",
+      "name": "台東区",
+      "prefecture": "東京都",
+      "sourceHosts": { "www.city.taito.lg.jp": "台東区" }
+    }
+  ]
+}
