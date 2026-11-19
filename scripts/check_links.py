@@ -24,7 +24,7 @@ def status(url):
         except Exception as e:  # noqa: BLE001
             if method == "HEAD":
                 continue
-            return f"ERR {type(e).__name__}"
+            return f"ERR {type(e).__name__}: {str(getattr(e, 'reason', e))[:80]}"
     return "ERR"
 
 
@@ -48,11 +48,12 @@ def external():
         walk(json.load(open(p)), urls)
     with ThreadPoolExecutor(8) as ex:
         res = list(ex.map(lambda u: (u, status(u)), sorted(urls)))
-    bad = [(u, s) for u, s in res if s != 200]
-    print(f"外部リンク {len(res)}件 / 200以外 {len(bad)}件")
-    for u, s in bad:
-        print(s, u)
-    return bad
+    other = [(u, s) for u, s in res if s != 200]
+    dead = [(u, s) for u, s in other if s in (404, 410)]
+    print(f"外部リンク {len(res)}件 / 200 {len(res) - len(other)}件 / リンク切れ(404・410) {len(dead)}件 / その他 {len(other) - len(dead)}件")
+    for u, s in other:
+        print(("リンク切れ" if (u, s) in dead else "要確認（ボット拒否・接続エラーなど）"), s, u)
+    return dead
 
 
 class Links(HTMLParser):
