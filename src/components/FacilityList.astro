@@ -26,6 +26,8 @@ const filters = FILTERS.flatMap((d) => {
 });
 const flags = filters.filter((d) => d.kind === "flag") as Extract<(typeof FILTERS)[number], { kind: "flag" }>[];
 const sorts = summary.filter((s) => s.sort);
+// 並べ替えの幅：いちばん長い選択肢の文字数（全角1字≒1em）＋左の余白・右の矢印の場所・枠
+const sortChars = Math.max("名前順".length, ...sorts.map((s) => labelFor(s.sort!.label, cat).length));
 
 // 画面の JS に渡す設定（並べ替えの向き・絞り込みの種類・表示名）
 const cfg = {
@@ -124,7 +126,7 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
         <Icon name="filter" />絞り込み<span class="count-badge num" id="active-n" hidden>0</span>
       </button>
       <label class="vh" for="sort">並べ替え</label>
-      <select class="select" id="sort">
+      <select class="select" id="sort" style={`width: calc(${sortChars}em + 56px)`}>
         <option value="">名前順</option>
         {sorts.map((s) => <option value={s.key}>{labelFor(s.sort!.label, cat)}</option>)}
       </select>
