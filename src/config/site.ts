@@ -28,6 +28,11 @@ export const category = (id: string) => CATEGORIES.find((c) => c.id === id)!;
 export const TYPES: TypeDef[] = catalog.types;
 export const TYPE_IDS = TYPES.map((t) => t.id) as [string, ...string[]];
 export const typeLabel = (id: string) => TYPES.find((t) => t.id === id)?.label ?? id;
+export const illustration = (id: string, cat: string) => TYPES.find((t) => t.id === id)?.illustration ?? cat; // 未設定の種別はカテゴリ共通の絵（public/img/illustration/<カテゴリid>.svg）
+export const typeMapEnabled = (id: string) => {
+  const t: { map?: boolean } | undefined = TYPES.find((item) => item.id === id);
+  return t?.map !== false;
+};
 export const typeCategory = (id: string) => TYPES.find((t) => t.id === id)?.category;
 
 export const MANAGEMENTS = catalog.managements as [string, ...string[]];

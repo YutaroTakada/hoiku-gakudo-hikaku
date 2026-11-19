@@ -130,6 +130,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.785016,
+    "lng": 139.818093,
+    "level": "block",
+    "matched": "六町三丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-b6f9f55f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -263,6 +284,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.782946,
+    "lng": 139.808028,
+    "level": "block",
+    "matched": "平野三丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-158103e7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -396,6 +438,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774806,
+    "lng": 139.784097,
+    "level": "block",
+    "matched": "西新井栄町三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3a5ee55a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -529,6 +592,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.75043,
+    "lng": 139.79414,
+    "level": "block",
+    "matched": "千住桜木一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-8a0aa227.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -663,6 +747,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.763534,
+    "lng": 139.828528,
+    "level": "block",
+    "matched": "綾瀬三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-73ecd352.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -796,6 +901,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780721,
+    "lng": 139.791898,
+    "level": "block",
+    "matched": "島根三丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-0c51acf7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -929,6 +1055,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.810704,
+    "lng": 139.760758,
+    "level": "block",
+    "matched": "入谷三丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-04b60b87.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1062,6 +1209,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780841,
+    "lng": 139.838005,
+    "level": "block",
+    "matched": "大谷田四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2cf55b48.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1196,6 +1364,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.742346,
+    "lng": 139.80585,
+    "level": "block",
+    "matched": "千住関屋町16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-81c0902b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1329,6 +1518,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768305,
+    "lng": 139.81407,
+    "level": "block",
+    "matched": "弘道一丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-86bf0e64.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1462,6 +1672,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789366,
+    "lng": 139.791293,
+    "level": "block",
+    "matched": "竹の塚一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2f1ce876.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1595,6 +1826,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783485,
+    "lng": 139.835389,
+    "level": "block",
+    "matched": "谷中五丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-53f2a421.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1729,6 +1981,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768348,
+    "lng": 139.800658,
+    "level": "block",
+    "matched": "梅田七丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-ad970805.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1862,6 +2135,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789259,
+    "lng": 139.778007,
+    "level": "block",
+    "matched": "西新井四丁目34番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-47a34bcf.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1995,6 +2289,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.805945,
+    "lng": 139.76851,
+    "level": "block",
+    "matched": "舎人一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-5ffde82c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2128,6 +2443,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771312,
+    "lng": 139.849247,
+    "level": "block",
+    "matched": "中川四丁目41番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3a21d12d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2261,6 +2597,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774655,
+    "lng": 139.781207,
+    "level": "block",
+    "matched": "西新井本町四丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-a9e2114c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2394,6 +2751,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.797137,
+    "lng": 139.785492,
+    "level": "block",
+    "matched": "伊興四丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-04975c6b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2527,6 +2905,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781081,
+    "lng": 139.84376,
+    "level": "block",
+    "matched": "大谷田二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-f6deb828.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2660,6 +3059,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.755905,
+    "lng": 139.799459,
+    "level": "block",
+    "matched": "千住大川町17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3734a0fa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2794,6 +3214,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772768,
+    "lng": 139.773571,
+    "level": "block",
+    "matched": "扇三丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-43975454.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2927,6 +3368,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768753,
+    "lng": 139.806486,
+    "level": "block",
+    "matched": "中央本町二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-577d2c20.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3060,6 +3522,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.80264,
+    "lng": 139.796845,
+    "level": "block",
+    "matched": "西保木間四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2c84e584.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3193,6 +3676,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.804409,
+    "lng": 139.793563,
+    "level": "block",
+    "matched": "東伊興三丁目23番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-45196f5e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3326,6 +3830,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772481,
+    "lng": 139.809588,
+    "level": "block",
+    "matched": "中央本町三丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-d97c8e81.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3459,6 +3984,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781836,
+    "lng": 139.800629,
+    "level": "block",
+    "matched": "島根二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-ed3e3671.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3593,6 +4139,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772595,
+    "lng": 139.792641,
+    "level": "block",
+    "matched": "西新井栄町一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-af5d68e3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3726,6 +4293,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761382,
+    "lng": 139.814462,
+    "level": "block",
+    "matched": "西綾瀬二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-4ed131d2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3859,6 +4447,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.797936,
+    "lng": 139.779871,
+    "level": "block",
+    "matched": "伊興五丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2e7e5f9f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3992,6 +4601,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788121,
+    "lng": 139.840472,
+    "level": "block",
+    "matched": "佐野二丁目43番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-04ef6b32.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4125,6 +4755,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786443,
+    "lng": 139.815972,
+    "level": "block",
+    "matched": "保塚町7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-56f8f0dd.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4258,6 +4909,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789881,
+    "lng": 139.799081,
+    "level": "block",
+    "matched": "竹の塚三丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2d409897.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4391,6 +5063,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.811892,
+    "lng": 139.762139,
+    "level": "block",
+    "matched": "舎人六丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3bc508fe.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4524,6 +5217,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79933,
+    "lng": 139.839798,
+    "level": "block",
+    "matched": "六木三丁目39番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-26ad7675.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4657,6 +5371,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774947,
+    "lng": 139.828244,
+    "level": "block",
+    "matched": "加平一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-feddb73d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4790,6 +5525,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79386,
+    "lng": 139.75987,
+    "level": "block",
+    "matched": "加賀二丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-e7c0bfed.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4923,6 +5679,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745017,
+    "lng": 139.810121,
+    "level": "block",
+    "matched": "千住東二丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2ba50f1e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5056,6 +5833,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.754643,
+    "lng": 139.804012,
+    "level": "block",
+    "matched": "千住五丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-66edc8a4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5190,6 +5988,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.744196,
+    "lng": 139.795992,
+    "level": "block",
+    "matched": "千住河原町5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-5ea8426b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5323,6 +6142,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745422,
+    "lng": 139.796547,
+    "level": "block",
+    "matched": "千住宮元町6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-30b08e33.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5456,6 +6296,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.74792,
+    "lng": 139.808046,
+    "level": "block",
+    "matched": "千住旭町10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-dc9d2960.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5589,6 +6450,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.7898,
+    "lng": 139.82492,
+    "level": "block",
+    "matched": "南花畑三丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-9334c78e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5722,6 +6604,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.807075,
+    "lng": 139.778823,
+    "level": "block",
+    "matched": "古千谷本町四丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-88437af5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5855,6 +6758,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779625,
+    "lng": 139.843533,
+    "level": "block",
+    "matched": "大谷田一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3b70ee5a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5988,6 +6912,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780841,
+    "lng": 139.838005,
+    "level": "block",
+    "matched": "大谷田四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-872526e4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6121,6 +7066,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783019,
+    "lng": 139.796003,
+    "level": "block",
+    "matched": "島根四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-fa4001da.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6254,6 +7220,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781625,
+    "lng": 139.803757,
+    "level": "block",
+    "matched": "平野二丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-ee04e0fa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6387,6 +7374,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768117,
+    "lng": 139.816857,
+    "level": "block",
+    "matched": "弘道二丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-77441a31.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6520,6 +7528,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765261,
+    "lng": 139.775109,
+    "level": "block",
+    "matched": "扇一丁目47番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-d2228ca8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6653,6 +7682,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789959,
+    "lng": 139.764594,
+    "level": "block",
+    "matched": "鹿浜八丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-9901906a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6786,6 +7836,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768233,
+    "lng": 139.746114,
+    "level": "block",
+    "matched": "新田三丁目34番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-d2cf285a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6920,6 +7991,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770928,
+    "lng": 139.746202,
+    "level": "block",
+    "matched": "新田三丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-86f4c459.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7053,6 +8145,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771782,
+    "lng": 139.73824,
+    "level": "block",
+    "matched": "新田二丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-9b6e601a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7186,6 +8299,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764535,
+    "lng": 139.787661,
+    "level": "block",
+    "matched": "関原一丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-8cb7fc52.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7319,6 +8453,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.803131,
+    "lng": 139.785311,
+    "level": "block",
+    "matched": "東伊興一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-188f2478.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7452,6 +8607,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773875,
+    "lng": 139.838875,
+    "level": "block",
+    "matched": "東和三丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-e2db1300.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7585,6 +8761,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771424,
+    "lng": 139.839796,
+    "level": "block",
+    "matched": "東和三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-4356a737.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7718,6 +8915,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780885,
+    "lng": 139.813356,
+    "level": "block",
+    "matched": "一ツ家三丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-8ff54597.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7851,6 +9069,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767792,
+    "lng": 139.838745,
+    "level": "block",
+    "matched": "東和一丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-8afe1101.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7984,6 +9223,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766183,
+    "lng": 139.832717,
+    "level": "block",
+    "matched": "東綾瀬一丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-9bdef7ff.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8118,6 +9378,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786656,
+    "lng": 139.785237,
+    "level": "block",
+    "matched": "栗原四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-1cd71bcb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8251,6 +9532,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.776661,
+    "lng": 139.812792,
+    "level": "block",
+    "matched": "青井六丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-21558be8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8384,6 +9686,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.80512,
+    "lng": 139.816406,
+    "level": "block",
+    "matched": "花畑六丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3928c4db.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8517,6 +9840,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775391,
+    "lng": 139.799899,
+    "level": "block",
+    "matched": "梅島二丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-726543f1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8650,6 +9994,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767865,
+    "lng": 139.797361,
+    "level": "block",
+    "matched": "梅田六丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-821a6d71.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8783,6 +10148,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775726,
+    "lng": 139.765636,
+    "level": "block",
+    "matched": "江北四丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-c906466e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8916,6 +10302,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.76761,
+    "lng": 139.76256,
+    "level": "block",
+    "matched": "江北二丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-293e28a5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9049,6 +10456,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.755778,
+    "lng": 139.757879,
+    "level": "block",
+    "matched": "小台二丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-e9fb116a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9182,6 +10610,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79502,
+    "lng": 139.801309,
+    "level": "block",
+    "matched": "西保木間一丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-89856ab2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9316,6 +10765,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.796811,
+    "lng": 139.80868,
+    "level": "block",
+    "matched": "保木間三丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-5f315927.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9449,6 +10919,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.787185,
+    "lng": 139.833031,
+    "level": "block",
+    "matched": "神明南二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-55105995.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9582,6 +11073,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788076,
+    "lng": 139.79656,
+    "level": "block",
+    "matched": "六月二丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-0a1a42b4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9715,6 +11227,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.792322,
+    "lng": 139.794876,
+    "level": "block",
+    "matched": "竹の塚二丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-ed35cd80.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9848,6 +11381,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764557,
+    "lng": 139.824508,
+    "level": "block",
+    "matched": "綾瀬三丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-2da69c84.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9982,6 +11536,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767217,
+    "lng": 139.781171,
+    "level": "block",
+    "matched": "本木東町17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-81b1c8af.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10115,6 +11690,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.806327,
+    "lng": 139.772936,
+    "level": "block",
+    "matched": "舎人一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-74a023bf.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10248,6 +11844,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790738,
+    "lng": 139.814813,
+    "level": "block",
+    "matched": "東保木間一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-da3cbd89.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10381,6 +11998,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.802731,
+    "lng": 139.807211,
+    "level": "block",
+    "matched": "花畑四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-f90ca345.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10514,6 +12152,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.799263,
+    "lng": 139.816113,
+    "level": "block",
+    "matched": "花畑一丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-506e99e5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10647,6 +12306,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.792201,
+    "lng": 139.779878,
+    "level": "block",
+    "matched": "伊興二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-13dd5546.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10780,6 +12460,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790889,
+    "lng": 139.773608,
+    "level": "block",
+    "matched": "西伊興一丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-4e6006a8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10913,6 +12614,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.804223,
+    "lng": 139.800194,
+    "level": "block",
+    "matched": "西保木間三丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-f0b05679.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11046,6 +12768,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778905,
+    "lng": 139.780749,
+    "level": "block",
+    "matched": "西新井一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-98858454.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11179,6 +12922,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775834,
+    "lng": 139.770927,
+    "level": "block",
+    "matched": "西新井本町二丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-fd8d009b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11312,6 +13076,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774806,
+    "lng": 139.784097,
+    "level": "block",
+    "matched": "西新井栄町三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-6c85f9ef.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11445,6 +13230,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765474,
+    "lng": 139.819249,
+    "level": "block",
+    "matched": "西綾瀬四丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-de4da400.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11578,6 +13384,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764095,
+    "lng": 139.810118,
+    "level": "block",
+    "matched": "足立三丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-3d6dac19.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11711,6 +13538,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768579,
+    "lng": 139.857142,
+    "level": "block",
+    "matched": "中川二丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-12c7c570.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11844,6 +13692,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.777183,
+    "lng": 139.819789,
+    "level": "block",
+    "matched": "青井五丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-7dbf5ec4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11977,6 +13846,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780939,
+    "lng": 139.760302,
+    "level": "block",
+    "matched": "鹿浜四丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-ed516b33.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12110,6 +14000,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783967,
+    "lng": 139.758741,
+    "level": "block",
+    "matched": "鹿浜六丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-a60b8ce3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12244,6 +14155,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784603,
+    "lng": 139.754831,
+    "level": "block",
+    "matched": "鹿浜五丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_ku-c7e868f6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12376,6 +14308,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.754551,
+    "lng": 139.797718,
+    "level": "block",
+    "matched": "千住柳町32番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-2b72854a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12508,6 +14461,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.752295,
+    "lng": 139.799736,
+    "level": "block",
+    "matched": "千住寿町4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-a293524b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12640,6 +14614,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761017,
+    "lng": 139.821859,
+    "level": "block",
+    "matched": "綾瀬一丁目33番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-921e0390.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12772,6 +14767,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769058,
+    "lng": 139.789751,
+    "level": "block",
+    "matched": "関原二丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-776866e2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12904,6 +14920,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -13036,6 +15064,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784435,
+    "lng": 139.780598,
+    "level": "block",
+    "matched": "西新井二丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-7ee85bf7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13168,6 +15217,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79435,
+    "lng": 139.810455,
+    "level": "block",
+    "matched": "東保木間二丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-d9b7753a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13300,6 +15370,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778871,
+    "lng": 139.777789,
+    "level": "block",
+    "matched": "西新井六丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-c3298c56.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13432,6 +15523,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778871,
+    "lng": 139.777789,
+    "level": "block",
+    "matched": "西新井六丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-08b6d835.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13564,6 +15676,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.7992,
+    "lng": 139.786279,
+    "level": "block",
+    "matched": "伊興本町一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-657c0989.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13696,6 +15829,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770472,
+    "lng": 139.748753,
+    "level": "block",
+    "matched": "新田三丁目36番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-7d8d09a1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13828,6 +15982,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768659,
+    "lng": 139.80446,
+    "level": "block",
+    "matched": "足立四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-74620cff.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13960,6 +16135,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774246,
+    "lng": 139.796836,
+    "level": "block",
+    "matched": "梅島三丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-d3fb27cb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14092,6 +16288,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77715,
+    "lng": 139.830679,
+    "level": "block",
+    "matched": "谷中二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-8e42253f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14224,6 +16441,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.785997,
+    "lng": 139.796141,
+    "level": "block",
+    "matched": "六月二丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-6fc52ef4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14356,6 +16594,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.807193,
+    "lng": 139.767236,
+    "level": "block",
+    "matched": "入谷二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-a7630506.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14488,6 +16747,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770193,
+    "lng": 139.787033,
+    "level": "block",
+    "matched": "関原三丁目38番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-1406e547.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14620,6 +16900,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770193,
+    "lng": 139.787033,
+    "level": "block",
+    "matched": "関原三丁目38番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-bf6902f1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14752,6 +17053,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786724,
+    "lng": 139.765243,
+    "level": "block",
+    "matched": "鹿浜八丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-f13b3215.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14884,6 +17206,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786013,
+    "lng": 139.8214,
+    "level": "block",
+    "matched": "六町四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-e47ebfd9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15016,6 +17359,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.751008,
+    "lng": 139.798232,
+    "level": "block",
+    "matched": "千住中居町28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-8737661a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15148,6 +17512,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.754508,
+    "lng": 139.795949,
+    "level": "block",
+    "matched": "千住柳町22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-5b7f0753.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15280,6 +17665,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.749794,
+    "lng": 139.799309,
+    "level": "block",
+    "matched": "千住中居町17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-405fdfc5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15412,6 +17818,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.752002,
+    "lng": 139.808121,
+    "level": "block",
+    "matched": "日ノ出町27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-90b36fe3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15544,6 +17971,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.752002,
+    "lng": 139.808121,
+    "level": "block",
+    "matched": "日ノ出町27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-a5ea4e59.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15676,6 +18124,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775068,
+    "lng": 139.841591,
+    "level": "block",
+    "matched": "東和四丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-9a49c433.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15808,6 +18277,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784391,
+    "lng": 139.811015,
+    "level": "block",
+    "matched": "一ツ家二丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-498878d2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15940,6 +18430,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.741535,
+    "lng": 139.815614,
+    "level": "block",
+    "matched": "千住曙町37番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-efaabca5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16072,6 +18583,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774252,
+    "lng": 139.763827,
+    "level": "block",
+    "matched": "江北四丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-8aac6a87.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16204,6 +18736,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779194,
+    "lng": 139.830532,
+    "level": "block",
+    "matched": "谷中四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-f8214ace.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16336,6 +18889,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771199,
+    "lng": 139.82088,
+    "level": "block",
+    "matched": "青井三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-gakudo_min-fb4d976e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16465,6 +19039,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781836,
+    "lng": 139.800629,
+    "level": "block",
+    "matched": "島根二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-2829ad7f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16594,6 +19189,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789726,
+    "lng": 139.839206,
+    "level": "block",
+    "matched": "六木一丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-d03cdcf1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16723,6 +19339,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780468,
+    "lng": 139.842051,
+    "level": "block",
+    "matched": "大谷田三丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-389704d9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16852,6 +19489,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781081,
+    "lng": 139.84376,
+    "level": "block",
+    "matched": "大谷田二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-e962c250.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16981,6 +19639,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772595,
+    "lng": 139.792641,
+    "level": "block",
+    "matched": "西新井栄町一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-6493507b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17110,6 +19789,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.795745,
+    "lng": 139.781055,
+    "level": "block",
+    "matched": "伊興四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-821eb50c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17239,6 +19939,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789881,
+    "lng": 139.799081,
+    "level": "block",
+    "matched": "竹の塚三丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-27841866.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17368,6 +20089,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.797014,
+    "lng": 139.840979,
+    "level": "block",
+    "matched": "六木三丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-05af525c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17497,6 +20239,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.785016,
+    "lng": 139.818093,
+    "level": "block",
+    "matched": "六町三丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-27959c1d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17626,6 +20389,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767792,
+    "lng": 139.838745,
+    "level": "block",
+    "matched": "東和一丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-d7cfa871.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17755,6 +20539,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.755905,
+    "lng": 139.799459,
+    "level": "block",
+    "matched": "千住大川町17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-4cb356f2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17884,6 +20689,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745422,
+    "lng": 139.796547,
+    "level": "block",
+    "matched": "千住宮元町6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-d08471fb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18013,6 +20839,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.74792,
+    "lng": 139.808046,
+    "level": "block",
+    "matched": "千住旭町10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-1d196032.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18142,6 +20989,18 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -18271,6 +21130,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.75043,
+    "lng": 139.79414,
+    "level": "block",
+    "matched": "千住桜木一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-ac0abd35.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18403,6 +21283,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.742346,
+    "lng": 139.80585,
+    "level": "block",
+    "matched": "千住関屋町16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-e066f04a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18532,6 +21433,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.807075,
+    "lng": 139.778823,
+    "level": "block",
+    "matched": "古千谷本町四丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-485a2899.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18664,6 +21586,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771312,
+    "lng": 139.849247,
+    "level": "block",
+    "matched": "中川四丁目41番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-6bc793b7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18793,6 +21736,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.75951,
+    "lng": 139.756768,
+    "level": "block",
+    "matched": "宮城一丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-5c9fe5b8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18922,6 +21886,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.760978,
+    "lng": 139.775658,
+    "level": "block",
+    "matched": "扇一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-16549551.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19051,6 +22036,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780721,
+    "lng": 139.791898,
+    "level": "block",
+    "matched": "島根三丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-831882ff.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19180,6 +22186,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.782946,
+    "lng": 139.808028,
+    "level": "block",
+    "matched": "平野三丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-70663ede.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19309,6 +22336,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765474,
+    "lng": 139.819249,
+    "level": "block",
+    "matched": "西綾瀬四丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-97390e0b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19438,6 +22486,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768305,
+    "lng": 139.81407,
+    "level": "block",
+    "matched": "弘道一丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-124a4d15.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19567,6 +22636,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768753,
+    "lng": 139.806486,
+    "level": "block",
+    "matched": "中央本町二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-fc96f8ff.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19696,6 +22786,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764079,
+    "lng": 139.768361,
+    "level": "block",
+    "matched": "扇二丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-4efed627.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19825,6 +22936,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768233,
+    "lng": 139.746114,
+    "level": "block",
+    "matched": "新田三丁目34番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-a70a7526.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19954,6 +23086,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765049,
+    "lng": 139.780612,
+    "level": "block",
+    "matched": "本木北町7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-7d7eb49e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20083,6 +23236,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.802326,
+    "lng": 139.785426,
+    "level": "block",
+    "matched": "東伊興一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-5efaf911.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20212,6 +23386,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.776397,
+    "lng": 139.828133,
+    "level": "block",
+    "matched": "加平一丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-e8d828b9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20344,6 +23539,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780885,
+    "lng": 139.813356,
+    "level": "block",
+    "matched": "一ツ家三丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-245d7382.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20473,6 +23689,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.763447,
+    "lng": 139.829861,
+    "level": "block",
+    "matched": "東綾瀬一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-d0af197c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20602,6 +23839,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766731,
+    "lng": 139.834936,
+    "level": "block",
+    "matched": "東綾瀬二丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-b1ee6eb6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20731,6 +23989,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.787451,
+    "lng": 139.787445,
+    "level": "block",
+    "matched": "栗原四丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-c9c3520c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20860,6 +24139,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.776719,
+    "lng": 139.787786,
+    "level": "block",
+    "matched": "西新井栄町二丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-8d537e3b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20989,6 +24289,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.776661,
+    "lng": 139.812792,
+    "level": "block",
+    "matched": "青井六丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-c59baa9e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21118,6 +24439,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.80512,
+    "lng": 139.816406,
+    "level": "block",
+    "matched": "花畑六丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-bd40b1b6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21247,6 +24589,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771565,
+    "lng": 139.798359,
+    "level": "block",
+    "matched": "梅田七丁目35番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-47ed4e86.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21376,6 +24739,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.777532,
+    "lng": 139.795767,
+    "level": "block",
+    "matched": "梅島三丁目37番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-82453480.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21505,6 +24889,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765385,
+    "lng": 139.795727,
+    "level": "block",
+    "matched": "梅田三丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-afc755b6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21634,6 +25039,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775726,
+    "lng": 139.765636,
+    "level": "block",
+    "matched": "江北四丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-018315c6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21763,6 +25189,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.795772,
+    "lng": 139.798496,
+    "level": "block",
+    "matched": "西保木間一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-5e07326a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21892,6 +25339,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.796811,
+    "lng": 139.80868,
+    "level": "block",
+    "matched": "保木間三丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-81bb82f4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22021,6 +25489,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.794387,
+    "lng": 139.763096,
+    "level": "block",
+    "matched": "皿沼一丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-b7d56555.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22150,6 +25639,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789366,
+    "lng": 139.791293,
+    "level": "block",
+    "matched": "竹の塚一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-8f96df8b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22279,6 +25789,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.763534,
+    "lng": 139.828528,
+    "level": "block",
+    "matched": "綾瀬三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-7223d58e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22408,6 +25939,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772768,
+    "lng": 139.773571,
+    "level": "block",
+    "matched": "扇三丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-ca09d51c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22537,6 +26089,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.805945,
+    "lng": 139.76851,
+    "level": "block",
+    "matched": "舎人一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-a9dbb0f4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22666,6 +26239,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.814197,
+    "lng": 139.764891,
+    "level": "block",
+    "matched": "舎人六丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-d4eebf8f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22795,6 +26389,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790409,
+    "lng": 139.818266,
+    "level": "block",
+    "matched": "南花畑二丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-096a9654.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22924,6 +26539,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.792352,
+    "lng": 139.826305,
+    "level": "block",
+    "matched": "南花畑三丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-b0e6014b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23053,6 +26689,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.799263,
+    "lng": 139.816113,
+    "level": "block",
+    "matched": "花畑一丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-79c5da8f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23182,6 +26839,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.803587,
+    "lng": 139.808484,
+    "level": "block",
+    "matched": "花畑四丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-4a167af8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23311,6 +26989,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.792201,
+    "lng": 139.779878,
+    "level": "block",
+    "matched": "伊興二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-649ef364.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23440,6 +27139,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.80264,
+    "lng": 139.796845,
+    "level": "block",
+    "matched": "西保木間四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-f061f6b8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23569,6 +27289,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774655,
+    "lng": 139.781207,
+    "level": "block",
+    "matched": "西新井本町四丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-5354c57b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23698,6 +27439,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780089,
+    "lng": 139.776476,
+    "level": "block",
+    "matched": "西新井六丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-0261762e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23827,6 +27589,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789259,
+    "lng": 139.778007,
+    "level": "block",
+    "matched": "西新井四丁目34番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-89e23555.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23956,6 +27739,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.810704,
+    "lng": 139.760758,
+    "level": "block",
+    "matched": "入谷三丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-92eb3567.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24085,6 +27889,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764095,
+    "lng": 139.810118,
+    "level": "block",
+    "matched": "足立三丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-77cf1b65.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24214,6 +28039,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783485,
+    "lng": 139.835389,
+    "level": "block",
+    "matched": "谷中五丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-08f2337f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24343,6 +28189,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767383,
+    "lng": 139.856041,
+    "level": "block",
+    "matched": "中川一丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-ccc3ea71.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24472,6 +28339,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770193,
+    "lng": 139.787033,
+    "level": "block",
+    "matched": "関原三丁目38番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-6bb91ef0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24601,6 +28489,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771199,
+    "lng": 139.82088,
+    "level": "block",
+    "matched": "青井三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-5f0d1864.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24730,6 +28639,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780939,
+    "lng": 139.760302,
+    "level": "block",
+    "matched": "鹿浜四丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-3222f042.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24859,6 +28789,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784603,
+    "lng": 139.754831,
+    "level": "block",
+    "matched": "鹿浜五丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-c0d294b0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24988,6 +28939,27 @@
     "source": "https://www.kousya.jp/cms/wp-content/uploads/2026/11/kaisai-202611.pdf",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.78583,
+    "lng": 139.766913,
+    "level": "block",
+    "matched": "谷在家二丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-houkago-0e9a14f3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  }
 ]

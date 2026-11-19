@@ -3,6 +3,8 @@ import { facilities } from "../lib/data";
 import { category, typeLabel, areaName } from "../config/site";
 import { FILTERS, summaryFor, labelFor } from "../config/fields";
 import { href, isStale, shortAddress, vacancyAgesAttr } from "../lib/format";
+import FacilityImage from "./FacilityImage.astro";
+import MapCredits from "./MapCredits.astro";
 import Icon from "./Icon.astro";
 import AddButton from "./AddButton.astro";
 
@@ -133,8 +135,14 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
     </div>
     <p class="cap legend">— は未確認。値の出どころは各施設のページに。</p>
 
+    <script is:inline>
+      if (location.search) {
+        document.documentElement.classList.add("list-pending");
+        setTimeout(() => document.documentElement.classList.remove("list-pending"), 5000);
+      }
+    </script>
     <ul class="items panel" id="items">
-      {list.map((f) => {
+      {list.map((f, index) => {
         const r = f.ageRange.value;
         const fl = flags.filter((d) => d.test(f)).map((d) => d.key).join(" ");
         const attrs: Record<string, string> = {
@@ -147,6 +155,7 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
         for (const s of sorts) { const n = s.num!(f); if (n !== null) attrs[`data-s-${s.key}`] = String(n); }
         return (
           <li {...attrs}>
+            <a class="image-link" href={href(`/f/${f.id}/`)} tabindex="-1" aria-hidden="true"><FacilityImage facility={f} lazy priority={index === 0} /></a>
             <h3><a href={href(`/f/${f.id}/`)}>{f.name}</a></h3>
             <p class="meta sub">{multiArea && <>{areaName(f.ward)}・</>}{typeLabel(f.type)}・{f.management}{shortAddress(f) && <>・<span class="addr">{shortAddress(f)}</span></>}</p>
             <AddButton id={f.id} name={f.name} />
@@ -165,6 +174,12 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
         );
       })}
     </ul>
+    <script is:inline>
+      if (!location.search) {
+        document.querySelectorAll("#items img").forEach((img, i) => { if (i < 2) img.loading = "eager"; });
+      }
+    </script>
+    <MapCredits />
     <div class="empty panel" id="empty" hidden>
       <h2 class="sub" style="font-size:16px;color:var(--color-text-primary)">条件に合う施設はありません</h2>
       <div class="acts" id="empty-acts"></div>

@@ -125,6 +125,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.723508,
+    "lng": 139.786115,
+    "level": "block",
+    "matched": "下谷三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-73eb2c27.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -253,6 +274,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.71895,
+    "lng": 139.804667,
+    "level": "block",
+    "matched": "今戸一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-84971712.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -381,6 +423,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.720474,
+    "lng": 139.785387,
+    "level": "block",
+    "matched": "入谷一丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-d032de66.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -509,6 +572,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.716813,
+    "lng": 139.783888,
+    "level": "block",
+    "matched": "北上野二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-f54b9098.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -637,6 +721,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.722789,
+    "lng": 139.792731,
+    "level": "block",
+    "matched": "千束三丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-6d06baf9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -765,6 +870,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718972,
+    "lng": 139.794077,
+    "level": "block",
+    "matched": "浅草四丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-4efa71b9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -893,6 +1019,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718626,
+    "lng": 139.798532,
+    "level": "block",
+    "matched": "浅草四丁目48番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-1ec51636.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1021,6 +1168,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.70683,
+    "lng": 139.789967,
+    "level": "block",
+    "matched": "寿一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-41b2caaf.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1149,6 +1317,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.70683,
+    "lng": 139.789967,
+    "level": "block",
+    "matched": "寿一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-d6ace9b8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1277,6 +1466,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.728479,
+    "lng": 139.792545,
+    "level": "block",
+    "matched": "三ノ輪一丁目23番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-361b9fe3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1405,6 +1615,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.724356,
+    "lng": 139.798331,
+    "level": "block",
+    "matched": "東浅草二丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-ac140a1e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1533,6 +1764,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718573,
+    "lng": 139.78608,
+    "level": "block",
+    "matched": "松が谷四丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-f52255e4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1661,6 +1913,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.712232,
+    "lng": 139.78652,
+    "level": "block",
+    "matched": "松が谷一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-735862c2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1789,6 +2062,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.723578,
+    "lng": 139.779076,
+    "level": "block",
+    "matched": "根岸三丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-31d480a5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1917,6 +2211,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.714902,
+    "lng": 139.766905,
+    "level": "block",
+    "matched": "池之端二丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-b6a47b85.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2045,6 +2360,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.71353,
+    "lng": 139.799057,
+    "level": "block",
+    "matched": "花川戸一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-cc6fa47c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2178,6 +2514,27 @@
    "value": "令和9年3月まで柳北スポーツプラザ（浅草橋5丁目1番8号）に仮移転中",
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.699994,
+    "lng": 139.782761,
+    "level": "block",
+    "matched": "浅草橋五丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-99ce19be.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2306,6 +2663,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.709515,
+    "lng": 139.793438,
+    "level": "block",
+    "matched": "雷門一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-716cd903.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2434,6 +2812,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.724637,
+    "lng": 139.8036,
+    "level": "block",
+    "matched": "清川一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-80d17ddb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2562,6 +2961,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.725524,
+    "lng": 139.789807,
+    "level": "block",
+    "matched": "竜泉二丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-9629110a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2690,6 +3110,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.704555,
+    "lng": 139.780272,
+    "level": "block",
+    "matched": "台東三丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-09b84a99.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2818,6 +3259,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.704365,
+    "lng": 139.789324,
+    "level": "block",
+    "matched": "蔵前四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-0a2d2733.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2946,6 +3408,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.725777,
+    "lng": 139.766683,
+    "level": "block",
+    "matched": "谷中五丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-d3cf5567.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3074,6 +3557,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718433,
+    "lng": 139.790061,
+    "level": "block",
+    "matched": "千束一丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_ku-cb8cf696.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3202,6 +3706,27 @@
     "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.701611,
+    "lng": 139.787841,
+    "level": "block",
+    "matched": "浅草橋三丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_min-43f2a98c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3330,6 +3855,27 @@
     "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.699269,
+    "lng": 139.789423,
+    "level": "block",
+    "matched": "柳橋二丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_min-14ef1a7b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3458,6 +4004,27 @@
     "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.703001,
+    "lng": 139.790349,
+    "level": "block",
+    "matched": "蔵前三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_min-b3722666.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3586,6 +4153,27 @@
     "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/kodomoclub/ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.707392,
+    "lng": 139.784607,
+    "level": "block",
+    "matched": "元浅草一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_min-5bff06a1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3714,6 +4302,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.714969,
+    "lng": 139.78584,
+    "level": "block",
+    "matched": "松が谷二丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-gakudo_min-11911a6b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3851,6 +4460,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.713669,
+    "lng": 139.783524,
+    "level": "block",
+    "matched": "東上野六丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-69e9bd21.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3988,6 +4618,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718972,
+    "lng": 139.794077,
+    "level": "block",
+    "matched": "浅草四丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-e5a4a3fa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4124,6 +4775,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所を解析できないか街区が一致しないため不採用"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を解析できないか街区が一致しないため不採用"
   }
  },
  {
@@ -4261,6 +4924,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.720913,
+    "lng": 139.788129,
+    "level": "block",
+    "matched": "入谷二丁目23番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-48d8f1df.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4398,6 +5082,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718626,
+    "lng": 139.798532,
+    "level": "block",
+    "matched": "浅草四丁目48番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-c89fb1c4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4535,6 +5240,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.706066,
+    "lng": 139.78034,
+    "level": "block",
+    "matched": "台東四丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-aa480887.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4672,6 +5398,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.713677,
+    "lng": 139.76729,
+    "level": "block",
+    "matched": "池之端二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-97a7b039.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4809,6 +5556,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.728479,
+    "lng": 139.792545,
+    "level": "block",
+    "matched": "三ノ輪一丁目23番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-a43e801a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4946,6 +5714,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.724356,
+    "lng": 139.798331,
+    "level": "block",
+    "matched": "東浅草二丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-b716694d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5083,6 +5872,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.712232,
+    "lng": 139.78652,
+    "level": "block",
+    "matched": "松が谷一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-7e1385b8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5220,6 +6030,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.723578,
+    "lng": 139.779076,
+    "level": "block",
+    "matched": "根岸三丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-c386d905.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5357,6 +6188,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.71353,
+    "lng": 139.799057,
+    "level": "block",
+    "matched": "花川戸一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-d65d9d2f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5494,6 +6346,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.724637,
+    "lng": 139.8036,
+    "level": "block",
+    "matched": "清川一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-704950f1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5631,6 +6504,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.704365,
+    "lng": 139.789324,
+    "level": "block",
+    "matched": "蔵前四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-49f41745.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5768,6 +6662,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.723691,
+    "lng": 139.765165,
+    "level": "block",
+    "matched": "谷中二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-7bafe8c6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5905,6 +6820,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718433,
+    "lng": 139.790061,
+    "level": "block",
+    "matched": "千束一丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-d7e8e057.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6042,6 +6978,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.706903,
+    "lng": 139.771028,
+    "level": "block",
+    "matched": "上野一丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-houkago-67ded4c9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  }
 ]

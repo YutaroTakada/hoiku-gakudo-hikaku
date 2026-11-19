@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { AREA_IDS, CATEGORY_IDS, MANAGEMENTS, TYPE_IDS, typeCategory } from "../config/site";
+import { AREA_IDS, CATEGORY_IDS, MANAGEMENTS, TYPE_IDS, typeCategory, typeMapEnabled } from "../config/site";
 
 /** 出どころと確認日つきの値。value が null のものはサイト上で「未確認」と出す。 */
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "確認日は YYYY-MM-DD");
@@ -46,6 +46,8 @@ export const facilitySchema = z
     name: z.string().min(1),
     listedName: z.string().min(1),
     address: field(z.string()),
+    location: field(z.object({ lat: z.number().finite().min(-90).max(90), lng: z.number().finite().min(-180).max(180), level: z.literal("block"), matched: z.string().min(1) }).strict()),
+    image: field(z.object({ kind: z.literal("map"), path: z.string().regex(/^\/img\/map\/[a-z0-9_-]+\.webp$/), width: z.literal(480), height: z.literal(240) }).strict()),
     station: field(z.string()),
     phone: field(z.string()),
     ages: field(z.string()),
@@ -81,6 +83,9 @@ export const facilitySchema = z
   })
   .strict()
   .superRefine((f, ctx) => {
+    if ((f.location.value === null) !== (f.image.value === null)) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "位置と画像が一致しない" });
+    if (!typeMapEnabled(f.type) && (f.location.value || f.image.value)) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "この種別に地図は表示できません" });
+    if (f.image.value && f.image.value.path !== `/img/map/${f.id}.webp`) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "画像パスと id が一致しない" });
     if (!f.id.startsWith(`${f.ward}-${f.type}-`)) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "id と区・種別が合わない" });
     if (typeCategory(f.type) !== f.category) ctx.addIssue({ code: z.ZodIssueCode.custom, message: "種別と category が合わない" });
   });

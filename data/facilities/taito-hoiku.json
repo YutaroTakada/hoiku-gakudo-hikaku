@@ -132,6 +132,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.723468,
+    "lng": 139.78966,
+    "level": "block",
+    "matched": "竜泉一丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-54d44094.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -266,6 +287,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.707712,
+    "lng": 139.794971,
+    "level": "block",
+    "matched": "駒形一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-30c9e1c0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -403,6 +445,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.723212,
+    "lng": 139.80217,
+    "level": "block",
+    "matched": "清川一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-73777ea8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -537,6 +600,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.726389,
+    "lng": 139.784429,
+    "level": "block",
+    "matched": "根岸四丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-64e8d7af.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -673,6 +757,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.714426,
+    "lng": 139.779,
+    "level": "block",
+    "matched": "上野七丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-15a20d04.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -807,6 +912,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.705356,
+    "lng": 139.778201,
+    "level": "block",
+    "matched": "台東三丁目45番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-da94a8ba.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -943,6 +1069,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.706942,
+    "lng": 139.793245,
+    "level": "block",
+    "matched": "寿三丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-278ad850.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1077,6 +1224,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.72139,
+    "lng": 139.78153,
+    "level": "block",
+    "matched": "根岸三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-95b707d1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -1213,6 +1381,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.724493,
+    "lng": 139.786625,
+    "level": "block",
+    "matched": "下谷三丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-b73955c4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1347,6 +1536,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.719856,
+    "lng": 139.789141,
+    "level": "block",
+    "matched": "入谷二丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-daa523f2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -1483,6 +1693,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.701217,
+    "lng": 139.789528,
+    "level": "block",
+    "matched": "蔵前一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-a0b74c41.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1617,6 +1848,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.721062,
+    "lng": 139.765807,
+    "level": "block",
+    "matched": "谷中二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-70f5d6fe.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -1753,6 +2005,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.700586,
+    "lng": 139.790929,
+    "level": "block",
+    "matched": "蔵前一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-5eb8abf4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1887,6 +2160,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.701518,
+    "lng": 139.78276,
+    "level": "block",
+    "matched": "浅草橋五丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-46378c64.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -2023,6 +2317,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.703539,
+    "lng": 139.788121,
+    "level": "block",
+    "matched": "蔵前四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-2368cbe7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2157,6 +2472,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.698112,
+    "lng": 139.783816,
+    "level": "block",
+    "matched": "浅草橋一丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-cde83be3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -2293,6 +2629,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.69841,
+    "lng": 139.788086,
+    "level": "block",
+    "matched": "柳橋二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-2c6dc51b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2427,6 +2784,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.720974,
+    "lng": 139.772586,
+    "level": "block",
+    "matched": "上野桜木一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-fe241de6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -2563,6 +2941,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.72441,
+    "lng": 139.791328,
+    "level": "block",
+    "matched": "竜泉三丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-dde20776.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2697,6 +3096,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.700689,
+    "lng": 139.787472,
+    "level": "block",
+    "matched": "浅草橋三丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-a9b36f9f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -2833,6 +3253,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.72374,
+    "lng": 139.775323,
+    "level": "block",
+    "matched": "上野桜木二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-05d278be.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2967,6 +3408,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.71726,
+    "lng": 139.793616,
+    "level": "block",
+    "matched": "浅草三丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-3b0b5686.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -3103,6 +3565,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.703276,
+    "lng": 139.785136,
+    "level": "block",
+    "matched": "三筋一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-9d0029d3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3237,6 +3720,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.707825,
+    "lng": 139.778252,
+    "level": "block",
+    "matched": "東上野一丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-d8c6ba21.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -3373,6 +3877,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.716126,
+    "lng": 139.791131,
+    "level": "block",
+    "matched": "西浅草三丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-fcda9f7d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3507,6 +4032,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.706161,
+    "lng": 139.779613,
+    "level": "block",
+    "matched": "台東四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-fc3b1bc6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -3643,6 +4189,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.701982,
+    "lng": 139.784435,
+    "level": "block",
+    "matched": "鳥越二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-6ac8fecb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3775,6 +4342,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.705977,
+    "lng": 139.786973,
+    "level": "block",
+    "matched": "三筋二丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-b243f040.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -3911,6 +4499,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.714619,
+    "lng": 139.783856,
+    "level": "block",
+    "matched": "東上野六丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-f266693a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4045,6 +4654,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.723702,
+    "lng": 139.805577,
+    "level": "block",
+    "matched": "橋場一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-2af29149.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -4181,6 +4811,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.717998,
+    "lng": 139.783759,
+    "level": "block",
+    "matched": "北上野二丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-c331520e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4313,6 +4964,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.722789,
+    "lng": 139.792731,
+    "level": "block",
+    "matched": "千束三丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-653895d6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -4447,6 +5119,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.701239,
+    "lng": 139.776446,
+    "level": "block",
+    "matched": "台東一丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-3c83841a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4579,6 +5272,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.72501,
+    "lng": 139.787404,
+    "level": "block",
+    "matched": "下谷三丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-6ea89d9f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -4715,6 +5429,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.727102,
+    "lng": 139.797471,
+    "level": "block",
+    "matched": "日本堤二丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-2fd44225.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4850,6 +5585,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.725072,
+    "lng": 139.797904,
+    "level": "block",
+    "matched": "日本堤一丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-2471f7fc.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4982,6 +5738,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.721223,
+    "lng": 139.807248,
+    "level": "block",
+    "matched": "今戸二丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-988f7c6b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -5118,6 +5895,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.727807,
+    "lng": 139.788396,
+    "level": "block",
+    "matched": "根岸五丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-539fedd0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5253,6 +6051,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.714522,
+    "lng": 139.78155,
+    "level": "block",
+    "matched": "東上野四丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-d86ffa73.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5385,6 +6204,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.70953,
+    "lng": 139.781233,
+    "level": "block",
+    "matched": "東上野二丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-170370c2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -5519,6 +6359,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.718573,
+    "lng": 139.78608,
+    "level": "block",
+    "matched": "松が谷四丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-51de2cb6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5648,6 +6509,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.700208,
+    "lng": 139.784678,
+    "level": "block",
+    "matched": "浅草橋二丁目23番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-ba8c1684.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -5784,6 +6666,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.72466,
+    "lng": 139.802729,
+    "level": "block",
+    "matched": "清川一丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-65dd7120.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5916,6 +6819,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.727414,
+    "lng": 139.803836,
+    "level": "block",
+    "matched": "清川二丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-8cfba05a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -6052,6 +6976,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.724333,
+    "lng": 139.76677,
+    "level": "block",
+    "matched": "谷中五丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-a68f1079.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6187,6 +7132,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.7147,
+    "lng": 139.80031,
+    "level": "block",
+    "matched": "花川戸二丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-02167f7a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6316,6 +7282,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.722623,
+    "lng": 139.771875,
+    "level": "block",
+    "matched": "上野桜木二丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninka-74f0f944.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -6452,6 +7439,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.706849,
+    "lng": 139.789146,
+    "level": "block",
+    "matched": "寿一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-kodomoen-a5f0e9a6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6586,6 +7594,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.723508,
+    "lng": 139.786115,
+    "level": "block",
+    "matched": "下谷三丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-kodomoen-c27337f5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -6723,6 +7752,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.709498,
+    "lng": 139.77811,
+    "level": "block",
+    "matched": "東上野二丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-kodomoen-23db1257.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6858,6 +7908,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.713677,
+    "lng": 139.76729,
+    "level": "block",
+    "matched": "池之端二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-kodomoen-53f5b360.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6986,6 +8057,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.725571,
+    "lng": 139.807443,
+    "level": "block",
+    "matched": "橋場一丁目35番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-kodomoen-c2b576f6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -7119,6 +8211,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.703517,
+    "lng": 139.780198,
+    "level": "block",
+    "matched": "台東二丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-d326ee58.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7250,6 +8363,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.698513,
+    "lng": 139.781113,
+    "level": "block",
+    "matched": "浅草橋四丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-4098c15f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -7384,6 +8518,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.698942,
+    "lng": 139.784425,
+    "level": "block",
+    "matched": "浅草橋二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-b76975e1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7515,6 +8670,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.700586,
+    "lng": 139.790929,
+    "level": "block",
+    "matched": "蔵前一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-b33cf402.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -7648,6 +8824,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.709658,
+    "lng": 139.797509,
+    "level": "block",
+    "matched": "雷門二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-d66cb156.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7780,6 +8977,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.705941,
+    "lng": 139.786554,
+    "level": "block",
+    "matched": "三筋二丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-acf5e09a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7911,6 +9129,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.717086,
+    "lng": 139.788861,
+    "level": "block",
+    "matched": "松が谷四丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-45fb4e66.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -8045,6 +9284,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.706465,
+    "lng": 139.779528,
+    "level": "block",
+    "matched": "台東四丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-c16cc7a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8176,6 +9436,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.728502,
+    "lng": 139.791643,
+    "level": "block",
+    "matched": "三ノ輪一丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-10cb76a8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -8309,6 +9590,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.705145,
+    "lng": 139.779576,
+    "level": "block",
+    "matched": "台東三丁目34番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-2aa0d815.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8440,6 +9742,27 @@
     "asOf": "2026-11-20"
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.710489,
+    "lng": 139.780713,
+    "level": "block",
+    "matched": "東上野三丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-shokibo-795ce01b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  },
@@ -8573,6 +9896,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.708582,
+    "lng": 139.789919,
+    "level": "block",
+    "matched": "寿二丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-jigyosho-3d6c0079.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8705,6 +10049,27 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.713679,
+    "lng": 139.786652,
+    "level": "block",
+    "matched": "松が谷二丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-jigyosho-cb56bc87.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8832,6 +10197,18 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -8959,6 +10336,18 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -9086,6 +10475,18 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -9213,6 +10614,18 @@
    },
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/getureininnzuu.html",
    "checked": "2026-11-20"
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -9335,6 +10748,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.719179,
+    "lng": 139.784133,
+    "level": "block",
+    "matched": "北上野二丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-c18b7245.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9457,6 +10891,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.716021,
+    "lng": 139.790163,
+    "level": "block",
+    "matched": "西浅草三丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-edeebb3c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9579,6 +11034,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.710291,
+    "lng": 139.794728,
+    "level": "block",
+    "matched": "雷門二丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-48b737a5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9701,6 +11177,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.700689,
+    "lng": 139.787472,
+    "level": "block",
+    "matched": "浅草橋三丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-76344d0e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9823,6 +11320,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.718968,
+    "lng": 139.767189,
+    "level": "block",
+    "matched": "谷中一丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-e2e51dbe.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9945,6 +11463,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.713837,
+    "lng": 139.798361,
+    "level": "block",
+    "matched": "花川戸一丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-d76cf711.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10072,6 +11611,27 @@
   "notice": {
    "value": "ポピンズナーサリースクール駒形は、令和9年3月31日をもちまして、閉園となります。",
    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/ichiranpyo.html",
+   "checked": "2026-11-20"
+  },
+  "location": {
+   "value": {
+    "lat": 35.707,
+    "lng": 139.794516,
+    "level": "block",
+    "matched": "駒形一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/taito-ninsho-367fd12d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
    "checked": "2026-11-20"
   }
  }

@@ -240,3 +240,4 @@ wide.addEventListener("change", () => { if (wide.matches && sheet.open) sheet.cl
 const init = () => { const s = fromUrl(); toForm(s); apply(s); };
 addEventListener("popstate", init);
 init();
+document.documentElement.classList.remove("list-pending");
