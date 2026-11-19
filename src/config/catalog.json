@@ -5,15 +5,15 @@
     { "id": "gakudo", "label": "学童・放課後", "ageLabel": "学年", "ageUnit": "年生", "ageShort": "年", "ages": [1, 2, 3, 4, 5, 6] }
   ],
   "types": [
-    { "id": "ninka", "label": "認可保育所", "category": "hoiku" },
-    { "id": "kodomoen", "label": "認定こども園", "category": "hoiku" },
-    { "id": "shokibo", "label": "小規模保育", "category": "hoiku" },
-    { "id": "jigyosho", "label": "事業所内保育", "category": "hoiku" },
-    { "id": "katei", "label": "家庭的保育（保育ママ）", "category": "hoiku" },
-    { "id": "ninsho", "label": "東京都認証保育所", "category": "hoiku" },
-    { "id": "gakudo_ku", "label": "区の学童（公設）", "category": "gakudo" },
-    { "id": "gakudo_min", "label": "民設の学童", "category": "gakudo" },
-    { "id": "houkago", "label": "放課後子ども教室", "category": "gakudo" }
+    { "id": "ninka", "label": "認可保育所", "category": "hoiku", "illustration": "ninka" },
+    { "id": "kodomoen", "label": "認定こども園", "category": "hoiku", "illustration": "kodomoen" },
+    { "id": "shokibo", "label": "小規模保育", "category": "hoiku", "illustration": "shokibo" },
+    { "id": "jigyosho", "label": "事業所内保育", "category": "hoiku", "illustration": "jigyosho" },
+    { "id": "katei", "label": "家庭的保育（保育ママ）", "category": "hoiku", "illustration": "katei" },
+    { "id": "ninsho", "label": "東京都認証保育所", "category": "hoiku", "illustration": "ninsho" },
+    { "id": "gakudo_ku", "label": "区の学童（公設）", "category": "gakudo", "illustration": "gakudo_ku" },
+    { "id": "gakudo_min", "label": "民設の学童", "category": "gakudo", "illustration": "gakudo_min" },
+    { "id": "houkago", "label": "放課後子ども教室", "category": "gakudo", "illustration": "houkago" }
   ],
   "managements": ["公立", "公設民営", "民間"]
 }

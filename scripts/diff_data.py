@@ -11,7 +11,7 @@ _CFG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 WARD = {a["id"]: a["name"] for a in json.load(open(os.path.join(_CFG, "areas.json")))["areas"]}
 TYPE = {t["id"]: t["label"] for t in json.load(open(os.path.join(_CFG, "catalog.json")))["types"]}
 LABEL = {
-    "name": "施設名", "listedName": "区の一覧での表記", "management": "運営", "type": "種別", "category": "区分",
+    "location": "位置", "image": "画像", "name": "施設名", "listedName": "区の一覧での表記", "management": "運営", "type": "種別", "category": "区分",
     "address": "住所", "station": "最寄り駅", "phone": "電話", "ages": "対象", "ageRange": "対象（年齢・学年の範囲）",
     "capacity": "定員", "hours.weekday": "平日の時間", "hours.weekdayEnd": "平日の終了時刻",
     "hours.extension": "延長", "hours.extensionEnd": "延長の終了時刻", "hours.saturday": "土曜",

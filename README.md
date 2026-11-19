@@ -14,6 +14,7 @@
 | `src/pages/` | `/`・`/hoiku/`・`/gakudo/`・`/f/<id>/`・`/compare/`・`/about/` |
 | `scripts/` | 収集（`collect.py` と区ごとの `<区>.py`）・差分（`diff_data.py`）・リンク確認（`check_links.py`） |
 | `docs/DESIGN.md` | デザインの決まり（Astryx から写したトークン） |
+| `docs/IMAGES-DESIGN.md` | 街区照合と施設画像の仕組み |
 
 一覧の検索・絞り込み・並べ替えは URL のクエリに残る（例 `/hoiku/?area=adachi&age=1&vac=1&sort=end`）。比較に入れた施設（4件まで）は端末の localStorage に残る。
 
@@ -32,6 +33,7 @@ npm run build
 
 python3 -m pip install -r scripts/requirements.txt   # poppler-utils の pdftotext も必要
 python3 scripts/collect.py
+python3 scripts/locate.py --all  # 位置と地図を全件再生成
 ```
 
 ## 方針

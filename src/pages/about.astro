@@ -1,4 +1,5 @@
 ---
+import MapCredits from "../components/MapCredits.astro";
 import Base from "../layouts/Base.astro";
 import sources from "../../data/sources.json";
 import { facilities } from "../lib/data";
@@ -30,6 +31,11 @@ const list = sources.sources
       <li>「預かり」は延長を含めた終わりの時刻</li>
       <li>口コミ・評価・ランキング・広告なし</li>
     </ul>
+
+    <h2>施設画像</h2>
+    <p>住居表示の街区まで一致した施設には街区代表点の地図を表示します。建物の位置ではありません。家庭的保育など位置を表示できない施設には種別のイラストを使います。</p>
+    <MapCredits />
+    <p>位置情報の整備年・ファイル名：令和7年 13000-24.0a</p>
 
     <h2>載せている施設</h2>
     <ul>

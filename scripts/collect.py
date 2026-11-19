@@ -9,6 +9,7 @@ from collections import Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import TODAY, U  # noqa: E402
+from locate import enrich
 from check_links import status  # noqa: E402
 from concurrent.futures import ThreadPoolExecutor  # noqa: E402
 
@@ -80,6 +81,12 @@ def main():
                 raise SystemExit(f"{key}: 件数が {len(old)} → {len(recs)} に減りました。取得失敗の可能性があるため中止します")
         results[key] = recs
     drop_dead_links(results)
+    old = {}
+    for filename in os.listdir(OUT):
+        if filename.endswith(".json"):
+            with open(os.path.join(OUT, filename)) as f:
+                old.update((r["id"], r) for r in json.load(f))
+    enrich(results, old)
     acc = Counter()
     for key, recs in results.items():
         with open(os.path.join(OUT, f"{key}.json"), "w") as f:

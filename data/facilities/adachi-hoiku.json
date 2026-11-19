@@ -131,6 +131,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778426,
+    "lng": 139.832621,
+    "level": "block",
+    "matched": "谷中四丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d7bfb1c1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -265,6 +286,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770601,
+    "lng": 139.82414,
+    "level": "block",
+    "matched": "綾瀬六丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5c025474.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -399,6 +441,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766592,
+    "lng": 139.77035,
+    "level": "block",
+    "matched": "扇二丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-70ae0b25.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -533,6 +596,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770273,
+    "lng": 139.842789,
+    "level": "block",
+    "matched": "東和二丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7308ec5a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -667,6 +751,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784567,
+    "lng": 139.767375,
+    "level": "block",
+    "matched": "谷在家二丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c142c8aa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -801,6 +906,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788192,
+    "lng": 139.776461,
+    "level": "block",
+    "matched": "西新井四丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-44c44fd4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -935,6 +1061,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769932,
+    "lng": 139.835077,
+    "level": "block",
+    "matched": "東綾瀬三丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0ff2af63.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1074,6 +1221,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766706,
+    "lng": 139.832248,
+    "level": "block",
+    "matched": "東綾瀬二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-23777a1c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1208,6 +1376,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784936,
+    "lng": 139.779664,
+    "level": "block",
+    "matched": "西新井二丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-2df8b06e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1341,6 +1530,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772781,
+    "lng": 139.79011,
+    "level": "block",
+    "matched": "西新井栄町一丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-be7ec4c7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1479,6 +1689,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.811892,
+    "lng": 139.762139,
+    "level": "block",
+    "matched": "舎人六丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-deeabad1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1616,6 +1847,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.81149,
+    "lng": 139.763813,
+    "level": "block",
+    "matched": "舎人六丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f4e9a9a7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -1750,6 +2002,18 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -1883,6 +2147,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769358,
+    "lng": 139.799677,
+    "level": "block",
+    "matched": "梅田七丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-ac19677e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2017,6 +2302,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780784,
+    "lng": 139.828315,
+    "level": "block",
+    "matched": "加平三丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-6612613a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2151,6 +2457,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784012,
+    "lng": 139.784424,
+    "level": "block",
+    "matched": "栗原四丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0d14dec2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2284,6 +2611,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767516,
+    "lng": 139.767804,
+    "level": "block",
+    "matched": "江北一丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-512b0ba9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2418,6 +2766,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.742346,
+    "lng": 139.80585,
+    "level": "block",
+    "matched": "千住関屋町16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9939cbd7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2551,6 +2920,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786182,
+    "lng": 139.819276,
+    "level": "block",
+    "matched": "六町三丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c1bd1dc1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2684,6 +3074,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.749926,
+    "lng": 139.794725,
+    "level": "block",
+    "matched": "千住宮元町31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f01ffd24.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2817,6 +3228,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783813,
+    "lng": 139.817956,
+    "level": "block",
+    "matched": "六町二丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-656cc04d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -2950,6 +3382,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772587,
+    "lng": 139.787601,
+    "level": "block",
+    "matched": "関原三丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e807327c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3084,6 +3537,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.776456,
+    "lng": 139.789638,
+    "level": "block",
+    "matched": "西新井栄町二丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-b92367c2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3218,6 +3692,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77789,
+    "lng": 139.798825,
+    "level": "block",
+    "matched": "梅島二丁目37番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-a8189223.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3352,6 +3847,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77551,
+    "lng": 139.767117,
+    "level": "block",
+    "matched": "江北四丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e2eca448.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3486,6 +4002,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769589,
+    "lng": 139.825039,
+    "level": "block",
+    "matched": "綾瀬六丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0c4d7cd9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3620,6 +4157,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769589,
+    "lng": 139.748121,
+    "level": "block",
+    "matched": "新田三丁目35番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-631e3e96.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3754,6 +4312,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771161,
+    "lng": 139.737131,
+    "level": "block",
+    "matched": "新田二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-a46de3a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -3888,6 +4467,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745254,
+    "lng": 139.794666,
+    "level": "block",
+    "matched": "千住緑町二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7a472678.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4022,6 +4622,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.800314,
+    "lng": 139.805907,
+    "level": "block",
+    "matched": "保木間四丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-55444b00.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4156,6 +4777,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.743287,
+    "lng": 139.813393,
+    "level": "block",
+    "matched": "千住曙町10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0a36157d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4289,6 +4931,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771907,
+    "lng": 139.804302,
+    "level": "block",
+    "matched": "中央本町一丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5da87706.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4423,6 +5086,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.744749,
+    "lng": 139.795796,
+    "level": "block",
+    "matched": "千住河原町6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5bc16aa6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4557,6 +5241,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.809404,
+    "lng": 139.769118,
+    "level": "block",
+    "matched": "舎人五丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-2f41fbe1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4691,6 +5396,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.74275,
+    "lng": 139.813788,
+    "level": "block",
+    "matched": "千住曙町21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-3b0b09be.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4825,6 +5551,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767558,
+    "lng": 139.772379,
+    "level": "block",
+    "matched": "扇三丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-cf692834.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -4959,6 +5706,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.806429,
+    "lng": 139.770743,
+    "level": "block",
+    "matched": "舎人一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7e181f95.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5092,6 +5860,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786304,
+    "lng": 139.773454,
+    "level": "block",
+    "matched": "西新井四丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d687dde1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5226,6 +6015,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.743893,
+    "lng": 139.814678,
+    "level": "block",
+    "matched": "千住曙町17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c9f5ba97.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5361,6 +6171,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.787693,
+    "lng": 139.782481,
+    "level": "block",
+    "matched": "西新井三丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5b271fe8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5495,6 +6326,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77242,
+    "lng": 139.800313,
+    "level": "block",
+    "matched": "梅島一丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-25234ba0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5629,6 +6481,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781861,
+    "lng": 139.795872,
+    "level": "block",
+    "matched": "島根四丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4262921a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5763,6 +6636,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.763415,
+    "lng": 139.776438,
+    "level": "block",
+    "matched": "扇一丁目33番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-854afaa0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -5897,6 +6791,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745185,
+    "lng": 139.811931,
+    "level": "block",
+    "matched": "柳原一丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-8e26e50f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6031,6 +6946,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765093,
+    "lng": 139.823427,
+    "level": "block",
+    "matched": "綾瀬四丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0d6845af.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6165,6 +7101,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768595,
+    "lng": 139.777431,
+    "level": "block",
+    "matched": "興野二丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-45b2c5ad.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6299,6 +7256,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772305,
+    "lng": 139.81407,
+    "level": "block",
+    "matched": "青井二丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e96f4e59.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6433,6 +7411,18 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -6566,6 +7556,18 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -6699,6 +7701,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779793,
+    "lng": 139.812072,
+    "level": "block",
+    "matched": "一ツ家三丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-1274b617.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6833,6 +7856,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77278,
+    "lng": 139.839276,
+    "level": "block",
+    "matched": "東和三丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0a509baa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -6968,6 +8012,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.746918,
+    "lng": 139.799747,
+    "level": "block",
+    "matched": "千住一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c2da3c85.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7102,6 +8167,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773351,
+    "lng": 139.843454,
+    "level": "block",
+    "matched": "東和四丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c12fd29b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7236,6 +8322,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.800604,
+    "lng": 139.792384,
+    "level": "block",
+    "matched": "東伊興三丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7f41ed25.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7370,6 +8477,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784152,
+    "lng": 139.833208,
+    "level": "block",
+    "matched": "谷中四丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c67e339f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7504,6 +8632,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764382,
+    "lng": 139.828386,
+    "level": "block",
+    "matched": "綾瀬三丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4fed13ab.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7637,6 +8786,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774676,
+    "lng": 139.833127,
+    "level": "block",
+    "matched": "谷中二丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-59a4ae74.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7771,6 +8941,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.759579,
+    "lng": 139.823477,
+    "level": "block",
+    "matched": "綾瀬一丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-378b1d83.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -7905,6 +9096,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779625,
+    "lng": 139.843533,
+    "level": "block",
+    "matched": "大谷田一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-bb915ff4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8039,6 +9251,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774246,
+    "lng": 139.796836,
+    "level": "block",
+    "matched": "梅島三丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d3e67e4a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8172,6 +9405,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769836,
+    "lng": 139.795418,
+    "level": "block",
+    "matched": "梅田五丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-672ec09d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8305,6 +9559,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774336,
+    "lng": 139.79508,
+    "level": "block",
+    "matched": "梅島三丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-cb3172fa.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8439,6 +9714,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.75925,
+    "lng": 139.757456,
+    "level": "block",
+    "matched": "宮城一丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-cc5bcb1e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8578,6 +9874,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773818,
+    "lng": 139.765191,
+    "level": "block",
+    "matched": "江北四丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-1a1774ce.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8717,6 +10034,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775398,
+    "lng": 139.807237,
+    "level": "block",
+    "matched": "中央本町四丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-fa070b6a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8855,6 +10193,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784497,
+    "lng": 139.801427,
+    "level": "block",
+    "matched": "島根二丁目33番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-64f4bfa2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -8988,6 +10347,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767593,
+    "lng": 139.791209,
+    "level": "block",
+    "matched": "関原二丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c7a93a15.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9122,6 +10502,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761386,
+    "lng": 139.81076,
+    "level": "block",
+    "matched": "足立二丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-14321e7d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9256,6 +10657,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79887,
+    "lng": 139.790058,
+    "level": "block",
+    "matched": "東伊興三丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-192001bc.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9394,6 +10816,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.796929,
+    "lng": 139.782308,
+    "level": "block",
+    "matched": "伊興四丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-505bde68.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9528,6 +10971,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79078,
+    "lng": 139.788026,
+    "level": "block",
+    "matched": "西竹の塚一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-b6576357.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9666,6 +11130,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.796585,
+    "lng": 139.807382,
+    "level": "block",
+    "matched": "保木間三丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9a2548cb.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9804,6 +11289,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.791198,
+    "lng": 139.836862,
+    "level": "block",
+    "matched": "六木一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e8232a91.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -9937,6 +11443,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786832,
+    "lng": 139.824779,
+    "level": "block",
+    "matched": "南花畑一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-bf0d3caf.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10071,6 +11598,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790302,
+    "lng": 139.82114,
+    "level": "block",
+    "matched": "南花畑二丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f7729828.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10205,6 +11753,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780789,
+    "lng": 139.821636,
+    "level": "block",
+    "matched": "西加平二丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-70fcde34.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10343,6 +11912,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79386,
+    "lng": 139.75987,
+    "level": "block",
+    "matched": "加賀二丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5e1e3b4b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10481,6 +12071,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.795606,
+    "lng": 139.811205,
+    "level": "block",
+    "matched": "南花畑五丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5aeb90ad.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10615,6 +12226,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.753914,
+    "lng": 139.808688,
+    "level": "block",
+    "matched": "日ノ出町41番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4de3bb3c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10749,6 +12381,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.751478,
+    "lng": 139.795055,
+    "level": "block",
+    "matched": "千住龍田町6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-3d8ebada.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -10883,6 +12536,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.751282,
+    "lng": 139.811605,
+    "level": "block",
+    "matched": "日ノ出町19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c0422879.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11017,6 +12691,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773595,
+    "lng": 139.834922,
+    "level": "block",
+    "matched": "谷中一丁目32番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-34b7ad1a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11156,6 +12851,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.744685,
+    "lng": 139.808918,
+    "level": "block",
+    "matched": "千住東二丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f62ad1e4.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11290,6 +13006,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.754797,
+    "lng": 139.793966,
+    "level": "block",
+    "matched": "千住元町16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-b07c32f6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11428,6 +13165,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790319,
+    "lng": 139.811924,
+    "level": "block",
+    "matched": "東保木間一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-496653d3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11562,6 +13320,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767322,
+    "lng": 139.767284,
+    "level": "block",
+    "matched": "江北一丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-6893cd2e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11701,6 +13480,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779625,
+    "lng": 139.843533,
+    "level": "block",
+    "matched": "大谷田一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e6a45b8f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11834,6 +13634,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.785888,
+    "lng": 139.752081,
+    "level": "block",
+    "matched": "鹿浜五丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-1af9413e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -11967,6 +13788,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.76087,
+    "lng": 139.812189,
+    "level": "block",
+    "matched": "足立二丁目33番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f2108101.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12105,6 +13947,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.756881,
+    "lng": 139.752147,
+    "level": "block",
+    "matched": "宮城一丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-8da8ad6a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12239,6 +14102,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784898,
+    "lng": 139.796216,
+    "level": "block",
+    "matched": "島根四丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4cf1bd18.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12373,6 +14257,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775276,
+    "lng": 139.795529,
+    "level": "block",
+    "matched": "梅島三丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4989324e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12507,6 +14412,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.75428,
+    "lng": 139.789996,
+    "level": "block",
+    "matched": "千住桜木二丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-ee11a353.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12645,6 +14571,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.785998,
+    "lng": 139.806407,
+    "level": "block",
+    "matched": "平野三丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7cce94ae.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12779,6 +14726,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764197,
+    "lng": 139.832149,
+    "level": "block",
+    "matched": "東綾瀬一丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-dcb0ae1b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -12912,6 +14880,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780207,
+    "lng": 139.773733,
+    "level": "block",
+    "matched": "西新井六丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-dfd417ab.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13045,6 +15034,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.787885,
+    "lng": 139.812078,
+    "level": "block",
+    "matched": "東保木間一丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f72c812b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13178,6 +15188,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.763456,
+    "lng": 139.771551,
+    "level": "block",
+    "matched": "扇一丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9887d903.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13311,6 +15342,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.7722,
+    "lng": 139.745174,
+    "level": "block",
+    "matched": "新田三丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e6ac2d48.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13445,6 +15497,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775859,
+    "lng": 139.74028,
+    "level": "block",
+    "matched": "新田一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-05235ce5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13583,6 +15656,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772196,
+    "lng": 139.743307,
+    "level": "block",
+    "matched": "新田三丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-75bd6571.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13717,6 +15811,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771161,
+    "lng": 139.737131,
+    "level": "block",
+    "matched": "新田二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-6502e150.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13851,6 +15966,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.750801,
+    "lng": 139.81006,
+    "level": "block",
+    "matched": "日ノ出町15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-beb603a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -13985,6 +16121,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786529,
+    "lng": 139.814971,
+    "level": "block",
+    "matched": "保塚町8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-3418042c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14119,6 +16276,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774871,
+    "lng": 139.816421,
+    "level": "block",
+    "matched": "青井四丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-21c25a00.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14253,6 +16431,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783214,
+    "lng": 139.828329,
+    "level": "block",
+    "matched": "北加平町5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-98dc5266.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14391,6 +16590,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767107,
+    "lng": 139.78174,
+    "level": "block",
+    "matched": "本木東町18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e1c94c28.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14529,6 +16749,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764171,
+    "lng": 139.784068,
+    "level": "block",
+    "matched": "本木二丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7f4abc5c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14663,6 +16904,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790738,
+    "lng": 139.814813,
+    "level": "block",
+    "matched": "東保木間一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-266b76c1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14797,6 +17059,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775565,
+    "lng": 139.84107,
+    "level": "block",
+    "matched": "東和五丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7fbfc01f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -14930,6 +17213,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766788,
+    "lng": 139.83898,
+    "level": "block",
+    "matched": "東和一丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9290095f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15064,6 +17368,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784583,
+    "lng": 139.812008,
+    "level": "block",
+    "matched": "一ツ家二丁目15番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-7f848a4e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15198,6 +17523,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768039,
+    "lng": 139.834778,
+    "level": "block",
+    "matched": "東綾瀬二丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d128cf1f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15337,6 +17683,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768073,
+    "lng": 139.832945,
+    "level": "block",
+    "matched": "東綾瀬二丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-3adc17b9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15475,6 +17842,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.794867,
+    "lng": 139.818103,
+    "level": "block",
+    "matched": "南花畑四丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-79cdb214.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15608,6 +17996,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765985,
+    "lng": 139.83005,
+    "level": "block",
+    "matched": "東綾瀬一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c24a78a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15741,6 +18150,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781104,
+    "lng": 139.788471,
+    "level": "block",
+    "matched": "栗原一丁目14番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-91c95662.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -15879,6 +18309,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.762543,
+    "lng": 139.794632,
+    "level": "block",
+    "matched": "梅田四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c85a6227.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16013,6 +18464,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.804659,
+    "lng": 139.796475,
+    "level": "block",
+    "matched": "西保木間四丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-b137b375.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16147,6 +18619,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773622,
+    "lng": 139.768231,
+    "level": "block",
+    "matched": "江北四丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9694e6e3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16280,6 +18773,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773763,
+    "lng": 139.761785,
+    "level": "block",
+    "matched": "江北三丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0e1a625d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16414,6 +18928,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.78701,
+    "lng": 139.778659,
+    "level": "block",
+    "matched": "西新井四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-ab3d177d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16547,6 +19082,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.789265,
+    "lng": 139.79648,
+    "level": "block",
+    "matched": "竹の塚二丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-3e9ec0d5.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16681,6 +19237,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.795298,
+    "lng": 139.835047,
+    "level": "block",
+    "matched": "神明二丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-5b3b4abe.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16815,6 +19392,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790011,
+    "lng": 139.800201,
+    "level": "block",
+    "matched": "竹の塚三丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-6468fa4d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -16949,6 +19547,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.796631,
+    "lng": 139.792363,
+    "level": "block",
+    "matched": "竹の塚六丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-885f75a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17087,6 +19706,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779582,
+    "lng": 139.763312,
+    "level": "block",
+    "matched": "江北七丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-b9e9d5dd.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17225,6 +19865,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.745184,
+    "lng": 139.79241,
+    "level": "block",
+    "matched": "千住緑町二丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-95d1928d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17359,6 +20020,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.806327,
+    "lng": 139.772936,
+    "level": "block",
+    "matched": "舎人一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-af60998e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17493,6 +20175,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772797,
+    "lng": 139.840592,
+    "level": "block",
+    "matched": "東和四丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-67e4a722.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17626,6 +20329,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767319,
+    "lng": 139.814214,
+    "level": "block",
+    "matched": "弘道一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-f3b4b8ac.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17760,6 +20484,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773813,
+    "lng": 139.773945,
+    "level": "block",
+    "matched": "扇三丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c3d26b11.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -17894,6 +20639,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770637,
+    "lng": 139.780073,
+    "level": "block",
+    "matched": "西新井本町四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d049d688.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18032,6 +20798,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.813136,
+    "lng": 139.821382,
+    "level": "block",
+    "matched": "花畑八丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-fabb8353.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18170,6 +20957,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.802155,
+    "lng": 139.798772,
+    "level": "block",
+    "matched": "西保木間二丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-fb117da1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18290,6 +21098,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773992,
+    "lng": 139.788361,
+    "level": "block",
+    "matched": "西新井栄町一丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-508c969c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18424,6 +21253,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773992,
+    "lng": 139.788361,
+    "level": "block",
+    "matched": "西新井栄町一丁目18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-4c144f9b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18558,6 +21408,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775547,
+    "lng": 139.778801,
+    "level": "block",
+    "matched": "西新井本町一丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e218c5a6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18692,6 +21563,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778048,
+    "lng": 139.77499,
+    "level": "block",
+    "matched": "西新井本町二丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-1267a573.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18826,6 +21718,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.762583,
+    "lng": 139.818475,
+    "level": "block",
+    "matched": "西綾瀬四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-e7352baf.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -18959,6 +21872,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.762754,
+    "lng": 139.791704,
+    "level": "block",
+    "matched": "梅田四丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-c82cca98.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19093,6 +22027,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788578,
+    "lng": 139.768625,
+    "level": "block",
+    "matched": "谷在家三丁目22番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-29cbf638.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19227,6 +22182,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780951,
+    "lng": 139.767893,
+    "level": "block",
+    "matched": "江北六丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-316f30b0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19360,6 +22336,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773552,
+    "lng": 139.80369,
+    "level": "block",
+    "matched": "中央本町一丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-a84d7154.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19494,6 +22491,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.758719,
+    "lng": 139.761099,
+    "level": "block",
+    "matched": "小台二丁目45番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-11206449.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19627,6 +22645,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774221,
+    "lng": 139.792378,
+    "level": "block",
+    "matched": "西新井栄町一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-2110496b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19761,6 +22800,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784238,
+    "lng": 139.839773,
+    "level": "block",
+    "matched": "大谷田五丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9a6a0950.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -19895,6 +22955,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.777286,
+    "lng": 139.803442,
+    "level": "block",
+    "matched": "中央本町五丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-9332a19a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20028,6 +23109,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765392,
+    "lng": 139.834844,
+    "level": "block",
+    "matched": "東綾瀬一丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-44c1af1c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20166,6 +23268,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.784199,
+    "lng": 139.834284,
+    "level": "block",
+    "matched": "辰沼一丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-6660b90f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20299,6 +23422,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779876,
+    "lng": 139.821776,
+    "level": "block",
+    "matched": "西加平一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-a76d5728.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20433,6 +23577,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.770124,
+    "lng": 139.850089,
+    "level": "block",
+    "matched": "中川四丁目37番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-8f9f695f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20567,6 +23732,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.773839,
+    "lng": 139.811314,
+    "level": "block",
+    "matched": "青井一丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-05d389dd.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20700,6 +23886,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772571,
+    "lng": 139.819673,
+    "level": "block",
+    "matched": "青井三丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-d9a1b8cc.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20833,6 +24040,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765159,
+    "lng": 139.806606,
+    "level": "block",
+    "matched": "足立四丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninka-0d24263f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -20971,6 +24199,27 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781081,
+    "lng": 139.84376,
+    "level": "block",
+    "matched": "大谷田二丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-kodomoen-9cc58084.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21106,6 +24355,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.806063,
+    "lng": 139.81488,
+    "level": "block",
+    "matched": "花畑三丁目42番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-kodomoen-3258a541.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21244,6 +24514,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所を解析できないか街区が一致しないため不採用"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を解析できないか街区が一致しないため不採用"
   }
  },
  {
@@ -21378,6 +24660,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/hoikuen-ichiran.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.747598,
+    "lng": 139.796577,
+    "level": "block",
+    "matched": "千住宮元町25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-kodomoen-9771b353.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -21511,6 +24814,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所なし"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所なし"
   }
  },
  {
@@ -21644,6 +24959,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所なし"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所なし"
   }
  },
  {
@@ -21777,6 +25104,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所なし"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所なし"
   }
  },
  {
@@ -21915,6 +25254,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "住所を解析できないか街区が一致しないため不採用"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を解析できないか街区が一致しないため不採用"
   }
  },
  {
@@ -22050,6 +25401,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.783813,
+    "lng": 139.817956,
+    "level": "block",
+    "matched": "六町二丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-8a21c867.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22185,6 +25557,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769744,
+    "lng": 139.842745,
+    "level": "block",
+    "matched": "東和二丁目20番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-eadb931d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22320,6 +25713,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.781812,
+    "lng": 139.793348,
+    "level": "block",
+    "matched": "島根四丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-d48ea43d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22455,6 +25869,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.79032,
+    "lng": 139.793609,
+    "level": "block",
+    "matched": "竹の塚一丁目12番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-b88bbaf3.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22590,6 +26025,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761946,
+    "lng": 139.823166,
+    "level": "block",
+    "matched": "綾瀬四丁目6番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-448c6480.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22725,6 +26181,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771648,
+    "lng": 139.785248,
+    "level": "block",
+    "matched": "関原三丁目43番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-6e3e654e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22860,6 +26337,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.748361,
+    "lng": 139.802476,
+    "level": "block",
+    "matched": "千住一丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-453b3c9e.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -22995,6 +26493,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.805945,
+    "lng": 139.76851,
+    "level": "block",
+    "matched": "舎人一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-6851ea3f.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23130,6 +26649,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761322,
+    "lng": 139.826309,
+    "level": "block",
+    "matched": "綾瀬二丁目24番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-a36541d8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23265,6 +26805,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788615,
+    "lng": 139.817558,
+    "level": "block",
+    "matched": "南花畑二丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-506af93d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23400,6 +26961,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.794535,
+    "lng": 139.78915,
+    "level": "block",
+    "matched": "西竹の塚一丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-f1c5900c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23535,6 +27117,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.800313,
+    "lng": 139.803128,
+    "level": "block",
+    "matched": "保木間五丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-9aa344a0.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23670,6 +27273,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772613,
+    "lng": 139.834281,
+    "level": "block",
+    "matched": "谷中一丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-89855316.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23805,6 +27429,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767424,
+    "lng": 139.768974,
+    "level": "block",
+    "matched": "扇二丁目39番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-dbae1c48.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -23940,6 +27585,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.780855,
+    "lng": 139.77951,
+    "level": "block",
+    "matched": "西新井一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-a15ffb92.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24075,6 +27741,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779142,
+    "lng": 139.748281,
+    "level": "block",
+    "matched": "鹿浜二丁目5番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-f8aeea52.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24210,6 +27897,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778047,
+    "lng": 139.80349,
+    "level": "block",
+    "matched": "中央本町五丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-2bf1caba.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24345,6 +28053,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.794509,
+    "lng": 139.793436,
+    "level": "block",
+    "matched": "竹の塚六丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-e5764728.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24480,6 +28209,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768288,
+    "lng": 139.823822,
+    "level": "block",
+    "matched": "綾瀬四丁目31番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-e487796d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24615,6 +28365,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.764506,
+    "lng": 139.809115,
+    "level": "block",
+    "matched": "足立三丁目10番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-08ec2732.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24750,6 +28521,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.790938,
+    "lng": 139.79271,
+    "level": "block",
+    "matched": "竹の塚一丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-0fc06026.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -24885,6 +28677,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.752002,
+    "lng": 139.808121,
+    "level": "block",
+    "matched": "日ノ出町27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-787e7f76.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -25020,6 +28833,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774474,
+    "lng": 139.738439,
+    "level": "block",
+    "matched": "新田一丁目8番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-36fbd9d8.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -25155,6 +28989,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.767337,
+    "lng": 139.805287,
+    "level": "block",
+    "matched": "足立四丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-dd6cff96.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -25290,6 +29145,18 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -25425,6 +29292,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.805945,
+    "lng": 139.76851,
+    "level": "block",
+    "matched": "舎人一丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-shokibo-505ba03b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -25557,6 +29445,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -25689,6 +29589,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -25821,6 +29733,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -25953,6 +29877,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26085,6 +30021,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26217,6 +30165,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26349,6 +30309,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26481,6 +30453,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26613,6 +30597,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26745,6 +30741,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -26877,6 +30885,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27009,6 +31029,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27141,6 +31173,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27273,6 +31317,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27405,6 +31461,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27537,6 +31605,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27669,6 +31749,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27801,6 +31893,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -27933,6 +32037,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28065,6 +32181,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28197,6 +32325,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28329,6 +32469,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28461,6 +32613,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28593,6 +32757,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28725,6 +32901,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28857,6 +33045,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -28989,6 +33189,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29121,6 +33333,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29253,6 +33477,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29385,6 +33621,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29517,6 +33765,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29649,6 +33909,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29781,6 +34053,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -29913,6 +34197,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30045,6 +34341,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30177,6 +34485,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30309,6 +34629,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30441,6 +34773,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30573,6 +34917,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30705,6 +35061,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30837,6 +35205,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -30969,6 +35349,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31101,6 +35493,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31233,6 +35637,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31365,6 +35781,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31497,6 +35925,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31629,6 +36069,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31761,6 +36213,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -31893,6 +36357,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32025,6 +36501,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32157,6 +36645,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32289,6 +36789,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32421,6 +36933,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32553,6 +37077,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32685,6 +37221,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32817,6 +37365,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -32949,6 +37509,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33081,6 +37653,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33213,6 +37797,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33345,6 +37941,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33477,6 +38085,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33609,6 +38229,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33741,6 +38373,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -33873,6 +38517,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34005,6 +38661,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34137,6 +38805,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34269,6 +38949,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34401,6 +39093,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34533,6 +39237,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34665,6 +39381,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34797,6 +39525,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -34929,6 +39669,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35061,6 +39813,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35193,6 +39957,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35325,6 +40101,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35457,6 +40245,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35589,6 +40389,18 @@
     "source": null,
     "checked": null
    }
+  },
+  "location": {
+   "value": null,
+   "source": null,
+   "checked": "2026-11-20",
+   "note": "住所を町名までにしているため地図を出しません"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "住所を町名までにしているため地図を出しません"
   }
  },
  {
@@ -35717,6 +40529,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.752807,
+    "lng": 139.806046,
+    "level": "block",
+    "matched": "千住旭町42番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-664b2162.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -35845,6 +40678,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.782363,
+    "lng": 139.75703,
+    "level": "block",
+    "matched": "鹿浜四丁目13番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-fc3d00c6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -35973,6 +40827,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77128,
+    "lng": 139.796033,
+    "level": "block",
+    "matched": "梅田八丁目11番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-9af71079.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36101,6 +40976,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.766983,
+    "lng": 139.773184,
+    "level": "block",
+    "matched": "扇一丁目53番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-3203f4c1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36229,6 +41125,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.768488,
+    "lng": 139.827906,
+    "level": "block",
+    "matched": "綾瀬五丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-d19cd76c.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36357,6 +41274,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769487,
+    "lng": 139.745622,
+    "level": "block",
+    "matched": "新田三丁目32番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-f8f5ed92.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36492,6 +41430,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.788458,
+    "lng": 139.785889,
+    "level": "block",
+    "matched": "伊興一丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-d77d8030.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36620,6 +41579,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.7859,
+    "lng": 139.782465,
+    "level": "block",
+    "matched": "西新井二丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-b72d5e97.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36748,6 +41728,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.77103,
+    "lng": 139.797125,
+    "level": "block",
+    "matched": "梅田八丁目1番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-9651975b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -36883,6 +41884,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.80545,
+    "lng": 139.764941,
+    "level": "block",
+    "matched": "入谷一丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-c4a104de.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37011,6 +42033,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.772521,
+    "lng": 139.836381,
+    "level": "block",
+    "matched": "東和三丁目17番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-b105cf81.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37139,6 +42182,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.778513,
+    "lng": 139.784525,
+    "level": "block",
+    "matched": "栗原三丁目9番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-4c4ce02b.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37274,6 +42338,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.775521,
+    "lng": 139.805786,
+    "level": "block",
+    "matched": "中央本町四丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-c770e813.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37402,6 +42487,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.797038,
+    "lng": 139.788592,
+    "level": "block",
+    "matched": "伊興本町一丁目4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-4f9c9edc.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37530,6 +42636,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.744031,
+    "lng": 139.814063,
+    "level": "block",
+    "matched": "千住曙町16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-a56097f7.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37658,6 +42785,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.76221,
+    "lng": 139.830034,
+    "level": "block",
+    "matched": "綾瀬二丁目30番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-a884f480.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37793,6 +42941,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.761929,
+    "lng": 139.827938,
+    "level": "block",
+    "matched": "綾瀬二丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-c838e553.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -37928,6 +43097,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.746918,
+    "lng": 139.799747,
+    "level": "block",
+    "matched": "千住一丁目3番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-ddd425c2.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38063,6 +43253,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.746358,
+    "lng": 139.80056,
+    "level": "block",
+    "matched": "千住仲町18番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-fd6e0ea9.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38198,6 +43409,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.779831,
+    "lng": 139.833424,
+    "level": "block",
+    "matched": "谷中四丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-3dc83654.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38326,6 +43558,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.78138,
+    "lng": 139.773315,
+    "level": "block",
+    "matched": "西新井六丁目29番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-8ec875d6.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38454,6 +43707,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.795146,
+    "lng": 139.803181,
+    "level": "block",
+    "matched": "保木間三丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-fef21558.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38582,6 +43856,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.769731,
+    "lng": 139.798465,
+    "level": "block",
+    "matched": "梅田七丁目16番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-98508109.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38710,6 +44005,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.771884,
+    "lng": 139.792985,
+    "level": "block",
+    "matched": "梅田五丁目28番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-7faded0a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38845,6 +44161,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.794632,
+    "lng": 139.794899,
+    "level": "block",
+    "matched": "竹の塚五丁目7番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-c3311ff1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -38980,6 +44317,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.787476,
+    "lng": 139.837587,
+    "level": "block",
+    "matched": "佐野二丁目25番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-8cea7d4d.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39108,6 +44466,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.791784,
+    "lng": 139.790757,
+    "level": "block",
+    "matched": "竹の塚一丁目26番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-c499eccc.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39236,6 +44615,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.786013,
+    "lng": 139.8214,
+    "level": "block",
+    "matched": "六町四丁目2番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-780b9c2a.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39364,6 +44764,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.748471,
+    "lng": 139.806997,
+    "level": "block",
+    "matched": "千住旭町4番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-572cb1a1.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39499,6 +44920,18 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": null,
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "町字まで（不採用）"
+  },
+  "image": {
+   "value": null,
+   "source": null,
+   "checked": null,
+   "note": "町字まで（不採用）"
   }
  },
  {
@@ -39634,6 +45067,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.777985,
+    "lng": 139.786544,
+    "level": "block",
+    "matched": "西新井栄町二丁目27番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-86c89a11.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39769,6 +45223,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.765951,
+    "lng": 139.812272,
+    "level": "block",
+    "matched": "西綾瀬二丁目21番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-bc4fc265.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  },
  {
@@ -39897,6 +45372,27 @@
     "source": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
     "checked": "2026-11-20"
    }
+  },
+  "location": {
+   "value": {
+    "lat": 35.774966,
+    "lng": 139.764417,
+    "level": "block",
+    "matched": "江北四丁目19番"
+   },
+   "source": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "checked": "2026-11-20",
+   "note": "街区代表点です"
+  },
+  "image": {
+   "value": {
+    "kind": "map",
+    "path": "/img/map/adachi-ninsho-270f4380.webp",
+    "width": 480,
+    "height": 240
+   },
+   "source": "https://maps.gsi.go.jp/development/ichiran.html",
+   "checked": "2026-11-20"
   }
  }
 ]

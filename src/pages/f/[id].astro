@@ -1,5 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
+import FacilityImage from "../../components/FacilityImage.astro";
+import MapCredits from "../../components/MapCredits.astro";
 import Icon from "../../components/Icon.astro";
 import AddButton from "../../components/AddButton.astro";
 import { facilities } from "../../lib/data";
@@ -24,6 +26,11 @@ const na = '<span class="na">—</span> <span class="cap">未確認</span>';
   <h1>{f.name}</h1>
   <p class="title-meta sub">{areaName(f.ward)}・{typeLabel(f.type)}・{f.management}</p>
   {f.listedName !== f.name && <p class="cap">区の一覧での表記：{f.listedName}</p>}
+
+  <div class="detail-image">
+    <FacilityImage facility={f} />
+    {f.image.value ? <MapCredits /> : <p class="cap map-credits">地図なし：{(f.location.note ?? "位置を確認できません").replace("ため地図を出しません", "ため").replace("（不採用）", "").replace("住所を解析できないか街区が一致しないため不採用", "住所または街区を確認できないため")}</p>}
+  </div>
 
   <div class="acts">
     <AddButton id={f.id} name={f.name} class="primary" />

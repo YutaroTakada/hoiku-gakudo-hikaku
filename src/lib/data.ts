@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { facilitySchema, type Facility } from "./schema";
 
 /** data/facilities/*.json を読み、スキーマで検証する。1件でも不正ならビルドを止める。 */
@@ -19,6 +21,7 @@ function load(): Facility[] {
         errors.push(`${path} ${name}: ${r.error.issues.map((x) => `${x.path.join(".")} ${x.message}`).join("; ")}`);
         return;
       }
+      if (r.data.image.value && !existsSync(join(process.cwd(), "public", r.data.image.value.path))) errors.push(`${path}: 画像がありません ${r.data.image.value.path}`);
       if (ids.has(r.data.id)) errors.push(`${path}: id 重複 ${r.data.id}`);
       ids.add(r.data.id);
       out.push(r.data);
