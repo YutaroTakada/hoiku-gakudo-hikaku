@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""位置参照情報の街区 CSV ZIP をローカル照合する試作。施設データは変更しない。"""
+"""位置参照情報と施設住所を照合し、地図画像を生成する。"""
 import argparse
 import collections
 import csv
@@ -59,7 +59,6 @@ def load_index(path):
 
 def match(facility, blocks, towns):
     address = facility['address']['value']
-    if facility['type'] == 'katei': return LABELS[4], None
     if not address: return LABELS[5], None
     ward = WARD_NAMES[facility['ward']]
     s = normalize(address)
@@ -93,6 +92,7 @@ ZIP_URL = "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip"
 GSI = "https://maps.gsi.go.jp/development/ichiran.html"
 UA = "hoiku-gakudo-hikaku (https://github.com/YutaroTakada/hoiku-gakudo-hikaku)"
 CACHE = Path(os.environ.get("RUNNER_TEMP", tempfile.gettempdir())) / "hoiku-gakudo-hikaku-cache"
+TYPES = {t["id"]: t for t in json.loads((ROOT / "src/config/catalog.json").read_text())["types"]}
 MAPS = ROOT / "public/img/map"
 MAP_ZOOM = 16
 MAP_WIDTH, MAP_HEIGHT = 480, 240
@@ -145,14 +145,18 @@ def enrich(results, old, force=False):
     for records in results.values():
         for f in records:
             previous = old.get(f["id"])
+            map_enabled = TYPES[f["type"]].get("map", True)
+            map_note = TYPES[f["type"]].get("mapNote", "この種別は地図を表示しません")
             if (not force and previous and previous["address"]["value"] == f["address"]["value"]
-                and previous["type"] == f["type"] and "location" in previous and "image" in previous):
+                and previous["type"] == f["type"] and "location" in previous and "image" in previous
+                and ((map_enabled and (previous["location"]["source"] is not None or previous["location"]["value"] is not None)) or (not map_enabled and previous["location"]["value"] is None and previous["image"]["value"] is None
+                                     and previous["location"].get("note") == map_note))):
                 f["location"], f["image"] = previous["location"], previous["image"]
                 if f["image"]["value"] and not (MAPS / (f["id"] + ".webp")).is_file():
                     raise FileNotFoundError(f"既存の画像がありません: {f['id']}")
                 continue
-            if f["type"] == "katei":
-                label, point = "住所を町名までにしているため地図を出しません", None
+            if not map_enabled:
+                label, point = map_note, None
             elif not f["address"]["value"]:
                 label, point = "住所なし", None
             else:
@@ -167,7 +171,7 @@ def enrich(results, old, force=False):
                 f["image"] = field({"kind": "map", "path": f"/img/map/{f['id']}.webp", "width": MAP_WIDTH, "height": MAP_HEIGHT}, GSI, today)
                 pending[f["id"]] = map_image(lat, lng)
             else:
-                f["location"] = field(None, None if f["type"] == "katei" else ZIP_URL, today, label)
+                f["location"] = field(None, None if not map_enabled else ZIP_URL, today, label)
                 f["image"] = field(None, note=label)
     MAPS.mkdir(parents=True, exist_ok=True)
     for id, data in pending.items():
