@@ -3,7 +3,7 @@
 python3 scripts/check_links.py external            # データ内の出どころ・公式リンク
 python3 scripts/check_links.py internal <base_url>  # 公開サイト内のリンク（全ページを辿る）
 """
-import glob, json, re, shutil, subprocess, sys, urllib.request, urllib.error
+import glob, json, re, shutil, subprocess, sys, time, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urldefrag
@@ -93,6 +93,19 @@ class Links(HTMLParser):
                 self.links.append(a[k])
 
 
+def fetch_page(u, tries=3):
+    """公開サイトのページを取る。GitHub Pages が一時的に 5xx を返すことがあるので、少し待って取り直す。"""
+    for n in range(tries):
+        try:
+            req = urllib.request.Request(u, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.headers.get("Content-Type", ""), r.read().decode("utf-8", "ignore")
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or n == tries - 1:
+                return e.code
+        time.sleep(5 * (n + 1))
+
+
 def internal(base):
     base = base.rstrip("/") + "/"
     seen, todo, bad, pages = set(), [base], [], 0
@@ -101,14 +114,11 @@ def internal(base):
         if u in seen:
             continue
         seen.add(u)
-        try:
-            req = urllib.request.Request(u, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                ctype = r.headers.get("Content-Type", "")
-                body = r.read().decode("utf-8", "ignore")
-        except urllib.error.HTTPError as e:
-            bad.append((e.code, u))
+        got = fetch_page(u)
+        if isinstance(got, int):
+            bad.append((got, u))
             continue
+        ctype, body = got
         pages += 1
         if "html" not in ctype:
             continue
