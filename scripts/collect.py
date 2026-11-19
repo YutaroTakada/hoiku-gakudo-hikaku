@@ -45,7 +45,7 @@ def drop_dead_links(results):
         if st in (404, 410) or dns:
             why = "ドメインが見つからない" if dns else str(st)
             for r, k in targets[u]:
-                r["links"][k] = U(f"区の一覧にあるURLが開けない（{why}）ため外しました（{TODAY}）")
+                r["links"][k] = U(f"区の一覧にあるURLが開けない（{why}）ため外しました")
             print("リンク切れのため外した:", st, u)
 
 

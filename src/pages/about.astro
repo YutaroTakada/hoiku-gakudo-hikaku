@@ -21,7 +21,7 @@ const list = sources.sources.map((s) => ({ ...s, who: label(s.url) })).sort((a, 
     <h2>情報の集め方</h2>
     <ul>
       <li>区が公表している施設一覧・空き状況（入園可能人数・募集人数）・学童保育室一覧・オープンデータ（CSV・Excel）・案内PDFから、プログラムで読み取っています。読み取りに使ったプログラムは<a href="https://github.com/YutaroTakada/hoiku-gakudo-hikaku/tree/main/scripts">公開しています</a>。</li>
-      <li>週に1回、同じプログラムで公式ページを読み直し、変わった値を更新します。</li>
+      <li>週に1回、同じプログラムで公式ページを読み直します。値が変わっていたら、運営者が変更点と出どころを確かめてからサイトに反映します。</li>
       <li>施設や区役所へのメール・電話での問い合わせはしていません。</li>
       <li>最終取得：{jpDate(sources.collectedAt)}。掲載施設 {facilities.length}件。</li>
     </ul>

@@ -3,18 +3,39 @@
 python3 scripts/check_links.py external            # データ内の出どころ・公式リンク
 python3 scripts/check_links.py internal <base_url>  # 公開サイト内のリンク（全ページを辿る）
 """
-import glob, json, re, sys, urllib.request, urllib.error
+import glob, json, re, shutil, subprocess, sys, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urldefrag
 
-UA = "Mozilla/5.0 (compatible; hoiku-gakudo-hikaku-linkcheck/1.0)"
+# ブラウザ相当の User-Agent。ボット向けの UA だと 403 を返すサイトがあるため。
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+HEADERS = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,*/*;q=0.8", "Accept-Language": "ja,en;q=0.8"}
+
+
+def curl_status(url):
+    """Python で接続できなかったとき（証明書の中間CA不足・古い暗号設定など）に curl で確かめ直す。
+    ここでは中身を使わず、ページがあるかどうかだけを見る（そのため証明書の検証は省く）。
+    ブラウザは足りない中間証明書を自分で取りに行くので、Python では失敗しても普通に開けるサイトがある。"""
+    try:
+        out = subprocess.run(
+            ["curl", "-sS", "-L", "-k", "-o", "/dev/null", "--max-time", "40", "--ciphers", "DEFAULT@SECLEVEL=0",
+             "-A", UA, "-H", f"Accept-Language: {HEADERS['Accept-Language']}", "-w", "%{http_code}", url],
+            capture_output=True, text=True, timeout=60,
+        )
+    except Exception as e:  # noqa: BLE001
+        return f"ERR curl: {e}"[:100]
+    code = out.stdout.strip()
+    if code.isdigit() and code != "000":
+        return int(code)
+    return f"ERR curl: {out.stderr.strip()[:80]}"
 
 
 def status(url):
+    first = None
     for method in ("HEAD", "GET"):
         try:
-            req = urllib.request.Request(url, method=method, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, method=method, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=30) as r:
                 return r.status
         except urllib.error.HTTPError as e:
@@ -24,8 +45,12 @@ def status(url):
         except Exception as e:  # noqa: BLE001
             if method == "HEAD":
                 continue
-            return f"ERR {type(e).__name__}: {str(getattr(e, 'reason', e))[:80]}"
-    return "ERR"
+            first = f"ERR {type(e).__name__}: {str(getattr(e, 'reason', e))[:80]}"
+    if first and "Name or service not known" not in first and shutil.which("curl"):
+        st = curl_status(url)
+        if isinstance(st, int):
+            return st
+    return first or "ERR"
 
 
 def walk(o, acc):

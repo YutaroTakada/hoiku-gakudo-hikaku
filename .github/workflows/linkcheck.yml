@@ -3,8 +3,11 @@ name: リンク切れチェック
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["収集・ビルド・公開"]
+    workflows: ["ビルド・公開"]
     types: [completed]
+
+permissions:
+  contents: read
 
 jobs:
   check:
