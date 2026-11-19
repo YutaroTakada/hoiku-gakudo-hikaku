@@ -342,9 +342,10 @@
   },
   "links": {
    "official": {
-    "value": "https://asakusaaozora.codmon.net/",
-    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.html",
-    "checked": "2026-11-20"
+    "value": null,
+    "source": null,
+    "checked": null,
+    "note": "区の一覧にあるURLが開けない（ドメインが見つからない）ため外しました（2026-11-20）"
    },
    "intro": {
     "value": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.files/31_asakusaaozora.pdf",
@@ -6661,9 +6662,10 @@
   },
   "links": {
    "official": {
-    "value": "http://haguhagu-kids.com/",
-    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.html",
-    "checked": "2026-11-20"
+    "value": null,
+    "source": null,
+    "checked": null,
+    "note": "区の一覧にあるURLが開けない（ドメインが見つからない）ため外しました（2026-11-20）"
    },
    "intro": {
     "value": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.files/18_haguhigashi.pdf",
@@ -7324,9 +7326,10 @@
   },
   "links": {
    "official": {
-    "value": "http://haguhagu-kids.com/",
-    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.html",
-    "checked": "2026-11-20"
+    "value": null,
+    "source": null,
+    "checked": null,
+    "note": "区の一覧にあるURLが開けない（ドメインが見つからない）ため外しました（2026-11-20）"
    },
    "intro": {
     "value": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.files/43_haguasa.pdf",
@@ -7984,9 +7987,10 @@
   },
   "links": {
    "official": {
-    "value": "https://unimat-mk.co.jp/",
-    "source": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.html",
-    "checked": "2026-11-20"
+    "value": null,
+    "source": null,
+    "checked": null,
+    "note": "区の一覧にあるURLが開けない（ドメインが見つからない）ため外しました（2026-11-20）"
    },
    "intro": {
     "value": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/kyokahoikuen/kyokahoikuen.files/50_sinsia.pdf",
@@ -10057,7 +10061,7 @@
     "value": null,
     "source": null,
     "checked": null,
-    "note": "区の一覧にあるURLが404のため外しました（2026-11-20）"
+    "note": "区の一覧にあるURLが開けない（404）ため外しました（2026-11-20）"
    },
    "intro": {
     "value": null,
