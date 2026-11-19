@@ -1,0 +1,6 @@
+---
+/** 比較に入れる・外すボタン。状態は compare-store が合わせる（aria-pressed）。アイコンは CSS。 */
+interface Props { id: string; name: string; class?: string }
+const { id, name, class: cls } = Astro.props;
+---
+<button type="button" class={cls ? `btn add ${cls}` : "btn add"} data-add={id} aria-pressed="false" aria-label={`${name}を比較`}><span data-t>比較</span></button>

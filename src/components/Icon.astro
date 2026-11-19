@@ -1,0 +1,16 @@
+---
+/** 線のアイコン（1種類の線の太さでそろえる）。飾りなので読み上げない。 */
+interface Props { name: "plus" | "check" | "filter" | "search" | "close" | "map" | "back" | "info"; size?: number }
+const { name, size = 20 } = Astro.props;
+const P: Record<Props["name"], string> = {
+  plus: "M12 5v14M5 12h14",
+  check: "M5 12.5l4.5 4.5L19 7.5",
+  filter: "M4 7h10M18 7h2M4 17h4M12 17h8M14 4.5v5M8 14.5v5",
+  search: "M10.5 17a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13zM15.5 15.5L20 20",
+  close: "M6 6l12 12M18 6L6 18",
+  map: "M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z",
+  back: "M14.5 6l-6 6 6 6",
+  info: "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 11v5M12 7.5v.5",
+};
+---
+<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={P[name]} /></svg>

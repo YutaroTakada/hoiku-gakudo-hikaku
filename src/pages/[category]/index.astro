@@ -1,0 +1,12 @@
+---
+import Base from "../../layouts/Base.astro";
+import FacilityList from "../../components/FacilityList.astro";
+import { CATEGORIES } from "../../config/site";
+
+/** カテゴリごとの一覧（/hoiku/ /gakudo/ …）。カテゴリは src/config/catalog.json から作る。 */
+export function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { category: c.id }, props: { cat: c.id, label: c.label } }));
+}
+const { cat, label } = Astro.props;
+---
+<Base title={label} current={cat}><FacilityList category={cat} /></Base>
