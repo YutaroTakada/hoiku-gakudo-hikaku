@@ -1,0 +1,88 @@
+name: 週次チェック（変化があればPR）
+
+# 公式ページを読み直し、確認日以外に変化があるときだけ別ブランチにコミットしてPRを出す。
+# main には直接 push しない。公開サイトへの反映は、人がPRをマージしたときだけ。
+on:
+  schedule:
+    # 毎週月曜 6:00（日本時間）
+    - cron: "0 21 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write       # 更新用ブランチを push するため
+  pull-requests: write  # PR を作り、長い差分をコメントで足すため
+
+concurrency:
+  group: weekly-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: いまの main のデータを控える
+        run: cp -r data/facilities "$RUNNER_TEMP/before"
+
+      - name: 公式ページから施設データを集め直す
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          python3 -m pip install -q -r scripts/requirements.txt
+          python3 scripts/collect.py
+
+      - name: 確認日以外の変化を調べる
+        id: diff
+        run: |
+          python3 scripts/diff_data.py "$RUNNER_TEMP/before" data/facilities "$RUNNER_TEMP/pr/body.md" >> "$GITHUB_OUTPUT"
+          cat "$RUNNER_TEMP"/pr/body.md* >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 変化なし
+        if: steps.diff.outputs.changed != 'true'
+        run: echo "確認日以外の変化はありません。コミットもPRも作りません。" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/setup-node@v4
+        if: steps.diff.outputs.changed == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: ビルドできるか確認（スキーマ検証を含む）
+        if: steps.diff.outputs.changed == 'true'
+        run: npm ci && npm run build
+
+      - name: 更新用ブランチにコミットしてPRを出す
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          day=$(date +%F)
+          branch="data-update/${day}-${GITHUB_RUN_NUMBER}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data
+          git commit -m "データ更新（週次チェック ${day}）"
+          git push origin "$branch"
+
+          body="$RUNNER_TEMP/pr/body.md"
+          older=$(gh pr list --base main --state open --search "データ更新（週次チェック in:title" --json number --jq '[.[] | "#\(.number)"] | join(" ")')
+          if [ -n "$older" ]; then
+            printf '\n\nまだマージされていない前回までのデータ更新PR: %s\nこのPRは main との差分を全部含んでいるので、こちらだけマージすれば足ります（前回分は閉じてかまいません）。\n' "$older" >> "$body"
+          fi
+          if ! url=$(gh pr create --base main --head "$branch" --title "データ更新（週次チェック ${day}）" --body-file "$body"); then
+            {
+              echo
+              echo "## PRを作れませんでした"
+              echo "ブランチ \`$branch\` は push 済みです。https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch} から手動でPRを作れます。"
+              echo "リポジトリ設定の Settings → Actions → General → Workflow permissions で「Allow GitHub Actions to create and approve pull requests」が有効か確認してください。"
+            } | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo "PR: $url" | tee -a "$GITHUB_STEP_SUMMARY"
+          for part in "$body".*; do
+            if [ -e "$part" ]; then gh pr comment "$url" --body-file "$part"; fi
+          done

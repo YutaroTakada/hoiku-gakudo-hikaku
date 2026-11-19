@@ -3,8 +3,11 @@ name: リンク切れチェック
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["収集・ビルド・公開"]
+    workflows: ["ビルド・公開"]
     types: [completed]
+
+permissions:
+  contents: read
 
 jobs:
   check:
@@ -15,4 +18,5 @@ jobs:
       - name: 公開サイト内のリンク
         run: python3 scripts/check_links.py internal https://yutarotakada.github.io/hoiku-gakudo-hikaku/
       - name: データ内の出どころ・公式リンク
+        if: success() || failure()
         run: python3 scripts/check_links.py external
