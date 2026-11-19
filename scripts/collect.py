@@ -41,9 +41,11 @@ def drop_dead_links(results):
     with ThreadPoolExecutor(8) as ex:
         res = dict(zip(targets, ex.map(status, targets)))
     for u, st in res.items():
-        if st in (404, 410):
+        dns = isinstance(st, str) and "Name or service not known" in st
+        if st in (404, 410) or dns:
+            why = "ドメインが見つからない" if dns else str(st)
             for r, k in targets[u]:
-                r["links"][k] = U(f"区の一覧にあるURLが{st}のため外しました（{TODAY}）")
+                r["links"][k] = U(f"区の一覧にあるURLが開けない（{why}）ため外しました（{TODAY}）")
             print("リンク切れのため外した:", st, u)
 
 
