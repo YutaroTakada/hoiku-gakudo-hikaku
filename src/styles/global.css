@@ -158,11 +158,14 @@ body.has-bar { padding-bottom: 76px; }
 .search .input { padding-left: var(--spacing-10); }
 .input:focus-visible, .select:focus-visible { outline: none; border-color: var(--color-accent); box-shadow: inset 0 0 0 1px var(--color-accent); }
 .select {
-  width: auto; flex: none; padding-right: var(--spacing-10); font-size: var(--text-support); cursor: pointer;
+  width: auto; flex: none; padding-right: var(--spacing-8); font-size: var(--text-support); cursor: pointer;
   -webkit-appearance: none; appearance: none; background: var(--color-background-surface) var(--i-chevron) no-repeat right var(--spacing-3) center / 16px;
 }
 .toolbar { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; gap: var(--spacing-2); padding: var(--spacing-2) 0; background: var(--color-background-body); }
-.toolbar .total { margin-right: auto; font-size: var(--text-support); }
+.toolbar .total { margin-right: auto; white-space: nowrap; font-size: var(--text-support); }
+.toolbar .open-filters { white-space: nowrap; padding-inline: var(--spacing-3); }
+/* 375px 前後では、件数・絞り込み・並べ替えを1行に収めるため絞り込みのアイコンを省く */
+@media (max-width: 399px) { .toolbar .open-filters svg { display: none; } }
 .toolbar .total b { font-size: var(--text-body); }
 .legend { margin: 0 0 var(--spacing-2); }
 
