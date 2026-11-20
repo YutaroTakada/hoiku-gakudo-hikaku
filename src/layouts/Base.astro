@@ -1,13 +1,15 @@
 ---
 import "../styles/global.css";
 import { href } from "../lib/format";
-import { AREA_LIST, CATEGORIES, SITE } from "../config/site";
+import { CATEGORIES, SITE } from "../config/site";
+import { activeAreas } from "../lib/regions";
 import sources from "../../data/sources.json";
 
-interface Props { title?: string; description?: string; current?: string }
-const { title, description = `${AREA_LIST}の保育園・学童を、区の公式情報で比べるサイト。`, current } = Astro.props;
-const fullTitle = title ? `${title}｜${SITE.name}` : `${SITE.name}（${AREA_LIST}）`;
-const nav = [...CATEGORIES.map((c) => ({ key: c.id, label: c.label, path: `/${c.id}/` })), { key: "compare", label: "比較", path: "/compare/" }];
+interface Props { title?: string; description?: string; current?: string; area?: string; canonical?: string; refresh?: string; /** ページ内にカテゴリのタブがあるときはナビに重ねて出さない */ localTabs?: boolean }
+const { localTabs = false, title, description = `${activeAreas.map((a) => a.name).join("・")}の保育園・学童を、自治体の公式情報で比べるサイト。`, current, area, canonical, refresh } = Astro.props;
+const fullTitle = title ? `${title}｜${SITE.name}` : `${SITE.name}（${activeAreas.map((a) => a.name).join("・")}）`;
+const selectedArea = activeAreas.find((a) => a.id === area);
+const nav = [...CATEGORIES.filter((c) => !localTabs && selectedArea?.categories.some((x) => x.id === c.id)).map((c) => ({ key: c.id, label: c.label, path: `/a/${selectedArea!.id}/${c.id}/` })), { key: "compare", label: "比較", path: "/compare/" }];
 const [y, m, d] = sources.collectedAt.split("-").map(Number);
 ---
 <!doctype html>
@@ -17,6 +19,8 @@ const [y, m, d] = sources.collectedAt.split("-").map(Number);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(canonical ?? Astro.url.pathname, Astro.site)} />
+    {refresh && <meta http-equiv="refresh" content={`2;url=${refresh}`} />}
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
   </head>
@@ -40,7 +44,7 @@ const [y, m, d] = sources.collectedAt.split("-").map(Number);
     </main>
     <footer class="ft">
       <div class="wrap cap">
-        <p>区の公式情報から作成（最終取得 {y}年{m}月{d}日）。申込の前に区と施設に確認してください。</p>
+        <p>自治体の公式情報から作成（最終取得 {y}年{m}月{d}日）。申込の前に自治体と施設に確認してください。</p>
         <p><a href={href("/about/")}>集め方と方針</a> ・ <a href={SITE.repo}>ソースとデータ</a></p>
       </div>
     </footer>

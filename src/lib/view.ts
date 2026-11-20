@@ -66,7 +66,7 @@ export function checklist(f: Facility): string[] {
     "災害時の避難先と引き渡し",
   ];
   if (f.type === "shokibo" || f.type === "katei" || f.type === "jigyosho") base.push("3歳からの転園先（連携施設）");
-  if (f.type === "ninsho") base.push("月額保育料と、区の助成後の実際の負担額", "契約と退所の手続き");
+  if (f.type === "ninsho") base.push("月額保育料と、自治体の助成後の実際の負担額", "契約と退所の手続き");
   if (f.type === "kodomoen") base.push("入園料・制服などの初期費用", "土曜日の開所");
   return base;
 }

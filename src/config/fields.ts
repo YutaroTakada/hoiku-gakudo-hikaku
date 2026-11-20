@@ -82,21 +82,21 @@ export const ROWS: RowDef[] = [
   { group: H, label: "延長の終わり", get: (f) => f.hours.extensionEnd },
   { group: H, label: "土曜", get: (f) => f.hours.saturday },
   { group: H, label: "長期休み", categories: ["gakudo"], get: (f) => f.hours.vacation ?? NONE },
-  { group: P, label: "保育料", categories: ["hoiku"], get: (f) => f.fees.basic ?? NONE },
-  { group: P, label: "区の保育料表", categories: ["hoiku"], get: (f) => f.fees.table ?? NONE, fmt: () => "区のページ", link: "url" },
+  { group: P, label: "保育料", get: (f) => f.fees.basic ?? NONE, when: (f) => f.category === "hoiku" || f.fees.basic?.value != null },
+  { group: P, label: "自治体の保育料表", categories: ["hoiku"], get: (f) => f.fees.table ?? NONE, fmt: () => "自治体のページ", link: "url" },
   { group: P, label: "延長保育料", categories: ["hoiku"], get: (f) => f.fees.extensionFee ?? NONE },
   { group: P, label: "施設独自の費用", categories: ["hoiku"], get: (f) => f.fees.own ?? NONE },
   { group: P, label: "月額", categories: ["gakudo"], get: (f) => f.fees.monthly ?? NONE, fmt: (v) => yen(v) },
   { group: P, label: "おやつ代", categories: ["gakudo"], get: (f) => f.fees.snack ?? NONE, fmt: (v) => `月額${yen(v)}` },
   { group: P, label: "延長料金", categories: ["gakudo"], get: (f) => f.fees.extension ?? NONE },
   { group: "送迎", label: { hoiku: "送迎", gakudo: "お迎え・送り" }, get: (f) => f.pickup },
-  { group: V, label: "区の公表値", get: (f) => f.vacancy, fmt: (_, f) => vacancyText(f) },
+  { group: V, label: "自治体の公表値", get: (f) => f.vacancy, fmt: (_, f) => vacancyText(f) },
   { group: V, label: "年齢別", get: (f) => f.vacancy, fmt: (_, f) => vacancyByAge(f), when: (f) => !!f.vacancy.value?.byAge },
   { group: V, label: "発表", get: (f) => f.vacancy, fmt: (_, f) => vacancyAsOf(f) },
   { group: J, label: "申込方法", get: (f) => f.application.method },
   { group: J, label: "締切", get: (f) => f.application.deadline },
   { group: K, label: "公式ページ", get: (f) => f.links.official, fmt: () => "開く", link: "url" },
-  { group: K, label: "区の施設紹介", get: (f) => f.links.intro, fmt: () => "開く", link: "url" },
+  { group: K, label: "自治体の施設紹介", get: (f) => f.links.intro, fmt: () => "開く", link: "url" },
 ];
 
 /* ───────── 絞り込み ───────── */
@@ -115,7 +115,7 @@ export type FilterDef =
 export const FILTERS: FilterDef[] = [
   { key: "area", kind: "one", label: "エリア", attr: (f) => f.ward, options: () => AREAS.map((a) => ({ value: a.id, label: a.name })) },
   { key: "age", kind: "age", label: { hoiku: "年齢", gakudo: "学年" } },
-  // byAge：年齢を選んでいるときは、その年齢の空き（区の年齢別の公表値）で見る
+  // byAge：年齢を選んでいるときは、その年齢の空き（自治体の年齢別の公表値）で見る
   { key: "vac", kind: "flag", label: "空きあり", test: (f) => (vacancyTotal(f) ?? 0) > 0, byAge: true },
   { key: "ext", kind: "flag", label: "延長あり", test: hasExtension },
   { key: "pickup", kind: "flag", label: "送迎あり", test: pickupYes },

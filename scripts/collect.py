@@ -1,4 +1,4 @@
-"""src/config/areas.json の各エリア（区）の公式情報から施設データを集め、data/facilities/*.json に書き出す。
+"""src/config/areas.json の各エリア（市区町村）の公式情報から施設データを集め、data/facilities/*.json に書き出す。
 
 使い方: python3 scripts/collect.py
 - 推測で値を埋めない。公式ページで確認できない項目は value=null（サイトでは「未確認」）。
@@ -16,7 +16,9 @@ from concurrent.futures import ThreadPoolExecutor  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "facilities")
 CONFIG = os.path.join(ROOT, "src", "config")
-AREAS = [a["id"] for a in json.load(open(os.path.join(CONFIG, "areas.json")))["areas"]]
+_AREAS = json.load(open(os.path.join(CONFIG, "areas.json")))["areas"]
+AREAS = [a["id"] for a in _AREAS]
+AREA_UNIT = {a["id"]: a["name"][-1] for a in _AREAS}  # 「区」「市」など（メモの文言用）
 _CATALOG = json.load(open(os.path.join(CONFIG, "catalog.json")))
 CATEGORIES = [c["id"] for c in _CATALOG["categories"]]
 TYPE_ORDER = [t["id"] for t in _CATALOG["types"]]
@@ -49,7 +51,8 @@ def drop_dead_links(results):
         if st in (404, 410) or dns:
             why = "ドメインが見つからない" if dns else str(st)
             for r, k in targets[u]:
-                r["links"][k] = U(f"区の一覧にあるURLが開けない（{why}）ため外しました")
+                unit = AREA_UNIT.get(r["ward"], "自治体")
+                r["links"][k] = U(f"{unit}の一覧にあるURLが開けない（{why}）ため外しました")
             print("リンク切れのため外した:", st, u)
 
 
@@ -66,7 +69,7 @@ def main():
         recs, seen = [], {}
         for r in fn():
             if r["id"] in seen and seen[r["id"]] == json.dumps(r["address"], ensure_ascii=False):
-                continue  # 区の一覧で同じ施設が2回載っている場合
+                continue  # 自治体の一覧で同じ施設が2回載っている場合
             seen[r["id"]] = json.dumps(r["address"], ensure_ascii=False)
             recs.append(r)
         ids = Counter(r["id"] for r in recs)

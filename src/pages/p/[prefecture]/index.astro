@@ -1,0 +1,18 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { activePrefectures } from "../../../lib/regions";
+import { href } from "../../../lib/format";
+export function getStaticPaths() {
+  return activePrefectures.map((prefecture) => ({ params: { prefecture: prefecture.id }, props: { prefecture } }));
+}
+const { prefecture } = Astro.props;
+---
+<Base title={`${prefecture.name}の市区町村を選ぶ`}>
+  <div class="selection">
+    <a class="back" href={href("/")}>‹ 都道府県を選ぶ</a>
+    <h1>{prefecture.name}の市区町村</h1>
+    <ul class="selection-list panel">
+      {prefecture.areas.map((a) => <li><a href={href(`/a/${a.id}/${a.categories[0].id}/`)}><strong>{a.name}</strong><span class="selection-count sub num">{a.categories.map((c) => `${c.label} ${c.count}件`).join("・")}</span><span class="chevron" aria-hidden="true">›</span></a></li>)}
+    </ul>
+  </div>
+</Base>

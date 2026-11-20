@@ -11,7 +11,8 @@
     { "id": "jigyosho", "label": "事業所内保育", "category": "hoiku", "illustration": "jigyosho" },
     { "id": "katei", "label": "家庭的保育（保育ママ）", "category": "hoiku", "illustration": "katei", "map": false, "mapNote": "住所を町名までにしているため地図を出しません" },
     { "id": "ninsho", "label": "東京都認証保育所", "category": "hoiku", "illustration": "ninsho" },
-    { "id": "gakudo_ku", "label": "区の学童（公設）", "category": "gakudo", "illustration": "gakudo_ku" },
+    { "id": "kateihoikushitsu", "label": "家庭保育室", "category": "hoiku", "illustration": "katei" },
+    { "id": "gakudo_ku", "label": "公設の学童", "category": "gakudo", "illustration": "gakudo_ku" },
     { "id": "gakudo_min", "label": "民設の学童", "category": "gakudo", "illustration": "gakudo_min" },
     { "id": "houkago", "label": "放課後子ども教室", "category": "gakudo", "illustration": "houkago" }
   ],

@@ -18,14 +18,14 @@ const { f } = Astro.props as { f: Facility };
 const c = category(f.category);
 const all = rows(f);
 const groups = [...new Set(all.map((r) => r.group))];
-const listPath = href(`/${f.category}/`);
+const listPath = href(`/a/${f.ward}/${f.category}/`);
 const na = '<span class="na">—</span> <span class="cap">未確認</span>';
 ---
-<Base title={f.name} description={`${f.name}（${areaName(f.ward)}・${typeLabel(f.type)}）の時間・料金・空き。区の公式情報から。`} current={f.category}>
+<Base title={f.name} description={`${f.name}（${areaName(f.ward)}・${typeLabel(f.type)}）の時間・料金・空き。自治体の公式情報から。`} current={f.category} area={f.ward}>
   <a class="back" id="back" href={listPath} data-key={`hgh-list:${listPath}`}><Icon name="back" />{c.label}の一覧</a>
   <h1>{f.name}</h1>
   <p class="title-meta sub">{areaName(f.ward)}・{typeLabel(f.type)}・{f.management}</p>
-  {f.listedName !== f.name && <p class="cap">区の一覧での表記：{f.listedName}</p>}
+  {f.listedName !== f.name && <p class="cap">自治体の一覧での表記：{f.listedName}</p>}
 
   <div class="detail-image">
     <FacilityImage facility={f} />
@@ -86,7 +86,7 @@ const na = '<span class="na">—</span> <span class="cap">未確認</span>';
     <p class="cap" style="margin-top:8px">チェックはこの端末にだけ残ります。</p>
   </section>
 
-  <p class="cap" style="margin-top:32px">空きは区の発表時点の目安です。申込の前に区と施設に確認してください。<a href={href("/about/")}>表示の決まり</a></p>
+  <p class="cap" style="margin-top:32px">空きは自治体の発表時点の目安です。申込の前に自治体と施設に確認してください。<a href={href("/about/")}>表示の決まり</a></p>
 
   <script>
     // 一覧へ戻るリンク：最後に見た一覧の条件つき URL にする

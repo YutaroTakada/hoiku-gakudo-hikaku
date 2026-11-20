@@ -13,11 +13,11 @@ const list = sources.sources
 <Base title="このサイトについて" current="about">
   <div class="prose">
     <h1>このサイトについて</h1>
-    <p>区の公式ページに分かれている保育園・学童の情報を、1か所で比べるためのサイトです。</p>
+    <p>都道府県と市区町村を選び、自治体の公式ページに分かれている保育園・学童の情報を比べるサイトです。</p>
 
     <h2>集め方</h2>
     <ul>
-      <li>区の施設一覧・空き状況・オープンデータ・案内PDFをプログラムで読み取り</li>
+      <li>自治体の施設一覧・空き状況・オープンデータ・案内PDFをプログラムで読み取り</li>
       <li>週1回読み直し、変化は確かめてから反映</li>
       <li>最終取得 {jpDate(sources.collectedAt)}・{facilities.length}施設</li>
     </ul>
@@ -27,7 +27,7 @@ const list = sources.sources
       <li>値ごとに出どころと確認日（施設のページ）</li>
       <li>「—」は未確認。推測で埋めません</li>
       <li>確認日から{STALE_DAYS}日を過ぎた値は「古い可能性あり」</li>
-      <li>空きは区の発表時点の目安</li>
+      <li>空きは自治体の発表時点の目安</li>
       <li>「預かり」は延長を含めた終わりの時刻</li>
       <li>口コミ・評価・ランキング・広告なし</li>
     </ul>
@@ -40,11 +40,11 @@ const list = sources.sources
     <h2>載せている施設</h2>
     <ul>
       {CATEGORIES.map((c) => <li>{c.label}：{TYPES.filter((t) => t.category === c.id).map((t) => t.label).join("、")}</li>)}
-      <li>区の一覧にない認可外・企業主導型などは未掲載</li>
+      <li>自治体の一覧にない認可外・企業主導型などは未掲載</li>
     </ul>
 
     <h2>間違いの連絡</h2>
-    <p><a href={`${SITE.repo}/issues`}>GitHub の Issue</a> へ。区の公式ページで確かめてから直します。</p>
+    <p><a href={`${SITE.repo}/issues`}>GitHub の Issue</a> へ。自治体の公式ページで確かめてから直します。</p>
 
     <h2>出どころ</h2>
     <details>

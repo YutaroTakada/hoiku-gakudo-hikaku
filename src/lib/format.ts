@@ -1,4 +1,4 @@
-import { AREAS, SITE, category } from "../config/site";
+import { AREAS, PREFECTURES, SITE, category } from "../config/site";
 import type { Facility, Field } from "./schema";
 
 export const BUILD_DATE = new Date();
@@ -31,7 +31,7 @@ export const shortAddress = (f: Facility) => f.address.value?.split("（")[0].sp
 
 export function mapUrl(f: Facility): string {
   const a = AREAS.find((x) => x.id === f.ward);
-  const pre = a ? `${a.prefecture}${a.name}` : "";
+  const pre = a ? `${PREFECTURES.find((p) => p.id === a.prefecture)?.name ?? ""}${a.name}` : "";
   const addr = (shortAddress(f) ?? "").replace(/^第.園舎：/, "");
   // 家庭的保育は個人宅のため町名だけで検索する
   const q = f.type === "katei" ? `${pre}${addr}` : `${f.name} ${pre}${addr}`;

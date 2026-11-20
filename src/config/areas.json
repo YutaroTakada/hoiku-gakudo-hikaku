@@ -1,17 +1,42 @@
 {
-  "$comment": "掲載するエリア（区）。区を足すときは、ここに1件足し、scripts/<id>.py（collect_hoiku / collect_gakudo）と data/facilities/<id>-<カテゴリ>.json を用意する。id は施設 id の先頭と URL のクエリ（?area=）に使う。sourceHosts は出どころ一覧での表示名。",
+  "$comment": "掲載する都道府県とエリア（市区町村）。エリアを足すときは areas に1件足し（prefecture は prefectures の id）、scripts/<id>.py（collect_hoiku / collect_gakudo）と data/facilities/<id>-<カテゴリ>.json を用意する。id は施設 id の先頭と URL（/a/<id>/<カテゴリ>/）に使う。prefectures の code は全国地方公共団体コードの都道府県2桁（位置参照情報の取得に使う）。都道府県・エリアは施設データが1件以上あるものだけサイトに出る。sourceHosts は出どころ一覧での表示名。",
+  "prefectures": [
+    {
+      "id": "tokyo",
+      "name": "東京都",
+      "code": "13"
+    },
+    {
+      "id": "saitama",
+      "name": "埼玉県",
+      "code": "11"
+    }
+  ],
   "areas": [
     {
       "id": "adachi",
       "name": "足立区",
-      "prefecture": "東京都",
-      "sourceHosts": { "www.city.adachi.tokyo.jp": "足立区", "www.kousya.jp": "足立区生涯学習振興公社" }
+      "prefecture": "tokyo",
+      "sourceHosts": {
+        "www.city.adachi.tokyo.jp": "足立区",
+        "www.kousya.jp": "足立区生涯学習振興公社"
+      }
     },
     {
       "id": "taito",
       "name": "台東区",
-      "prefecture": "東京都",
-      "sourceHosts": { "www.city.taito.lg.jp": "台東区" }
+      "prefecture": "tokyo",
+      "sourceHosts": {
+        "www.city.taito.lg.jp": "台東区"
+      }
+    },
+    {
+      "id": "niiza",
+      "name": "新座市",
+      "prefecture": "saitama",
+      "sourceHosts": {
+        "www.city.niiza.lg.jp": "新座市"
+      }
     }
   ]
 }
