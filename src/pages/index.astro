@@ -1,36 +1,28 @@
 ---
 import Base from "../layouts/Base.astro";
-import { facilities } from "../lib/data";
+import { activeAreas, activePrefectures } from "../lib/regions";
 import { href } from "../lib/format";
-import { AREAS, CATEGORIES, SITE } from "../config/site";
-
-const n = (cat: string, area?: string) => facilities.filter((f) => f.category === cat && (!area || f.ward === area)).length;
+const recentAreas = activeAreas.map((a) => ({ id: a.id, name: a.name, categories: a.categories.map((c) => ({ id: c.id, url: href(`/a/${a.id}/${c.id}/`) })) }));
 ---
-<Base>
-  <h1>{SITE.name}</h1>
-  <p class="lead">区の公式情報から、時間・料金・空きを並べて比べられます。</p>
-
-  <div class="entries">
-    {CATEGORIES.map((c) => (
-      <section class="entry panel" aria-labelledby={`h-${c.id}`}>
-        <a class="entry-main" href={href(`/${c.id}/`)}>
-          <h2 id={`h-${c.id}`}>{c.label}</h2>
-          <span class="sub num">{n(c.id)}施設</span>
-        </a>
-        {AREAS.length > 1 && (
-          <ul class="areas">
-            {AREAS.filter((a) => n(c.id, a.id) > 0).map((a) => (
-              <li><a class="btn" href={href(`/${c.id}/?area=${a.id}`)}>{a.name}<span class="sub num" style="font-weight:400">{n(c.id, a.id)}</span></a></li>
-            ))}
-          </ul>
-        )}
-      </section>
-    ))}
+<Base title="都道府県を選ぶ">
+  <div class="selection">
+    <h1>都道府県を選ぶ</h1>
+    <ul class="selection-list panel" id="recent-area" hidden><li><a><strong></strong><span class="chevron" aria-hidden="true">›</span></a></li></ul>
+    <script define:vars={{ recentAreas }}>
+      try {
+        const saved = JSON.parse(localStorage.getItem("last-area") || "null");
+        const area = recentAreas.find((a) => a.id === saved?.area);
+        if (area) {
+          const category = area.categories.find((c) => c.id === saved.category) || area.categories[0];
+          const list = document.getElementById("recent-area");
+          list.querySelector("a").href = category.url;
+          list.querySelector("strong").textContent = `前回：${area.name}`;
+          list.hidden = false;
+        }
+      } catch { /* 保存値を読めない場合は表示しない */ }
+    </script>
+    <ul class="selection-list panel">
+      {activePrefectures.map((p) => <li><a href={href(`/p/${p.id}/`)}><strong>{p.name}</strong><span class="selection-count sub num">{p.areas.length}市区町村・{p.count}施設</span><span class="chevron" aria-hidden="true">›</span></a></li>)}
+    </ul>
   </div>
-
-  <ul class="rules sub">
-    <li>値はすべて出どころと確認日つき</li>
-    <li>分からない値は「—」（未確認）。推測で埋めません</li>
-    <li>口コミ・評価・ランキングはありません</li>
-  </ul>
 </Base>

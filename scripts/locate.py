@@ -18,7 +18,11 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-WARD_NAMES = {'adachi': '足立区', 'taito': '台東区'}
+_AREAS = json.loads((ROOT / 'src/config/areas.json').read_text())
+_PREFS = {p['id']: p for p in _AREAS['prefectures']}
+# エリアid → 市区町村名、エリアid → 都道府県（名前と2桁コード）。設定ファイルから作る
+WARD_NAMES = {a['id']: a['name'] for a in _AREAS['areas']}
+AREA_PREF = {a['id']: _PREFS[a['prefecture']] for a in _AREAS['areas']}
 LABELS = ('住居一致', '街区一致', '町字まで（不採用）', '区外・不一致（不採用）', '保育ママ（対象外）', '住所なし')
 
 
@@ -38,7 +42,8 @@ def normalize(s):
     return s.replace('丁目', '-').replace('番地の', '-').replace('番地', '-').replace('番', '-').replace('号', '')
 
 
-def load_index(path):
+def load_index(path, cities=None):
+    cities = set(cities or WARD_NAMES.values())
     blocks, towns = collections.defaultdict(set), collections.defaultdict(set)
     with zipfile.ZipFile(path) as z:
         names = [n for n in z.namelist() if n.endswith('.csv')]
@@ -46,7 +51,7 @@ def load_index(path):
         with io.TextIOWrapper(z.open(names[0]), encoding='cp932', newline='') as f:
             for row in csv.DictReader(f):
                 ward = row['市区町村名']
-                if ward not in WARD_NAMES.values(): continue
+                if ward not in cities: continue
                 town = normalize(row['大字・丁目名'] + row['小字・通称名'])
                 towns[ward].add(town.rstrip('-'))
                 if row['住居表示フラグ'] != '1' or row['代表フラグ'] != '1' or row['更新前履歴フラグ'] != '0': continue
@@ -63,10 +68,17 @@ def match(facility, blocks, towns):
     ward = WARD_NAMES[facility['ward']]
     s = normalize(address)
     # 他区や他県の明示を黙って取り除かない。
-    if re.search(r'(?:東京都)?[^\d-]+区', s):
-        prefix, s = s.split('区', 1)
-        if prefix not in (ward[:-1], '東京都' + ward[:-1]): return "区外または住所を解析できないため不採用", None
-    elif s.startswith('東京都'): s = s[3:]
+    pref = AREA_PREF[facility['ward']]['name']
+    if ward.endswith('区'):
+        if re.search(r'(?:東京都)?[^\d-]+区', s):
+            prefix, s = s.split('区', 1)
+            if prefix not in (ward[:-1], pref + ward[:-1]): return "区外または住所を解析できないため不採用", None
+        elif s.startswith(pref): s = s[len(pref):]
+    else:
+        if s.startswith(pref): s = s[len(pref):]
+        if s.startswith(ward): s = s[len(ward):]
+        elif re.match(r'^[^\d-]+?[都道府県市区町村郡]', s) and not any(s.startswith(t) for t in towns[ward]):
+            return "市区町村外または住所を解析できないため不採用", None
     candidates = []
     for town in towns[ward]:
         if not s.startswith(town): continue
@@ -88,7 +100,14 @@ def match(facility, blocks, towns):
     return "住所を解析できないか街区が一致しないため不採用", None
 
 
-ZIP_URL = "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip"
+ZIP_VERSION = "24.0a"  # 中身は 2025 年版（例：13_2025.csv）
+
+
+def zip_url(pref_code):
+    return f"https://nlftp.mlit.go.jp/isj/dls/data/{ZIP_VERSION}/{pref_code}000-{ZIP_VERSION}.zip"
+
+
+ZIP_URL = zip_url("13")
 GSI = "https://maps.gsi.go.jp/development/ichiran.html"
 UA = "hoiku-gakudo-hikaku (https://github.com/YutaroTakada/hoiku-gakudo-hikaku)"
 CACHE = Path(os.environ.get("RUNNER_TEMP", tempfile.gettempdir())) / "hoiku-gakudo-hikaku-cache"
@@ -140,7 +159,7 @@ def field(value, source=None, checked=None, note=None):
 
 def enrich(results, old, force=False):
     today = date.today().isoformat()
-    index = None
+    indexes = {}
     pending = {}
     for records in results.values():
         for f in records:
@@ -160,18 +179,19 @@ def enrich(results, old, force=False):
             elif not f["address"]["value"]:
                 label, point = "住所なし", None
             else:
-                if index is None:
-                    zip_path = CACHE / "13000-24.0a.zip"
-                    fetch(ZIP_URL, zip_path)
-                    index = load_index(zip_path)
-                label, point = match(f, *index)
+                code = AREA_PREF[f["ward"]]["code"]
+                if code not in indexes:
+                    zip_path = CACHE / f"{code}000-{ZIP_VERSION}.zip"
+                    fetch(zip_url(code), zip_path)
+                    indexes[code] = load_index(zip_path, [WARD_NAMES[a] for a, p in AREA_PREF.items() if p["code"] == code])
+                label, point = match(f, *indexes[code])
             if point:
                 lat, lng, matched = point
-                f["location"] = field({"lat": float(lat), "lng": float(lng), "level": "block", "matched": matched}, ZIP_URL, today, "街区代表点です")
+                f["location"] = field({"lat": float(lat), "lng": float(lng), "level": "block", "matched": matched}, zip_url(AREA_PREF[f["ward"]]["code"]), today, "街区代表点です")
                 f["image"] = field({"kind": "map", "path": f"/img/map/{f['id']}.webp", "width": MAP_WIDTH, "height": MAP_HEIGHT}, GSI, today)
                 pending[f["id"]] = map_image(lat, lng)
             else:
-                f["location"] = field(None, None if not map_enabled else ZIP_URL, today, label)
+                f["location"] = field(None, None if not map_enabled else zip_url(AREA_PREF[f["ward"]]["code"]), today, label)
                 f["image"] = field(None, note=label)
     MAPS.mkdir(parents=True, exist_ok=True)
     for id, data in pending.items():

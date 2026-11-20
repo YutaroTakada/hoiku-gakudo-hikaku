@@ -15,11 +15,12 @@ export type Area = (typeof areasJson.areas)[number];
 export type Category = (typeof catalog.categories)[number];
 export type TypeDef = (typeof catalog.types)[number];
 
+export const PREFECTURES = areasJson.prefectures;
 export const AREAS: Area[] = areasJson.areas;
 export const AREA_IDS = AREAS.map((a) => a.id) as [string, ...string[]];
 export const areaName = (id: string) => AREAS.find((a) => a.id === id)?.name ?? id;
 /** 「A区・B区」のような並び（設定から作る） */
-export const AREA_LIST = AREAS.map((a) => a.name).join("・");
+
 
 export const CATEGORIES: Category[] = catalog.categories;
 export const CATEGORY_IDS = CATEGORIES.map((c) => c.id) as [string, ...string[]];

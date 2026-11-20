@@ -1,6 +1,6 @@
 ---
 import { facilities } from "../lib/data";
-import { category, typeLabel, areaName } from "../config/site";
+import { areaName, category, typeLabel } from "../config/site";
 import { FILTERS, summaryFor, labelFor } from "../config/fields";
 import { href, isStale, shortAddress, vacancyAgesAttr } from "../lib/format";
 import FacilityImage from "./FacilityImage.astro";
@@ -8,12 +8,12 @@ import MapCredits from "./MapCredits.astro";
 import Icon from "./Icon.astro";
 import AddButton from "./AddButton.astro";
 
-interface Props { category: string }
-const { category: cat } = Astro.props;
+interface Props { category: string; area: string }
+const { category: cat, area } = Astro.props;
 const c = category(cat);
-const list = facilities.filter((f) => f.category === cat).sort((a, b) => a.name.localeCompare(b.name, "ja"));
+const list = facilities.filter((f) => f.category === cat && f.ward === area).sort((a, b) => a.name.localeCompare(b.name, "ja"));
 const summary = summaryFor(cat);
-const multiArea = new Set(list.map((f) => f.ward)).size > 1;
+
 
 // 絞り込み：この一覧に該当がある選択肢だけ出す
 const filters = FILTERS.flatMap((d) => {
@@ -43,11 +43,10 @@ const cfg = {
     byAge: d.kind === "flag" ? !!d.byAge : undefined,
     options: "options" in d ? Object.fromEntries(d.options.map((o) => [o.value, o.label])) : undefined,
   })),
-  areaAlias: "ward",
 };
 const na = '<span class="na">—<span class="vh">未確認</span></span>';
 ---
-<h1>{c.label}</h1>
+<h1 class="vh">{areaName(area)}の{c.label}</h1>
 
 <form class="search" role="search" onsubmit="return false" autocomplete="off">
   <Icon name="search" />
@@ -157,7 +156,7 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
           <li {...attrs}>
             <a class="image-link" href={href(`/f/${f.id}/`)} tabindex="-1" aria-hidden="true"><FacilityImage facility={f} lazy priority={index === 0} /></a>
             <h3><a href={href(`/f/${f.id}/`)}>{f.name}</a></h3>
-            <p class="meta sub">{multiArea && <>{areaName(f.ward)}・</>}{typeLabel(f.type)}・{f.management}{shortAddress(f) && <>・<span class="addr">{shortAddress(f)}</span></>}</p>
+            <p class="meta sub">{typeLabel(f.type)}・{f.management}{shortAddress(f) && <>・<span class="addr">{shortAddress(f)}</span></>}</p>
             <AddButton id={f.id} name={f.name} />
             <dl class="stats">
               {summary.map((s) => {

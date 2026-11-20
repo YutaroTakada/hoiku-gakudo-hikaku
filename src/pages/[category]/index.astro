@@ -1,12 +1,29 @@
 ---
 import Base from "../../layouts/Base.astro";
-import FacilityList from "../../components/FacilityList.astro";
 import { CATEGORIES } from "../../config/site";
-
-/** カテゴリごとの一覧（/hoiku/ /gakudo/ …）。カテゴリは src/config/catalog.json から作る。 */
+import { activeAreas } from "../../lib/regions";
+import { href } from "../../lib/format";
 export function getStaticPaths() {
-  return CATEGORIES.map((c) => ({ params: { category: c.id }, props: { cat: c.id, label: c.label } }));
+  return CATEGORIES.filter((c) => activeAreas.some((a) => a.categories.some((x) => x.id === c.id))).map((c) => ({ params: { category: c.id }, props: { cat: c } }));
 }
-const { cat, label } = Astro.props;
+const { cat } = Astro.props;
+const onlyArea = activeAreas.length === 1 ? activeAreas[0].id : null;
+const available = activeAreas.filter((a) => a.categories.some((c) => c.id === cat.id)).map((a) => a.id);
+const top = href("/");
 ---
-<Base title={label} current={cat}><FacilityList category={cat} /></Base>
+<Base title={cat.label} canonical={top} refresh={top}>
+  <p>地域を選んでください。<a href={top}>都道府県を選ぶ</a></p>
+  <noscript><p><a href={top}>都道府県選択へ</a></p></noscript>
+  <script is:inline define:vars={{ available, onlyArea, cat: cat.id, top, base: href("/a/") }}>
+    const params = new URLSearchParams(location.search);
+    // 旧URLは area のほか別名 ward も受け付けていた
+    const requested = params.get("area") ?? params.get("ward");
+    const selected = requested === null ? onlyArea : requested;
+    params.delete("area");
+    params.delete("ward");
+    if (selected && available.includes(selected)) {
+      const query = params.toString();
+      location.replace(base + encodeURIComponent(selected) + "/" + encodeURIComponent(cat) + "/" + (query ? "?" + query : "") + location.hash);
+    } else location.replace(top);
+  </script>
+</Base>

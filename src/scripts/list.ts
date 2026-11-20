@@ -1,9 +1,9 @@
 /**
  * 一覧の検索・絞り込み・並べ替え。状態は URL のクエリに置く（共有・再読込・戻るで同じ表示になる）。
- * 例: /hoiku/?area=adachi&age=1&vac=1&sort=end&q=千住
+ * 一覧のパスは市区町村とカテゴリを表す。
  */
 type F = { key: string; kind: "one" | "many" | "age" | "flag"; label: string; byAge?: boolean; options?: Record<string, string> };
-type Cfg = { unit: string; short: string; sorts: Record<string, "asc" | "desc">; filters: F[]; areaAlias: string };
+type Cfg = { unit: string; short: string; sorts: Record<string, "asc" | "desc">; filters: F[] };
 
 const cfg: Cfg = JSON.parse(document.getElementById("list-cfg")!.textContent!);
 const form = document.getElementById("f") as HTMLFormElement;
@@ -47,7 +47,7 @@ function fromUrl(): State {
   const p = new URLSearchParams(location.search);
   const one: Record<string, string> = {};
   for (const f of ones) {
-    const v = p.get(f.key) ?? (f.key === "area" ? p.get(cfg.areaAlias) : null) ?? "";
+    const v = p.get(f.key) ?? "";
     one[f.key] = v in f.options! ? v : "";
   }
   const many: Record<string, Set<string>> = {};

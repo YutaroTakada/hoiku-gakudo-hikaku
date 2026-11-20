@@ -1,0 +1,35 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import FacilityList from "../../../../components/FacilityList.astro";
+import { activeAreas, activePrefectures } from "../../../../lib/regions";
+import { href } from "../../../../lib/format";
+export function getStaticPaths() {
+  return activeAreas.flatMap((area) => area.categories.map((cat) => ({ params: { area: area.id, category: cat.id }, props: { area, cat } })));
+}
+const { area, cat } = Astro.props;
+const prefecture = activePrefectures.find((p) => p.id === area.prefecture)!;
+---
+<Base title={`${prefecture.name} ${area.name}の${cat.label}`} current={cat.id} area={area.id} localTabs>
+  <div class="area-header">
+    <nav class="region-nav" aria-label="地域の選択">
+      <span>{prefecture.name}</span><span aria-hidden="true">›</span><span>{area.name}</span>
+      <details class="area-switch">
+        <summary>変更</summary>
+        <ul class="area-switch-panel panel">
+          {prefecture.areas.filter((a) => a.id !== area.id).map((a) => {
+            const target = a.categories.find((c) => c.id === cat.id) ?? a.categories[0];
+            return <li><a href={href(`/a/${a.id}/${target.id}/`)}><strong>{a.name}</strong><span class="sub num">{target.label} {target.count}件</span></a></li>;
+          })}
+          <li><a href={href("/")}>ほかの都道府県</a></li>
+        </ul>
+      </details>
+    </nav>
+    <nav class="category-tabs" aria-label="施設のカテゴリ">
+      {area.categories.map((c) => <a href={href(`/a/${area.id}/${c.id}/`)} aria-current={c.id === cat.id ? "page" : undefined}>{c.label}<span class="num">{c.count}</span></a>)}
+    </nav>
+  </div>
+  <FacilityList category={cat.id} area={area.id} />
+  <script define:vars={{ areaId: area.id, categoryId: cat.id }}>
+    try { localStorage.setItem("last-area", JSON.stringify({ area: areaId, category: categoryId })); } catch { /* 保存できない場合は無視 */ }
+  </script>
+</Base>

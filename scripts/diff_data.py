@@ -6,16 +6,16 @@
 """
 import glob, json, os, sys
 
-# 区名・種別名はサイトと同じ設定（src/config/*.json）から読む
+# 市区町村名・種別名はサイトと同じ設定（src/config/*.json）から読む
 _CFG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "config")
 WARD = {a["id"]: a["name"] for a in json.load(open(os.path.join(_CFG, "areas.json")))["areas"]}
 TYPE = {t["id"]: t["label"] for t in json.load(open(os.path.join(_CFG, "catalog.json")))["types"]}
 LABEL = {
-    "location": "位置", "image": "画像", "name": "施設名", "listedName": "区の一覧での表記", "management": "運営", "type": "種別", "category": "区分",
+    "location": "位置", "image": "画像", "name": "施設名", "listedName": "自治体の一覧での表記", "management": "運営", "type": "種別", "category": "区分",
     "address": "住所", "station": "最寄り駅", "phone": "電話", "ages": "対象", "ageRange": "対象（年齢・学年の範囲）",
     "capacity": "定員", "hours.weekday": "平日の時間", "hours.weekdayEnd": "平日の終了時刻",
     "hours.extension": "延長", "hours.extensionEnd": "延長の終了時刻", "hours.saturday": "土曜",
-    "hours.vacation": "長期休み", "fees.table": "区の保育料表", "fees.basic": "保育料", "fees.own": "施設ごとの実費",
+    "hours.vacation": "長期休み", "fees.table": "自治体の保育料表", "fees.basic": "保育料", "fees.own": "施設ごとの実費",
     "fees.extensionFee": "延長料金", "fees.monthly": "月額", "fees.snack": "おやつ代", "fees.extension": "延長料金",
     "pickup": "送迎", "vacancy": "空き", "application.method": "申込方法", "application.deadline": "締切",
     "links.official": "公式リンク", "links.intro": "施設紹介", "notice": "お知らせ", "operator": "運営者",
@@ -101,7 +101,7 @@ def main(old_dir, new_dir, out_path):
         blocks.append(f"### 追加 {head(r)}\n- 住所: {cell(r['address'])}\n- 出どころ: {src(r['address'], r['phone'])}\n")
     for i in removed:
         r = old[i]
-        blocks.append(f"### 削除 {head(r)}\n- 区の一覧から見つからなくなりました（前の住所: {cell(r['address'])}）\n- 前の出どころ: {src(r['address'])}\n")
+        blocks.append(f"### 削除 {head(r)}\n- 自治体の一覧から見つからなくなりました（前の住所: {cell(r['address'])}）\n- 前の出どころ: {src(r['address'])}\n")
     for i, diffs in changed:
         lines = [f"### 変更 {head(new[i])}", "| 項目 | 前 | 後 | 出どころ |", "|---|---|---|---|"]
         for k, a, b in diffs:
@@ -116,7 +116,7 @@ def main(old_dir, new_dir, out_path):
 
     has = bool(blocks)
     summary = (
-        f"週次チェックで区の公式ページを読み直した結果、確認日以外の変化がありました。\n\n"
+        f"週次チェックで自治体の公式ページを読み直した結果、確認日以外の変化がありました。\n\n"
         f"- 追加 {len(added)}件 / 削除 {len(removed)}件 / 変更 {len(changed)}件（全{len(new)}件中）\n"
         f"- 「前」は main の値、「後」は今回集め直した値です。値が空のものはサイトで「未確認」と表示されます。\n"
         f"- このPRをマージすると公開サイトに反映されます。マージ前に内容を確認してください。\n\n"

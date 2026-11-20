@@ -2,6 +2,18 @@
  "collectedAt": "2026-11-20",
  "sources": [
   {
+   "url": "https://maps.gsi.go.jp/development/ichiran.html",
+   "fields": 598
+  },
+  {
+   "url": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/11000-24.0a.zip",
+   "fields": 83
+  },
+  {
+   "url": "https://nlftp.mlit.go.jp/isj/dls/data/24.0a/13000-24.0a.zip",
+   "fields": 530
+  },
+  {
    "url": "https://www.city.adachi.tokyo.jp/documents/2954/kuritsukodomoen2023csv.csv",
    "fields": 6
   },
@@ -80,6 +92,70 @@
   {
    "url": "https://www.city.adachi.tokyo.jp/seshonen/k-kyoiku/kyoiku/k-kyoshitsu.html",
    "fields": 67
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
+   "fields": 42
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+   "fields": 122
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
+   "fields": 42
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
+   "fields": 147
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/kateihoikushitsuichiran.html",
+   "fields": 6
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/shinaihoikujoichiran.html",
+   "fields": 61
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
+   "fields": 21
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73645.pdf",
+   "fields": 122
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73934.pdf",
+   "fields": 52
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73936.pdf",
+   "fields": 116
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73938.pdf",
+   "fields": 41
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73984.pdf",
+   "fields": 89
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/74033.pdf",
+   "fields": 161
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/74034.pdf",
+   "fields": 149
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/74182.pdf",
+   "fields": 10
+  },
+  {
+   "url": "https://www.city.niiza.lg.jp/uploaded/attachment/74663.pdf",
+   "fields": 61
   },
   {
    "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/gakkou_houkago/houkago/kodomokyoushitu.html",
