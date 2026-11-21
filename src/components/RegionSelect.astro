@@ -1,0 +1,55 @@
+---
+import type { activePrefectures } from "../lib/regions";
+import { href } from "../lib/format";
+interface Props {
+  prefectures: typeof activePrefectures;
+  areaId?: string;
+  categoryId?: string;
+}
+const { prefectures, areaId, categoryId } = Astro.props;
+const currentPrefecture = prefectures.find((p) => p.areas.some((a) => a.id === areaId));
+const regions = prefectures.map((p) => ({
+  id: p.id,
+  areas: p.areas.map((a) => ({
+    id: a.id, name: a.name,
+    url: href(`/a/${a.id}/${(a.categories.find((c) => c.id === categoryId) ?? a.categories[0]).id}/`),
+  })),
+}));
+---
+<form class="region-select" aria-label="地域の選択">
+  <div class="region-select-field">
+    <label for="region-prefecture">都道府県</label>
+    <select class="select" id="region-prefecture" required>
+      {!currentPrefecture && <option value="" selected>選択してください</option>}
+      {prefectures.map((p) => <option value={p.id} selected={p.id === currentPrefecture?.id}>{p.name}</option>)}
+    </select>
+  </div>
+  <div class="region-select-field">
+    <label for="region-area">市区町村</label>
+    <select class="select" id="region-area" required disabled={!currentPrefecture}>
+      {!currentPrefecture && <option value="">選択してください</option>}
+      {currentPrefecture?.areas.map((a) => <option value={a.id} selected={a.id === areaId}>{a.name}</option>)}
+    </select>
+  </div>
+  {!areaId && <button class="btn primary" type="submit" disabled>進む</button>}
+</form>
+<script define:vars={{ regions, immediate: !!areaId }}>
+  const form = document.currentScript.previousElementSibling;
+  const prefecture = form.querySelector('#region-prefecture');
+  const area = form.querySelector('#region-area');
+  const button = form.querySelector('button');
+  const selectedArea = () => regions.find((p) => p.id === prefecture.value)?.areas.find((a) => a.id === area.value);
+  const updateButton = () => { if (button) button.disabled = !selectedArea(); };
+  const navigate = () => { const selected = selectedArea(); if (selected) window.location.assign(selected.url); };
+  prefecture.addEventListener('change', () => {
+    const areas = regions.find((p) => p.id === prefecture.value)?.areas ?? [];
+    area.replaceChildren();
+    if (!immediate && areas.length !== 1) area.add(new Option('選択してください', ''));
+    areas.forEach((item) => area.add(new Option(item.name, item.id)));
+    area.disabled = areas.length === 0;
+    updateButton();
+    if (immediate) navigate();
+  });
+  area.addEventListener('change', () => { updateButton(); if (immediate) navigate(); });
+  form.addEventListener('submit', (event) => { event.preventDefault(); navigate(); });
+</script>
