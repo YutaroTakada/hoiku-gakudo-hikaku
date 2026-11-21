@@ -1,12 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
+import RegionSelect from "../components/RegionSelect.astro";
 import { activeAreas, activePrefectures } from "../lib/regions";
 import { href } from "../lib/format";
 const recentAreas = activeAreas.map((a) => ({ id: a.id, name: a.name, categories: a.categories.map((c) => ({ id: c.id, url: href(`/a/${a.id}/${c.id}/`) })) }));
 ---
-<Base title="都道府県を選ぶ">
+<Base title="地域を選ぶ">
   <div class="selection">
-    <h1>都道府県を選ぶ</h1>
+    <h1>地域を選ぶ</h1>
     <ul class="selection-list panel" id="recent-area" hidden><li><a><strong></strong><span class="chevron" aria-hidden="true">›</span></a></li></ul>
     <script define:vars={{ recentAreas }}>
       try {
@@ -21,8 +22,9 @@ const recentAreas = activeAreas.map((a) => ({ id: a.id, name: a.name, categories
         }
       } catch { /* 保存値を読めない場合は表示しない */ }
     </script>
-    <ul class="selection-list panel">
+    <RegionSelect prefectures={activePrefectures} />
+    <noscript><ul class="selection-list panel">
       {activePrefectures.map((p) => <li><a href={href(`/p/${p.id}/`)}><strong>{p.name}</strong><span class="selection-count sub num">{p.areas.length}市区町村・{p.count}施設</span><span class="chevron" aria-hidden="true">›</span></a></li>)}
-    </ul>
+    </ul></noscript>
   </div>
 </Base>
