@@ -308,6 +308,7 @@ table.cmp .rm { margin-top: var(--spacing-2); }
 .facility-image.is-map::before { content: ""; position: absolute; width: 24px; height: 32px; left: 50%; top: 50%; transform: translate(-50%, -100%); background: var(--color-on-accent); mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'%3E%3Cpath d='M12 32S1 20 1 11a11 11 0 0 1 22 0c0 9-11 21-11 21Z'/%3E%3C/svg%3E") center / contain no-repeat; pointer-events: none; }
 .map-credits { margin: var(--spacing-2) 0; }
 .detail-image { max-width: 480px; margin: var(--spacing-4) 0; }
+.detail-map { margin-top: var(--spacing-4); }
 .items .image-link { grid-column: 1 / -1; position: relative; z-index: 1; margin-bottom: var(--spacing-2); }
 @media (min-width: 600px) {
   .items > li { grid-template-columns: 220px minmax(0, 1fr) auto; }

@@ -29,13 +29,15 @@ const na = '<span class="na">—</span> <span class="cap">未確認</span>';
 
   <div class="detail-image">
     <FacilityImage facility={f} />
-    {f.image.value ? <MapCredits /> : <p class="cap map-credits">地図なし：{(f.location.note ?? "位置を確認できません").replace("ため地図を出しません", "ため").replace("（不採用）", "").replace("住所を解析できないか街区が一致しないため不採用", "住所または街区を確認できないため")}</p>}
+    {f.category === "hoiku" && f.image.value && <div class="detail-map"><FacilityImage facility={f} variant="map" /></div>}
+    {f.image.value ? <MapCredits /> : f.category !== "hoiku" && <p class="cap map-credits">地図なし：{(f.location.note ?? "位置を確認できません").replace("ため地図を出しません", "ため").replace("（不採用）", "").replace("住所を解析できないか街区が一致しないため不採用", "住所または街区を確認できないため")}</p>}
   </div>
 
   <div class="acts">
     <AddButton id={f.id} name={f.name} class="primary" />
     <a class="btn" href={mapUrl(f)} rel="noopener" target="_blank"><Icon name="map" />地図</a>
   </div>
+  {f.category === "hoiku" && !f.image.value && <p class="cap map-credits">地図なし：{(f.location.note ?? "位置を確認できません").replace("ため地図を出しません", "ため").replace("（不採用）", "").replace("住所を解析できないか街区が一致しないため不採用", "住所または街区を確認できないため")}</p>}
 
   {f.notice?.value && (
     <div class="notice">
