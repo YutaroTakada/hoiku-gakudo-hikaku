@@ -3,10 +3,11 @@ import "../styles/global.css";
 import { href } from "../lib/format";
 import { CATEGORIES, SITE } from "../config/site";
 import { activeAreas } from "../lib/regions";
+import { API } from "../lib/agent-data";
 import sources from "../../data/sources.json";
 
-interface Props { title?: string; description?: string; current?: string; area?: string; canonical?: string; refresh?: string; /** ページ内にカテゴリのタブがあるときはナビに重ねて出さない */ localTabs?: boolean }
-const { localTabs = false, title, description = `${activeAreas.map((a) => a.name).join("・")}の保育園・学童を、自治体の公式情報で比べるサイト。`, current, area, canonical, refresh } = Astro.props;
+interface Props { title?: string; description?: string; current?: string; area?: string; canonical?: string; refresh?: string; /** ページ内にカテゴリのタブがあるときはナビに重ねて出さない */ localTabs?: boolean; /** このページの内容を機械向けに読める JSON */ dataPath?: string }
+const { dataPath = API.index, localTabs = false, title, description = `${activeAreas.map((a) => a.name).join("・")}の保育園・学童を、自治体の公式情報で比べるサイト。`, current, area, canonical, refresh } = Astro.props;
 const fullTitle = title ? `${title}｜${SITE.name}` : `${SITE.name}（${activeAreas.map((a) => a.name).join("・")}）`;
 const selectedArea = activeAreas.find((a) => a.id === area);
 const nav = [...CATEGORIES.filter((c) => !localTabs && selectedArea?.categories.some((x) => x.id === c.id)).map((c) => ({ key: c.id, label: c.label, path: `/a/${selectedArea!.id}/${c.id}/` })), { key: "compare", label: "比較", path: "/compare/" }];
@@ -23,6 +24,9 @@ const [y, m, d] = sources.collectedAt.split("-").map(Number);
     {refresh && <meta http-equiv="refresh" content={`2;url=${refresh}`} />}
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
+    <link rel="alternate" type="application/json" href={href(dataPath)} title="機械向けデータ（JSON）" />
+    <link rel="sitemap" type="application/xml" href={href("/sitemap.xml")} />
+    <slot name="head" />
   </head>
   <body>
     <a class="skip" href="#main">本文へ</a>
@@ -45,7 +49,7 @@ const [y, m, d] = sources.collectedAt.split("-").map(Number);
     <footer class="ft">
       <div class="wrap cap">
         <p>自治体の公式情報から作成（最終取得 {y}年{m}月{d}日）。申込の前に自治体と施設に確認してください。</p>
-        <p><a href={href("/about/")}>集め方と方針</a> ・ <a href={SITE.repo}>ソースとデータ</a></p>
+        <p><a href={href("/about/")}>集め方と方針</a> ・ <a href={href(API.guide)}>AIエージェントで使う</a> ・ <a href={SITE.repo}>ソースとデータ</a></p>
       </div>
     </footer>
     {current !== "compare" && (

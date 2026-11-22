@@ -1,0 +1,51 @@
+---
+import Base from "../layouts/Base.astro";
+import { AGENT_RULES, API, agentPrompt } from "../lib/agent-data";
+import { href } from "../lib/format";
+import { activeAreas } from "../lib/regions";
+
+const prompt = agentPrompt();
+---
+<Base title="AIエージェントで使う" description="AIエージェントにこのサイトのURLを渡して、保育園・学童の候補を出してもらうための案内とデータの入口。" current="agents">
+  <div class="prose">
+    <h1>AIエージェントで使う</h1>
+    <p>下の文章の〇〇を埋めて、お使いのAIエージェントに渡してください。住所は町名までで足ります。</p>
+
+    <h2>頼み方の例</h2>
+    <pre class="prompt panel" id="prompt">{prompt}</pre>
+    <div class="acts">
+      <button type="button" class="btn primary" id="copy-prompt">文章をコピー</button>
+      <span class="sub" id="copy-status" role="status"></span>
+    </div>
+    <p class="cap">AIの答えは間違うことがあります。申込の前に自治体と施設に確認してください。</p>
+
+    <h2>エージェントが読むときの決まり</h2>
+    <ul>
+      {AGENT_RULES.map((r) => <li>{r}</li>)}
+    </ul>
+
+    <h2>データの入口</h2>
+    <ul>
+      <li><a href={href(API.index)}>データの入口（JSON）</a>：地域の一覧と項目の説明</li>
+      {activeAreas.flatMap((a) => a.categories.map((c) => (
+        <li>
+          <a href={href(API.list(a.id, c.id))}>{a.name}の{c.label}（{c.count}件）</a>
+          <span class="sub">：{c.ageLabel}別 {c.ages.map((n, i) => <>{i > 0 && "・"}<a href={href(API.age(a.id, c.id, n))}>{n}</a></>)}</span>
+        </li>
+      )))}
+    </ul>
+  </div>
+
+  <script>
+    const button = document.getElementById("copy-prompt")!;
+    const status = document.getElementById("copy-status")!;
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(document.getElementById("prompt")!.textContent ?? "");
+        status.textContent = "コピーしました";
+      } catch {
+        status.textContent = "コピーできませんでした。文章を選択してコピーしてください";
+      }
+    });
+  </script>
+</Base>

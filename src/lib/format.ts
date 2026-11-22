@@ -29,9 +29,34 @@ export const toMin = (t: string) => {
 /** 住所の表示用（括弧書きの補足を落とす） */
 export const shortAddress = (f: Facility) => f.address.value?.split("（")[0].split(" ／ ")[0] ?? null;
 
+/** 「東京都足立区」のような都道府県＋市区町村 */
+export function areaPrefix(areaId: string): string {
+  const a = AREAS.find((x) => x.id === areaId);
+  return a ? `${PREFECTURES.find((p) => p.id === a.prefecture)?.name ?? ""}${a.name}` : "";
+}
+
+/**
+ * 都道府県と市区町村を補った住所。データの住所は町名から始まり、同じ町名が別の区にもあるため、
+ * 地域の文脈なしで読まれる場所（詳細・比較・機械向けデータ）ではこちらを使う。園舎が複数あれば園舎ごとに補う。
+ */
+export function fullAddress(f: Facility): string | null {
+  const v = f.address.value;
+  if (!v) return null;
+  const pre = areaPrefix(f.ward);
+  return v
+    .split(" ／ ")
+    .map((part) => {
+      const m = part.match(/^(第.園舎：)(.*)$/);
+      return m ? `${m[1]}${pre}${m[2]}` : `${pre}${part}`;
+    })
+    .join(" ／ ");
+}
+
+/** サイトの絶対 URL */
+export const absUrl = (p: string) => new URL(href(p), import.meta.env.SITE).href;
+
 export function mapUrl(f: Facility): string {
-  const a = AREAS.find((x) => x.id === f.ward);
-  const pre = a ? `${PREFECTURES.find((p) => p.id === a.prefecture)?.name ?? ""}${a.name}` : "";
+  const pre = areaPrefix(f.ward);
   const addr = (shortAddress(f) ?? "").replace(/^第.園舎：/, "");
   // 家庭的保育は個人宅のため町名だけで検索する
   const q = f.type === "katei" ? `${pre}${addr}` : `${f.name} ${pre}${addr}`;

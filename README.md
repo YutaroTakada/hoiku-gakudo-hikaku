@@ -15,12 +15,26 @@
 | `scripts/` | 収集（`collect.py` と市区町村ごとの `<id>.py`）・差分（`diff_data.py`）・リンク確認（`check_links.py`） |
 | `docs/DESIGN.md` | デザインの決まり（Astryx から写したトークン） |
 | `docs/IMAGES-DESIGN.md` | 街区照合と施設画像の仕組み |
+| `src/lib/agent-data.ts` | AIエージェント向けデータと、読むときの決まり（`/agents/`・`/llms.txt`・`/api/v1/` で共通） |
 
 トップのプルダウンで都道府県と市区町村を選び、一覧でも地域を切り替えられる。JavaScript が無効な場合はリンクから地域を選ぶ。
 
 一覧の検索・絞り込み・並べ替えは URL のクエリに残る（例 `/a/<エリアid>/hoiku/?age=1&vac=1&sort=end`）。比較に入れた施設（4件まで）は端末の localStorage に残る。
 
 旧 `/hoiku/`・`/gakudo/` は地域を指定した URL を新しい一覧へ転送する。地域の指定がなく、掲載地域が複数ある場合はトップへ移動する。
+
+## AIエージェント向けのデータ
+
+入口は `/api/v1/index.json`。すべてビルド時に書き出す静的ファイルで、利用者の住所や子どもの情報はサイトに届かない。
+
+| URL | 中身 |
+|---|---|
+| `/agents/` | 人向けの頼み方の例と、エージェントが守る決まり |
+| `/api/v1/areas/<エリアid>/<カテゴリid>.json` | 地域×カテゴリの全施設 |
+| `/api/v1/areas/<エリアid>/<カテゴリid>/age-<n>.json` | 年齢・学年で絞った施設（JavaScript なしで絞り込める） |
+| `/api/v1/facilities/<id>.json` | 1施設の全項目（値ごとに出どころと確認日） |
+
+`robots.txt` はドメインの最上位でだけ有効なので、独自ドメインへ移すまでは効かない。移すときは `astro.config.mjs` の `site` と `base` を変える。
 
 ## 市区町村を足す
 

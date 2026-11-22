@@ -5,7 +5,7 @@
 import { AREAS, MANAGEMENTS, TYPES } from "./site";
 import type { Facility, Field } from "../lib/schema";
 import {
-  hasExtension, latestEnd, latestEndField, monthlyFee, monthlyFeeField, pickupYes, rangeText, toMin,
+  fullAddress, hasExtension, latestEnd, latestEndField, monthlyFee, monthlyFeeField, pickupYes, rangeText, toMin,
   vacancyAsOf, vacancyByAge, vacancyShort, vacancyText, vacancyTotal, yen,
 } from "../lib/format";
 
@@ -71,7 +71,7 @@ export type RowDef = {
 
 const B = "基本情報", A = "対象と定員", H = "預かり時間", P = "料金", V = "空き状況", J = "申込", K = "リンク";
 export const ROWS: RowDef[] = [
-  { group: B, label: "住所", get: (f) => f.address },
+  { group: B, label: "住所", get: (f) => f.address, fmt: (_, f) => fullAddress(f) },
   { group: B, label: "最寄り駅", get: (f) => f.station },
   { group: B, label: "電話", get: (f) => f.phone, link: "tel" },
   { group: B, label: "運営事業者", get: (f) => f.operator, when: (f) => !!f.operator },
