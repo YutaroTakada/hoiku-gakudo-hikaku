@@ -2,11 +2,12 @@
 import type { Facility } from "../lib/schema";
 import { illustration } from "../config/site";
 import { href } from "../lib/format";
-interface Props { facility: Facility; lazy?: boolean; priority?: boolean }
-const { facility: f, lazy = false, priority = false } = Astro.props;
-const map = f.image.value;
-const path = map?.path ?? `/img/illustration/${illustration(f.type, f.category)}.svg`;
+interface Props { facility: Facility; variant?: "icon" | "map"; lazy?: boolean; priority?: boolean }
+const { facility: f, variant = "icon", lazy = false, priority = false } = Astro.props;
+const photo = variant === "icon" && f.category === "hoiku";
+const map = photo ? null : f.image.value;
+const path = photo ? "/img/illustration/hoiku.webp" : map?.path ?? `/img/illustration/${illustration(f.type, f.category)}.svg`;
 ---
-<div class:list={["facility-image", { "is-map": map }]}>
-  <img src={href(path)} alt={map ? `${f.name}付近の地図` : ""} width="480" height="240" loading={lazy ? "lazy" : "eager"} fetchpriority={priority ? "high" : undefined} decoding="async" />
-</div>
+{(variant !== "map" || map) && <div class:list={["facility-image", { "is-map": map, "is-photo": photo }]}>
+  <img src={href(path)} alt={map ? `${f.name}付近の地図` : ""} width={photo ? 360 : 480} height="240" loading={lazy ? "lazy" : "eager"} fetchpriority={priority ? "high" : undefined} decoding="async" />
+</div>}

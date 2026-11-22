@@ -178,7 +178,7 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
         document.querySelectorAll("#items img").forEach((img, i) => { if (i < 2) img.loading = "eager"; });
       }
     </script>
-    <MapCredits />
+    {cat === "gakudo" && list.some((f) => f.image.value) && <MapCredits />}
     <div class="empty panel" id="empty" hidden>
       <h2 class="sub" style="font-size:16px;color:var(--color-text-primary)">条件に合う施設はありません</h2>
       <div class="acts" id="empty-acts"></div>
