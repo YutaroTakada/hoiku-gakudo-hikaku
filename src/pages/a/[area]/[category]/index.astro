@@ -3,13 +3,14 @@ import Base from "../../../../layouts/Base.astro";
 import FacilityList from "../../../../components/FacilityList.astro";
 import { activeAreas, activePrefectures } from "../../../../lib/regions";
 import { href } from "../../../../lib/format";
+import { API } from "../../../../lib/agent-data";
 export function getStaticPaths() {
   return activeAreas.flatMap((area) => area.categories.map((cat) => ({ params: { area: area.id, category: cat.id }, props: { area, cat } })));
 }
 const { area, cat } = Astro.props;
 const prefecture = activePrefectures.find((p) => p.id === area.prefecture)!;
 ---
-<Base title={`${prefecture.name} ${area.name}の${cat.label}`} current={cat.id} area={area.id} localTabs>
+<Base title={`${prefecture.name} ${area.name}の${cat.label}`} current={cat.id} area={area.id} localTabs dataPath={API.list(area.id, cat.id)}>
   <div class="area-header">
     <nav class="region-nav" aria-label="地域の選択">
       <span>{prefecture.name}</span><span aria-hidden="true">›</span><span>{area.name}</span>

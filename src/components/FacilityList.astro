@@ -3,6 +3,7 @@ import { facilities } from "../lib/data";
 import { areaName, category, typeLabel } from "../config/site";
 import { FILTERS, summaryFor, labelFor } from "../config/fields";
 import { href, isStale, shortAddress, vacancyAgesAttr } from "../lib/format";
+import { API } from "../lib/agent-data";
 import FacilityImage from "./FacilityImage.astro";
 import MapCredits from "./MapCredits.astro";
 import Icon from "./Icon.astro";
@@ -133,6 +134,12 @@ const na = '<span class="na">—<span class="vh">未確認</span></span>';
       </select>
     </div>
     <p class="cap legend">— は未確認。値の出どころは各施設のページに。</p>
+    <noscript>
+      <p class="cap legend">
+        絞り込みには JavaScript が必要です。JavaScript を使わない場合は<a href={href(API.list(area, cat))}>全件のデータ</a>か、{c.ageLabel}別のデータを使えます：
+        {c.ages.map((a, i) => <>{i > 0 && "・"}<a href={href(API.age(area, cat, a))}>{a}{c.ageUnit}</a></>)}
+      </p>
+    </noscript>
 
     <script is:inline>
       if (location.search) {

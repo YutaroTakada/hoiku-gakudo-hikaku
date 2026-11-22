@@ -10,6 +10,7 @@ import { summaryFor, labelFor } from "../../config/fields";
 import { rows, checklist } from "../../lib/view";
 import { href, mapUrl, shortDate, isStale } from "../../lib/format";
 import type { Facility } from "../../lib/schema";
+import { API, facilityJsonLd } from "../../lib/agent-data";
 
 export function getStaticPaths() {
   return facilities.map((f) => ({ params: { id: f.id }, props: { f } }));
@@ -20,8 +21,10 @@ const all = rows(f);
 const groups = [...new Set(all.map((r) => r.group))];
 const listPath = href(`/a/${f.ward}/${f.category}/`);
 const na = '<span class="na">—</span> <span class="cap">未確認</span>';
+const jsonLd = JSON.stringify(facilityJsonLd(f)).replace(/</g, "\\u003c");
 ---
-<Base title={f.name} description={`${f.name}（${areaName(f.ward)}・${typeLabel(f.type)}）の時間・料金・空き。自治体の公式情報から。`} current={f.category} area={f.ward}>
+<Base title={f.name} description={`${f.name}（${areaName(f.ward)}・${typeLabel(f.type)}）の時間・料金・空き。自治体の公式情報から。`} current={f.category} area={f.ward} dataPath={API.facility(f.id)}>
+  <script slot="head" type="application/ld+json" set:html={jsonLd} />
   <a class="back" id="back" href={listPath} data-key={`hgh-list:${listPath}`}><Icon name="back" />{c.label}の一覧</a>
   <h1>{f.name}</h1>
   <p class="title-meta sub">{areaName(f.ward)}・{typeLabel(f.type)}・{f.management}</p>
