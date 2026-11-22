@@ -10,12 +10,12 @@
   "address": {
    "value": "野寺2-8-45",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-482-2838",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -30,7 +30,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -38,18 +38,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -64,19 +64,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -97,7 +97,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -109,12 +109,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -162,12 +162,12 @@
   "address": {
    "value": "大和田1-1-30",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-478-1221",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -182,7 +182,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -190,18 +190,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -216,19 +216,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -249,7 +249,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -261,12 +261,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -314,12 +314,12 @@
   "address": {
    "value": "野火止5-3-55",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-481-1212",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -334,7 +334,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -342,18 +342,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -368,19 +368,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -401,7 +401,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -413,12 +413,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -466,12 +466,12 @@
   "address": {
    "value": "新堀1-16-5",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "042-495-6003",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -486,7 +486,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -494,18 +494,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -520,19 +520,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -553,7 +553,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -565,12 +565,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -618,12 +618,12 @@
   "address": {
    "value": "新堀1-17-4",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "042-495-3330",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -638,7 +638,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -646,18 +646,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -672,19 +672,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -705,7 +705,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -717,12 +717,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -770,12 +770,12 @@
   "address": {
    "value": "新座3-4-1",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-479-0872",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -790,7 +790,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -798,18 +798,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -824,19 +824,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -857,7 +857,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -869,12 +869,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -922,12 +922,12 @@
   "address": {
    "value": "大和田1-22-10",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-481-3067 ／ 048-481-3084",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -942,7 +942,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -950,18 +950,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -976,19 +976,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1009,7 +1009,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1021,12 +1021,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1074,12 +1074,12 @@
   "address": {
    "value": "北野3-1-5",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-473-8530",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1094,7 +1094,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1102,18 +1102,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1128,19 +1128,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1161,7 +1161,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1173,12 +1173,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1226,12 +1226,12 @@
   "address": {
    "value": "北野3-1-2",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-476-7300",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1246,7 +1246,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1254,18 +1254,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1280,19 +1280,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1313,7 +1313,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1325,12 +1325,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1378,12 +1378,12 @@
   "address": {
    "value": "北野3-1-2",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-476-6677",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1398,7 +1398,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1406,18 +1406,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1432,19 +1432,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1465,7 +1465,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1477,12 +1477,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1530,12 +1530,12 @@
   "address": {
    "value": "野火止6-22-11",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-480-3131",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1550,7 +1550,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1558,18 +1558,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1584,19 +1584,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1617,7 +1617,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1629,12 +1629,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1682,12 +1682,12 @@
   "address": {
    "value": "新塚1-1-1",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-477-7637",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1702,7 +1702,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1710,18 +1710,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1736,19 +1736,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1769,7 +1769,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1781,12 +1781,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1834,12 +1834,12 @@
   "address": {
    "value": "栗原1-5-6",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "042-475-1277",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -1854,7 +1854,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -1862,18 +1862,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -1888,19 +1888,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -1921,7 +1921,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -1933,12 +1933,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -1986,12 +1986,12 @@
   "address": {
    "value": "池田4-8-17",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-479-6341",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2006,7 +2006,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2014,18 +2014,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2040,19 +2040,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2073,7 +2073,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2085,12 +2085,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2138,12 +2138,12 @@
   "address": {
    "value": "片山1-8-31",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-478-0255",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2158,7 +2158,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2166,18 +2166,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2192,19 +2192,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2225,7 +2225,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2237,12 +2237,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2290,12 +2290,12 @@
   "address": {
    "value": "石神1-10-20",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-479-2118",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2310,7 +2310,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2318,18 +2318,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2344,19 +2344,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2377,7 +2377,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2389,12 +2389,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2442,12 +2442,12 @@
   "address": {
    "value": "馬場3-6-1",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-481-1333",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2462,7 +2462,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2470,18 +2470,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2496,19 +2496,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2529,7 +2529,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2541,12 +2541,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2594,12 +2594,12 @@
   "address": {
    "value": "西堀2-18-3",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "042-493-9362",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2614,7 +2614,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2622,18 +2622,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2648,19 +2648,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2681,7 +2681,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2693,12 +2693,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2746,12 +2746,12 @@
   "address": {
    "value": "野寺5-1-24",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "042-475-3961",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2766,7 +2766,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2774,18 +2774,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2800,19 +2800,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2833,7 +2833,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2845,12 +2845,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -2898,12 +2898,12 @@
   "address": {
    "value": "野火止4-9-1",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-479-8664 ／ 048-479-8674",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -2918,7 +2918,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -2926,18 +2926,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -2952,19 +2952,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -2985,7 +2985,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -2997,12 +2997,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
@@ -3050,12 +3050,12 @@
   "address": {
    "value": "野火止1-18-20",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "phone": {
    "value": "048-481-8720 ／ 048-481-5040",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/hokagojidohoikushitsuichiran.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "station": {
    "value": null,
@@ -3070,7 +3070,7 @@
   "ages": {
    "value": "新座市に住民登録がある、又は市内公立小学校に通学する小学1〜4年生",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "ageRange": {
    "value": {
@@ -3078,18 +3078,18 @@
     "max": 4
    },
    "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "hours": {
    "weekday": {
     "value": "放課後〜19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "weekdayEnd": {
     "value": "19:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "extension": {
     "value": null,
@@ -3104,19 +3104,19 @@
    "saturday": {
     "value": "8:00〜18:00",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "vacation": {
     "value": "8:00〜19:00（学校休業日）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "fees": {
    "basic": {
     "value": "月額0円〜12,000円（世帯の市町村民税の所得割額等で決定）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/houkago-annai.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "monthly": {
     "value": null,
@@ -3137,7 +3137,7 @@
   "pickup": {
    "value": "保護者のお迎えが原則。車でのお迎えは不可",
    "source": "https://www.city.niiza.lg.jp/site/kosodate/sougei.html",
-   "checked": "2026-11-20"
+   "checked": "2026-11-23"
   },
   "vacancy": {
    "value": null,
@@ -3149,12 +3149,12 @@
    "method": {
     "value": "新座市保育課へ電子申請または郵送（窓口受付なし）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    },
    "deadline": {
     "value": "令和9年4月入室：令和8年10月1日〜11月19日（郵送は保育課必着、電子は23時59分まで）",
     "source": "https://www.city.niiza.lg.jp/site/kosodate/hoikugakudouuketsuke.html",
-    "checked": "2026-11-20"
+    "checked": "2026-11-23"
    }
   },
   "links": {
